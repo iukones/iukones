@@ -1,185 +1,211 @@
-jQuery(document).ready(function($){
-	//cache DOM elements
-	var projectsContainer = $('.cd-projects-container'),
-		projectsPreviewWrapper = projectsContainer.find('.cd-projects-previews'),
-		projectPreviews = projectsPreviewWrapper.children('li'),
-		projects = projectsContainer.find('.cd-projects'),
-		navigationTrigger = $('.cd-nav-trigger'),
-		navigation = $('.cd-primary-nav'),
-		//if browser doesn't support CSS transitions...
-		transitionsNotSupported = ( $('.no-csstransitions').length > 0);
-
-	var animating = false,
-		//will be used to extract random numbers for projects slide up/slide down effect
-		numRandoms = projects.find('li').length, 
-		uniqueRandoms = [];
-
-	//open project
-	projectsPreviewWrapper.on('click', 'a', function(event){
-		event.preventDefault();
-		if( animating == false ) {
-			animating = true;
-			navigationTrigger.add(projectsContainer).addClass('project-open');
-			openProject($(this).parent('li'));
-		}
-	});
-
-	navigationTrigger.on('click', function(event){
-		event.preventDefault();
-		
-		if( animating == false ) {
-			animating = true;
-			if( navigationTrigger.hasClass('project-open') ) {
-				//close visible project
-				navigationTrigger.add(projectsContainer).removeClass('project-open');
-				closeProject();
-			} else if( navigationTrigger.hasClass('nav-visible') ) {
-				//close main navigation
-				navigationTrigger.removeClass('nav-visible');
-				navigation.removeClass('nav-clickable nav-visible');
-				if(transitionsNotSupported) projectPreviews.removeClass('slide-out');
-				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
-			} else {
-				//open main navigation
-				navigationTrigger.addClass('nav-visible');
-				navigation.addClass('nav-visible');
-				if(transitionsNotSupported) projectPreviews.addClass('slide-out');
-				else slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, true);
-			}
-		}	
-
-		if(transitionsNotSupported) animating = false;
-	});
-
-	//scroll down to project info
-	projectsContainer.on('click', '.scroll', function(){
-		projectsContainer.animate({'scrollTop':$(window).height()}, 500); 
-	});
-
-	//check if background-images have been loaded and show project previews
-	projectPreviews.children('a').bgLoaded({
-	  	afterLoaded : function(){
-	   		showPreview(projectPreviews.eq(0));
-	  	}
-	});
-
-	function showPreview(projectPreview) {
-		if(projectPreview.length > 0 ) {
-			setTimeout(function(){
-				projectPreview.addClass('bg-loaded');
-				showPreview(projectPreview.next());
-			}, 150);
-		}
-	}
-
-	function openProject(projectPreview) {
-		var projectIndex = projectPreview.index();
-		projects.children('li').eq(projectIndex).add(projectPreview).addClass('selected');
-		
-		if( transitionsNotSupported ) {
-			projectPreviews.addClass('slide-out').removeClass('selected');
-			projects.children('li').eq(projectIndex).addClass('content-visible');
-			animating = false;
-		} else { 
-			slideToggleProjects(projectPreviews, projectIndex, 0, true);
-		}
-	}
-
-	function closeProject() {
-		projects.find('.selected').removeClass('selected').on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-			$(this).removeClass('content-visible').off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
-			slideToggleProjects(projectsPreviewWrapper.children('li'), -1, 0, false);
-		});
-
-		//if browser doesn't support CSS transitions...
-		if( transitionsNotSupported ) {
-			projectPreviews.removeClass('slide-out');
-			projects.find('.content-visible').removeClass('content-visible');
-			animating = false;
-		}
-	}
-
-	function slideToggleProjects(projectsPreviewWrapper, projectIndex, index, bool) {
-		if(index == 0 ) createArrayRandom();
-		if( projectIndex != -1 && index == 0 ) index = 1;
-
-		var randomProjectIndex = makeUniqueRandom();
-		if( randomProjectIndex == projectIndex ) randomProjectIndex = makeUniqueRandom();
-		
-		if( index < numRandoms - 1 ) {
-			projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool);
-			setTimeout( function(){
-				//animate next preview project
-				slideToggleProjects(projectsPreviewWrapper, projectIndex, index + 1, bool);
-			}, 150);
-		} else if ( index == numRandoms - 1 ) {
-			//this is the last project preview to be animated 
-			projectsPreviewWrapper.eq(randomProjectIndex).toggleClass('slide-out', bool).one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-				if( projectIndex != -1) {
-					projects.children('li.selected').addClass('content-visible');
-					projectsPreviewWrapper.eq(projectIndex).addClass('slide-out').removeClass('selected');
-				} else if( navigation.hasClass('nav-visible') && bool ) {
-					navigation.addClass('nav-clickable');
-				}
-				projectsPreviewWrapper.eq(randomProjectIndex).off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
-				animating = false;
-			});
-		}
-	}
-
-	//http://stackoverflow.com/questions/19351759/javascript-random-number-out-of-5-no-repeat-until-all-have-been-used
-	function makeUniqueRandom() {
-	    var index = Math.floor(Math.random() * uniqueRandoms.length);
-	    var val = uniqueRandoms[index];
-	    // now remove that value from the array
-	    uniqueRandoms.splice(index, 1);
-	    return val;
-	}
-
-	function createArrayRandom() {
-		//reset array
-		uniqueRandoms.length = 0;
-		for (var i = 0; i < numRandoms; i++) {
-            uniqueRandoms.push(i);
-        }
-	}
-});
-
- /*
- * BG Loaded
- * Copyright (c) 2014 Jonathan Catmull
+/**
+ * main.js
+ * http://www.codrops.com
+ *
  * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2015, Codrops
+ * http://www.codrops.com
  */
- (function($){
- 	$.fn.bgLoaded = function(custom) {
-	 	var self = this;
+(function() {
 
-		// Default plugin settings
-		var defaults = {
-			afterLoaded : function(){
-				this.addClass('bg-loaded');
+	var bodyEl = document.body,
+		docElem = window.document.documentElement,
+		support = { transitions: Modernizr.csstransitions },
+		// transition end event name
+		transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
+		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+		onEndTransition = function( el, callback ) {
+			var onEndCallbackFn = function( ev ) {
+				if( support.transitions ) {
+					if( ev.target != this ) return;
+					this.removeEventListener( transEndEventName, onEndCallbackFn );
+				}
+				if( callback && typeof callback === 'function' ) { callback.call(this); }
+			};
+			if( support.transitions ) {
+				el.addEventListener( transEndEventName, onEndCallbackFn );
 			}
-		};
+			else {
+				onEndCallbackFn();
+			}
+		},
+		gridEl = document.getElementById('theGrid'),
+		sidebarEl = document.getElementById('theSidebar'),
+		gridItemsContainer = gridEl.querySelector('section.grid'),
+		contentItemsContainer = gridEl.querySelector('section.content'),
+		gridItems = gridItemsContainer.querySelectorAll('.grid__item'),
+		contentItems = contentItemsContainer.querySelectorAll('.content__item'),
+		closeCtrl = contentItemsContainer.querySelector('.close-button'),
+		current = -1,
+		lockScroll = false, xscroll, yscroll,
+		isAnimating = false,
+		menuCtrl = document.getElementById('menu-toggle'),
+		menuCloseCtrl = sidebarEl.querySelector('.close-button');
 
-		// Merge default and user settings
-		var settings = $.extend({}, defaults, custom);
+	/**
+	 * gets the viewport width and height
+	 * based on http://responsejs.com/labs/dimensions/
+	 */
+	function getViewport( axis ) {
+		var client, inner;
+		if( axis === 'x' ) {
+			client = docElem['clientWidth'];
+			inner = window['innerWidth'];
+		}
+		else if( axis === 'y' ) {
+			client = docElem['clientHeight'];
+			inner = window['innerHeight'];
+		}
+		
+		return client < inner ? inner : client;
+	}
+	function scrollX() { return window.pageXOffset || docElem.scrollLeft; }
+	function scrollY() { return window.pageYOffset || docElem.scrollTop; }
 
-		// Loop through element
-		self.each(function(){
-			var $this = $(this),
-				bgImgs = $this.css('background-image').split(', ');
-			$this.data('loaded-count',0);
-			$.each( bgImgs, function(key, value){
-				var img = value.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
-				$('<img/>').attr('src', img).load(function() {
-					$(this).remove(); // prevent memory leaks
-					$this.data('loaded-count',$this.data('loaded-count')+1);
-					if ($this.data('loaded-count') >= bgImgs.length) {
-						settings.afterLoaded.call($this);
-					}
-				});
+	function init() {
+		initEvents();
+	}
+
+	function initEvents() {
+		[].slice.call(gridItems).forEach(function(item, pos) {
+			// grid item click event
+			item.addEventListener('click', function(ev) {
+				ev.preventDefault();
+				if(isAnimating || current === pos) {
+					return false;
+				}
+				isAnimating = true;
+				// index of current item
+				current = pos;
+				// simulate loading time..
+				classie.add(item, 'grid__item--loading');
+				setTimeout(function() {
+					classie.add(item, 'grid__item--animate');
+					// reveal/load content after the last element animates out (todo: wait for the last transition to finish)
+					setTimeout(function() { loadContent(item); }, 500);
+				}, 1000);
 			});
-
 		});
-	};
-})(jQuery);
+
+		closeCtrl.addEventListener('click', function() {
+			// hide content
+			hideContent();
+		});
+
+		// keyboard esc - hide content
+		document.addEventListener('keydown', function(ev) {
+			if(!isAnimating && current !== -1) {
+				var keyCode = ev.keyCode || ev.which;
+				if( keyCode === 27 ) {
+					ev.preventDefault();
+					if ("activeElement" in document)
+    					document.activeElement.blur();
+					hideContent();
+				}
+			}
+		} );
+
+		// hamburger menu button (mobile) and close cross
+		menuCtrl.addEventListener('click', function() {
+			if( !classie.has(sidebarEl, 'sidebar--open') ) {
+				classie.add(sidebarEl, 'sidebar--open');	
+			}
+		});
+
+		menuCloseCtrl.addEventListener('click', function() {
+			if( classie.has(sidebarEl, 'sidebar--open') ) {
+				classie.remove(sidebarEl, 'sidebar--open');
+			}
+		});
+	}
+
+	function loadContent(item) {
+		// add expanding element/placeholder 
+		var dummy = document.createElement('div');
+		dummy.className = 'placeholder';
+
+		// set the width/heigth and position
+		dummy.style.WebkitTransform = 'translate3d(' + (item.offsetLeft - 5) + 'px, ' + (item.offsetTop - 5) + 'px, 0px) scale3d(' + item.offsetWidth/gridItemsContainer.offsetWidth + ',' + item.offsetHeight/getViewport('y') + ',1)';
+		dummy.style.transform = 'translate3d(' + (item.offsetLeft - 5) + 'px, ' + (item.offsetTop - 5) + 'px, 0px) scale3d(' + item.offsetWidth/gridItemsContainer.offsetWidth + ',' + item.offsetHeight/getViewport('y') + ',1)';
+
+		// add transition class 
+		classie.add(dummy, 'placeholder--trans-in');
+
+		// insert it after all the grid items
+		gridItemsContainer.appendChild(dummy);
+		
+		// body overlay
+		classie.add(bodyEl, 'view-single');
+
+		setTimeout(function() {
+			// expands the placeholder
+			dummy.style.WebkitTransform = 'translate3d(-5px, ' + (scrollY() - 5) + 'px, 0px)';
+			dummy.style.transform = 'translate3d(-5px, ' + (scrollY() - 5) + 'px, 0px)';
+			// disallow scroll
+			window.addEventListener('scroll', noscroll);
+		}, 25);
+
+		onEndTransition(dummy, function() {
+			// add transition class 
+			classie.remove(dummy, 'placeholder--trans-in');
+			classie.add(dummy, 'placeholder--trans-out');
+			// position the content container
+			contentItemsContainer.style.top = scrollY() + 'px';
+			// show the main content container
+			classie.add(contentItemsContainer, 'content--show');
+			// show content item:
+			classie.add(contentItems[current], 'content__item--show');
+			// show close control
+			classie.add(closeCtrl, 'close-button--show');
+			// sets overflow hidden to the body and allows the switch to the content scroll
+			classie.addClass(bodyEl, 'noscroll');
+
+			isAnimating = false;
+		});
+	}
+
+	function hideContent() {
+		var gridItem = gridItems[current], contentItem = contentItems[current];
+
+		classie.remove(contentItem, 'content__item--show');
+		classie.remove(contentItemsContainer, 'content--show');
+		classie.remove(closeCtrl, 'close-button--show');
+		classie.remove(bodyEl, 'view-single');
+
+		setTimeout(function() {
+			var dummy = gridItemsContainer.querySelector('.placeholder');
+
+			classie.removeClass(bodyEl, 'noscroll');
+
+			dummy.style.WebkitTransform = 'translate3d(' + gridItem.offsetLeft + 'px, ' + gridItem.offsetTop + 'px, 0px) scale3d(' + gridItem.offsetWidth/gridItemsContainer.offsetWidth + ',' + gridItem.offsetHeight/getViewport('y') + ',1)';
+			dummy.style.transform = 'translate3d(' + gridItem.offsetLeft + 'px, ' + gridItem.offsetTop + 'px, 0px) scale3d(' + gridItem.offsetWidth/gridItemsContainer.offsetWidth + ',' + gridItem.offsetHeight/getViewport('y') + ',1)';
+
+			onEndTransition(dummy, function() {
+				// reset content scroll..
+				contentItem.parentNode.scrollTop = 0;
+				gridItemsContainer.removeChild(dummy);
+				classie.remove(gridItem, 'grid__item--loading');
+				classie.remove(gridItem, 'grid__item--animate');
+				lockScroll = false;
+				window.removeEventListener( 'scroll', noscroll );
+			});
+			
+			// reset current
+			current = -1;
+		}, 25);
+	}
+
+	function noscroll() {
+		if(!lockScroll) {
+			lockScroll = true;
+			xscroll = scrollX();
+			yscroll = scrollY();
+		}
+		window.scrollTo(xscroll, yscroll);
+	}
+
+	init();
+
+})();
