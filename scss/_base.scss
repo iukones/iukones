@@ -77,6 +77,12 @@ button:focus {
 	display: block;
 }
 
+.sidebar h1 img {
+	margin: 0.90em 0 0;
+	width: 200px;
+	height: auto;
+}
+
 /* Codrops links */
 .codrops-links {
 	position: relative;
@@ -361,7 +367,7 @@ button:focus {
 	position: absolute;
 	width: 100%;
 	height: 3px;
-	background: #a4e7ad;
+	background: $color_link;
 	left: 0;
 	top: -1px;
 	-webkit-transform: scale3d(0,1,1);
@@ -771,11 +777,11 @@ button:focus {
 	z-index: 100;
 	top: 0;
 	right: 0;
-	font-size: 18px;
+	font-size: 24px;
 	color: #F1511B;
 	cursor: pointer;
 	pointer-events: none;
-	padding: 20px 30px;
+	padding: 20px 40px;
 	opacity: 0;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
