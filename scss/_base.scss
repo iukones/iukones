@@ -22,7 +22,7 @@ body {
 	background: $color_primary;
 	color: #7b7b7b;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: $sansserif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -54,7 +54,7 @@ button:focus {
 /* Sidebar */
 .sidebar {
 	text-align: center;
-	background: $color_tercery;
+	background: url(../img/background_repeat.png) left top repeat $color_tercery;
 	z-index: 1000;
 	position: fixed;
 	width: $sidebar_width;
@@ -78,8 +78,8 @@ button:focus {
 }
 
 .sidebar h1 img {
-	margin: 0.90em 0 0;
-	width: 200px;
+	margin: -2.5em 0 -2em;
+	width: 250px;
 	height: auto;
 }
 
@@ -555,13 +555,15 @@ button:focus {
 /* Grid footer */
 .page-meta {
 	width: 100%;
-	background: #fff;
+	background: rgba(65, 71, 65, 0.88);
 	width: 100%;
 	padding: 15px 15px 10px;
 	text-align: center;
 	font-size: 0.75em;
-	font-weight: bold;
+	font-style: italic;
+	/* font-weight: bold; */
 	cursor: default;
+	color: #fff;
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */
