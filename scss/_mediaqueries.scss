@@ -96,8 +96,8 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 @media screen and (min-width: $viewport_m) {
 	/* 3 columns */
 	.grid__item {
-		height: 360px;
-		/* width: 33.333%; */
+		height: auto;
+		width: 50%;
 
 	}
 }
@@ -105,21 +105,24 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 @media screen and (min-width: $viewport_l) {
 	/* 4 columns */
 	.grid__item {
-		width: 25%;
+		width: 50%;
+		/* width: 25%; */
 	}
 }
 
 @media screen and (min-width: $viewport_xl) {
 	/* 5 columns */
 	.grid__item {
-		width: 20%;
+		width: 100%;
+		/*width: 20%;*/
 	}
 }
 
 @media screen and (min-width: $viewport_xxl) {
 	/* 6 columns */
 	.grid__item {
-		width: 16.66%;
+		width: 100%;
+		/*width: 16.66%;*/
 	}
 }
 

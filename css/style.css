@@ -1128,55 +1128,55 @@ button:focus {
 }
 
 /* Redefine some styles for this layout */
-/* line 15, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 15, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 body {
   background: rgba(243, 239, 224, 0.9);
 }
 
-/* line 19, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 19, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content {
   left: auto;
   right: 0;
   width: 100vw;
 }
 
-/* line 25, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 25, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content__item p {
   font-size: 1.15em;
 }
 
-/* line 29, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 29, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content__item p:first-of-type {
   margin-top: 3em;
   font-size: 1.15em;
   font-weight: bold;
 }
 
-/* line 35, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 35, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .fa-heart {
   color: #c84252;
 }
 
 /* Redefine the delays for the content items when they appear; redefine the translation (now from the left) */
-/* line 40, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 40, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .title--preview {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 45, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 45, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .loader {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 50, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 50, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item .category {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
 
-/* line 55, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 55, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .title--preview {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -1184,7 +1184,7 @@ body {
   transform: translate3d(-20px, 0, 0);
 }
 
-/* line 62, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 62, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .loader {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
@@ -1192,7 +1192,7 @@ body {
   transform: translate3d(-30px, 0, 0);
 }
 
-/* line 69, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 69, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .category {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
@@ -1200,38 +1200,38 @@ body {
   transform: translate3d(-40px, 0, 0);
 }
 
-/* line 76, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 76, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .category--full,
 .title--full {
   -webkit-transform: translate3d(40px, 0, 0);
   transform: translate3d(40px, 0, 0);
 }
 
-/* line 82, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+/* line 82, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content__item--show .title--full {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 88, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 88, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .sidebar,
   .grid {
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
   }
-  /* line 93, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 93, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .view-single .sidebar,
   .view-single .grid {
     -webkit-transform: translate3d(calc(280px - 100vw), 0, 0);
     transform: translate3d(calc(280px - 100vw), 0, 0);
   }
-  /* line 98, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 98, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .content__item {
     right: 0;
     padding-left: 340px;
   }
-  /* line 102, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 102, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta--full {
     position: fixed;
     width: 280px;
@@ -1242,7 +1242,7 @@ body {
     font-size: 0.85em;
     padding: 15px 30px;
   }
-  /* line 112, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 112, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav {
     position: absolute;
     bottom: 0;
@@ -1250,45 +1250,45 @@ body {
     right: 0;
     border-top: 1px solid rgba(243, 239, 224, 0.9);
   }
-  /* line 119, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 119, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button {
     width: 50%;
     padding: 25px;
   }
-  /* line 123, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 123, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:hover {
     color: #fff;
     background: rgba(41, 169, 225, 0.8);
   }
-  /* line 127, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 127, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:first-child {
     border-right: 1px solid rgba(243, 239, 224, 0.9);
   }
 }
 
 @media screen and (max-width: 899px) {
-  /* line 133, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 133, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta--full .meta__date,
   .meta--full .meta__reading-time {
     float: none;
     text-align: center;
   }
-  /* line 138, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 138, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta__misc--seperator {
     margin-top: 20px;
   }
-  /* line 141, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 141, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button span {
     display: none;
   }
 }
 
 @media screen and (max-width: 599px) {
-  /* line 147, C:/Users/imartinez/Documents/Proyect/iukones/scss/style2.scss */
+  /* line 147, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta__misc,
   .article-nav {
     display: none;
   }
 }
 
-/*# sourceMappingURL=../css/style2.map */
+/*# sourceMappingURL=../css/style.map */

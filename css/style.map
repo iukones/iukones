@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "../scss/style2.css",
+	"file": "../scss/style.css",
 	"sources": [
-		"../scss/style2.scss",
+		"../scss/style.scss",
 		"../scss/_base.scss",
 		"../scss/_mediaqueries.scss"
 	],

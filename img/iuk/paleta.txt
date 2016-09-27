@@ -1,0 +1,23 @@
+# 2C3B59
+# BFA694
+# 7F4707
+# 415E8C
+# D97B59
+
+.header-nav-wrapper .logo {
+    display: inline-block;
+    width: 340px;
+    /* padding: 30px 0; */
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 50px;
+    position: absolute;
+    /* background: bisque; */
+    z-index: 1;
+}
+
+medidas logo.
+with: 197px
+height: 177px
+
+Oops, Algo salió mal. Por favor asegúrese de llenar correctamente el formulario.
