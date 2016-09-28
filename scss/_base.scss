@@ -78,9 +78,21 @@ button:focus {
 }
 
 .sidebar h1 img {
-	margin: -2.5em 0 -2em;
+	margin: -3.5em 0 -2em;
 	width: 250px;
 	height: auto;
+}
+
+.sidebar h2{
+	color: #333
+
+}
+
+.sidebar p {
+	 text-align: justify;
+	 margin: 0.25em 0 0.25em;
+	 line-height: 1.7;
+	 color: #333;
 }
 
 /* Codrops links */
@@ -144,6 +156,15 @@ button:focus {
 .codrops-demos a {
 	display: inline-block;
 	margin: 0 0.5em;
+	font-size: 16px;
+	color: rgba(41, 169, 225, 0.9);
+}
+
+.codrops-demos span {
+	font-size: 0.4em;
+    	padding: 2px;
+    	// color: rgba(173, 138, 100, 0.89);
+    	color: rgba(41, 169, 225, 1);
 }
 
 .codrops-demos a.current-demo {
