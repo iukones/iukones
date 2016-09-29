@@ -84,15 +84,18 @@ button:focus {
 }
 
 .sidebar h2{
-	color: #333
+	color: #fff;
+	font-family: "Playfair Display", serif;
+	font-style: italic;
 
 }
 
 .sidebar p {
-	 text-align: justify;
+	 text-align: -webkit-auto;
 	 margin: 0.25em 0 0.25em;
 	 line-height: 1.7;
-	 color: #333;
+	 color: #fff;
+	 font-size: 0.9em;
 }
 
 /* Codrops links */
@@ -480,8 +483,9 @@ button:focus {
 
 .meta__avatar {
 	display: block;
-	border-radius: 50%;
+	border-radius: 1%;
 	margin: 2em auto;
+	max-width: 100%;
 }
 
 .meta--preview .meta__avatar {

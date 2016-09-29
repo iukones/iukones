@@ -135,7 +135,7 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 		transition: -webkit-transform 0.3s;
 	}
 	.sidebar.sidebar--open {
-		background: url(../img/background_repeat.png) left top repeat rgba(218, 190, 202, 0.95);
+		background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 1);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		width: 100%;
