@@ -78,8 +78,8 @@ button:focus {
 }
 
 .sidebar h1 img {
-	margin: -3.5em 0 -2em;
-	width: 250px;
+	margin: -3em 0 -2em;
+	width: 200px;
 	height: auto;
 }
 
@@ -98,6 +98,28 @@ button:focus {
 	 font-size: 0.9em;
 }
 
+/* estilos de boton contacto en sidebar */
+.sidebar .btn {
+	border: none;
+	box-shadow: none;
+	border-radius: .25em;
+	font-size: 0.9rem;
+	// font-family: "Open Sans", sans-serif;
+	color: #ffffff;
+	padding: .6em 2.2em;
+	cursor: pointer;
+	background: #5f8ee4;
+}
+.sidebar .btn-outline {
+	 color: #ffffff;
+	 background: transparent;
+	 box-shadow: inset 0 0 0 1px #53C8FC;
+}
+
+.sidebar .btn.btn-outline:hover {
+	color: #ffffff;
+	background: #53C8FC;
+}
 /* Codrops links */
 .codrops-links {
 	position: relative;
@@ -378,6 +400,11 @@ button:focus {
 	width: 100%;
 }
 
+.title span {
+	// color: rgba(83, 200, 252, 0.5);
+	margin-right: 5px;
+}
+
 .loader {
 	height: 1px;
 	width: 40%;
@@ -580,16 +607,18 @@ button:focus {
 /* Grid footer */
 .page-meta {
 	width: 100%;
-	background: rgba(65, 71, 65, 0.88);
+	background: rgba(204, 211, 216, 0.5);
 	width: 100%;
 	padding: 15px 15px 10px;
 	text-align: center;
 	font-size: 0.75em;
 	font-style: italic;
-	/* font-weight: bold; */
+	// font-weight: bold;
 	cursor: default;
-	color: #fff;
+	color: #333;
+	// line-height: 0.;
 }
+
 
 /* Placeholder element (dummy that gets animated when we click on an item) */
 .placeholder {

@@ -85,7 +85,7 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 
 	.grid__item:hover::before,
 	.grid__item:focus::before {
-		border: 3px solid rgba(173, 138, 100, 0.5);
+		border: 3px solid rgba(106, 160, 215, 0.5);
 	}
 
 	.grid__item--loading.grid__item::before {
@@ -135,7 +135,7 @@ $viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
 		transition: -webkit-transform 0.3s;
 	}
 	.sidebar.sidebar--open {
-		background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 1);
+		background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.89);
 		-webkit-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		width: 100%;
