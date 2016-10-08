@@ -29,7 +29,7 @@ body {
   background: rgba(243, 239, 224, 0.9);
   color: #7b7b7b;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 16px/28px;
   font-family: "Martel Sans", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -982,6 +982,229 @@ button:focus {
 .close-button--show {
   opacity: 1;
   pointer-events: auto;
+}
+
+/* content work */
+/* line 866, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.columns {
+  float: left;
+  display: inline;
+  margin-left: 12px;
+  margin-right: 12px;
+  line-height: 0;
+}
+
+/* line 873, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.columns {
+  width: 532px;
+}
+
+/* line 876, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.portrait {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 882, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.portrait a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 889, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.columns a, a:visited {
+  color: #212121;
+  text-decoration: none;
+  outline: 0;
+  transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+}
+
+/* line 898, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.portrait img {
+  max-width: 100%;
+}
+
+/* line 901, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.columns .portrait #hover {
+  height: 93.8%;
+  left: 4.17%;
+  top: 3.1%;
+  width: 91.7%;
+}
+
+/* line 907, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover {
+  background-color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+/* line 912, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover {
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  opacity: 0;
+}
+
+/* line 919, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.link-text {
+  position: absolute;
+  text-align: center;
+  top: 41%;
+  width: 100%;
+}
+
+/* line 925, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.link-text h2 {
+  color: #212121;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 2.5em;
+}
+
+/* line 932, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover h3.desc {
+  margin-top: 0px;
+}
+
+/* line 935, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+h3.desc {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-transform: none;
+}
+
+/* line 946, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+a, a:visited {
+  color: #212121;
+  text-decoration: none;
+  outline: 0;
+  transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+}
+
+/* Hovers */
+/* line 958, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover {
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  opacity: 0;
+}
+
+/* line 966, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover {
+  background-color: #fff;
+  position: absolute;
+  text-align: center;
+}
+
+/* line 971, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover h3.desc {
+  margin-top: 0px;
+}
+
+/* line 973, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.four.columns .portrait #hover {
+  height: 90.4%;
+  left: 6.38%;
+  top: 4.8%;
+  width: 87.24%;
+}
+
+/* line 974, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.eight.columns .landscape #hover {
+  height: 90.4%;
+  left: 3.09%;
+  top: 4.8%;
+  width: 93.82%;
+}
+
+/* line 975, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.twelve.columns .landscape #hover {
+  height: 93.14%;
+  left: 2.04%;
+  top: 3.43%;
+  width: 95.92%;
+}
+
+/* line 977, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.six.columns .landscape #hover {
+  height: 87.24%;
+  left: 4.17%;
+  top: 6.38%;
+  width: 91.7%;
+}
+
+/* line 978, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.six.columns .portrait #hover {
+  height: 93.8%;
+  left: 4.17%;
+  top: 3.1%;
+  width: 91.7%;
+}
+
+/* line 980, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.four.columns .landscape #hover {
+  height: 79.83%;
+  left: 6.38%;
+  top: 10.08%;
+  width: 87.24%;
+}
+
+/* line 982, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+#hover:hover {
+  opacity: 0.95;
+}
+
+/* line 984, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.link-text {
+  position: absolute;
+  text-align: center;
+  top: 41%;
+  width: 100%;
+}
+
+/* line 991, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+.link-text h2 {
+  color: #212121;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0;
+  line-height: 2.5em;
+}
+
+/* line 992, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+h3.desc {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-transform: none;
 }
 
 /* Viewport sizes based on column number and sidebar */

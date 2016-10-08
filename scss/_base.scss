@@ -22,7 +22,7 @@ body {
 	background: $color_primary;
 	color: #7b7b7b;
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 16px/28px;
 	font-family: $sansserif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -861,3 +861,142 @@ button:focus {
 	opacity: 1;
 	pointer-events: auto;
 }
+
+/* content work */
+.columns {
+    float: left;
+    display: inline;
+    margin-left: 12px;
+    margin-right: 12px;
+    line-height: 0;
+}
+.columns {
+    width: 532px;
+}
+.portrait {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0;
+}
+.portrait a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.columns a, a:visited {
+    color: #212121;
+    text-decoration: none;
+    outline: 0;
+    transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+}
+.portrait img {
+     max-width: 100%;
+}
+.columns .portrait #hover {
+    height: 93.8%;
+    left: 4.17%;
+    top: 3.1%;
+    width: 91.7%;
+}
+#hover {
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+}
+#hover {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    opacity: 0;
+}
+.link-text {
+    position: absolute;
+    text-align: center;
+    top: 41%;
+    width: 100%;
+}
+.link-text h2 {
+    color: #212121;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 2.5em;
+}
+#hover h3.desc {
+    margin-top: 0px;
+}
+h3.desc {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    line-height: 26px;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-transform: none;
+}
+a, a:visited {
+    color: #212121;
+    text-decoration: none;
+    outline: 0;
+    transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -webkit-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+}
+
+/* Hovers */
+
+	#hover {
+		transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		opacity: 0;
+	}
+
+	#hover {
+		background-color: #fff;
+		position: absolute;
+		text-align: center;
+	}
+		#hover h3.desc { margin-top:0px;}
+
+	.four.columns .portrait #hover { height: 90.4%; left: 6.38%; top: 4.8%; width: 87.24%; }
+	.eight.columns .landscape #hover { height: 90.4%; left: 3.09%; top: 4.8%; width: 93.82%; }
+	.twelve.columns .landscape #hover { height: 93.14%; left: 2.04%; top: 3.43%; width: 95.92%; }
+
+	.six.columns .landscape #hover { height: 87.24%; left: 4.17%; top: 6.38%; width: 91.7%; }
+	.six.columns .portrait #hover { height: 93.8%; left: 4.17%; top: 3.1%; width: 91.7%; }
+
+	.four.columns .landscape #hover { height: 79.83%; left: 6.38%; top: 10.08%; width: 87.24%; }
+
+	#hover:hover { opacity: 0.95; }
+
+	.link-text {
+		position: absolute;
+		text-align: center;
+		top: 41%;
+		width: 100%;
+	}
+
+	.link-text h2 { color:#212121; font-size: 12px; font-weight: 500; margin-bottom: 0; line-height: 2.5em; }
+	h3.desc {
+		color: #212121;
+		font-size: 18px;
+		font-weight: 300;
+		letter-spacing: 0.03em;
+		line-height: 26px;
+		margin-top: 32px;
+		margin-bottom: 0px;
+		text-align: center;
+		text-transform: none;
+	 }
