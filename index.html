@@ -1,196 +1,229 @@
 <!DOCTYPE html>
 <html lang="es" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Desarrollo de aplicaciones | Diseño Web</title>
-		<meta name="description" content="A responsive, magazine-like website layout with a grid item animation effect when opening the content" />
-		<meta name="keywords" content="grid, layout, effect, animated, responsive, magazine, template, web design" />
-		<meta name="author" content="@iukones" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-
-	</head>
-	<body>
-		<div class="container">
-			<button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
-			<header id="header" class="">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Desarrollo de aplicaciones | Diseño Web</title>
+	<meta name="description" content="A responsive, magazine-like website layout with a grid item animation effect when opening the content" />
+	<meta name="keywords" content="grid, layout, effect, animated, responsive, magazine, template, web design" />
+	<meta name="author" content="@iukones" />
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<div class="container">
+		<button id="menu-toggle" class="menu-toggle"><span>Menu</span></button>
+		<header id="header" class="">
 			<div id="theSidebar" class="sidebar">
 				<button class="close-button fa fa-fw fa-close"></button>
 				<h1><a href="/" title="collective iukones"><img src="img/iuk-final-2.svg" alt="collective iukones"></a></h1>
 				<div class="related">
 					<h2>Collective Developers</h2>
 					<p>Somos un equipo ágil, haciendo cosas poderosas. Una "Startup" de Diseño y Desarrollo de Aplicaciones Web, con sede en México D.F, estamos constantemente empujandonos a nosotros mismos, a nuestro equipo y nuestro enfoque hacia el limite.</p>
-
 				</div>
 				<nav class="codrops-demos">
-
 					<a href="mailto:hola@iukones.com"><button class="btn btn-outline">Escribenos</button></a>
 				</nav>
-
 			</div>
-			</header><!-- /header -->
-
-			<div id="theGrid" class="main">
-				<section class="grid">
-					<a class="grid__item" href="#">
-						<h2 class="title title--preview"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Portfolio</h2>
-						<div class="loader"></div>
-						<span class="category">Ideas &amp; Trabajo</span>
-						<div class="meta meta--preview">
-							<img class="meta__avatar" src="img/portf.jpg" alt="Portfolio" />
+		</header><!-- /header -->
+		<div id="theGrid" class="main">
+			<section class="grid">
+				<a class="grid__item" href="#">
+					<h2 class="title title--preview"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Portfolio</h2>
+					<div class="loader"></div>
+					<span class="category">Ideas &amp; Trabajo</span>
+					<div class="meta meta--preview">
+						<img class="meta__avatar" src="img/portf.jpg" alt="Portfolio" />
+						<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+						<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+					</div>
+				</a>
+				<a class="grid__item" href="#">
+					<h2 class="title title--preview"><span><i class="fa fa-code-fork" aria-hidden="true"></i></span>Servicios</h2>
+					<div class="loader"></div>
+					<span class="category">Infraestructura &amp; Desarrollo</span>
+					<div class="meta meta--preview">
+						<img class="meta__avatar" src="img/serv.jpg" alt="Servicios" />
+						<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+						<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+					</div>
+				</a>
+				<a class="grid__item" href="#">
+					<h2 class="title title--preview"><span><i class="fa fa-users" aria-hidden="true"></i></span>Humanos</h2>
+					<div class="loader"></div>
+					<span class="category">Crew &amp; Partners</span>
+					<div class="meta meta--preview">
+						<img class="meta__avatar" src="img/human.jpg" alt="Humanos" />
+						<span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
+						<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
+					</div>
+				</a>
+				<a class="grid__item" href="#">
+					<h2 class="title title--preview"><span><i class="fa fa-coffee" aria-hidden="true"></i></span>Contacto</h2>
+					<div class="loader"></div>
+					<span class="category">Platicanos Tu Proyecto</span>
+					<div class="meta meta--preview">
+						<img class="meta__avatar" src="img/cont.jpg" alt="Contacto" />
+						<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
+						<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
+					</div>
+				</a>
+				<footer class="page-meta">
+					<div class="info">
+						<p>www.iukones.com / México. CDMX.</p>
+						<p>© Copyright 2016 Collective iukones. All Rights Reserved.</p>
+					</div>
+				</footer>
+			</section>
+			<section class="content">
+				<div class="scroll-wrap">
+					<article class="content__item" id="contacto">
+						<span class="category category--full">Ideas &amp; Trabajo</span>
+						<h2 class="title title--full">¿Que Nos Hace Diferentes?</h2>
+						<div class="meta meta--full">
+							<img class="meta__avatar" src="img/authors/4.png" alt="author04" />
+							<span class="meta__author">Sandra Paulson</span>
 							<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
 							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+							<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 7 comments</span>
+							<span class="meta__misc"><i class="fa fa-heart"></i> 12 favorites</span>
+							<nav class="article-nav">
+								<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
+								<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
+							</nav>
 						</div>
-					</a>
-					<a class="grid__item" href="#">
-						<h2 class="title title--preview"><span><i class="fa fa-code-fork" aria-hidden="true"></i></span>Servicios</h2>
-						<div class="loader"></div>
-						<span class="category">Infraestructura &amp; Desarrollo</span>
-						<div class="meta meta--preview">
-							<img class="meta__avatar" src="img/serv.jpg" alt="Servicios" />
-							<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
-						</div>
-					</a>
-					<a class="grid__item" href="#">
-						<h2 class="title title--preview"><span><i class="fa fa-users" aria-hidden="true"></i></span>Humanos</h2>
-						<div class="loader"></div>
-						<span class="category">Crew &amp; Partners</span>
-						<div class="meta meta--preview">
-							<img class="meta__avatar" src="img/human.jpg" alt="Humanos" />
-							<span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
-						</div>
-					</a>
-					<a class="grid__item" href="#">
-						<h2 class="title title--preview"><span><i class="fa fa-coffee" aria-hidden="true"></i></span>Contacto</h2>
-						<div class="loader"></div>
-						<span class="category">Platicanos Tu Proyecto</span>
-						<div class="meta meta--preview">
-							<img class="meta__avatar" src="img/cont.jpg" alt="Contacto" />
-							<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
-							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
-						</div>
-					</a>
-
-					<footer class="page-meta">
-						<div class="info">
-							<p>www.iukones.com / México. CDMX.</p>
-							<p>© Copyright 2016 Collective iukones. All Rights Reserved.</p>
-						</div>
-
-					</footer>
-
-				</section>
-				<section class="content">
-					<div class="scroll-wrap">
-						<article class="content__item" id="contacto">
-							<span class="category category--full">Ideas &amp; Trabajo</span>
-							<h2 class="title title--full">¿Que Nos Hace Diferentes?</h2>
-							<div class="meta meta--full">
-								<img class="meta__avatar" src="img/authors/4.png" alt="author04" />
-								<span class="meta__author">Sandra Paulson</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
-								<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 7 comments</span>
-								<span class="meta__misc"><i class="fa fa-heart"></i> 12 favorites</span>
-								<nav class="article-nav">
-									<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
-									<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
-								</nav>
-							</div>
-							<p>Por una web libre de las limitaciones del dispositivo, creemos que no debemos castigar a los usuarios al navegar en una pantalla pequeña o diferente resolución o en diferentes dispositivos. </p>
-							<p>Cada proyecto es diferente. Hora en que se inicia con el famoso dibujo a veces con la lluvia de ideas, el café o una buena cerveza, para hacer fluir las ideas.</p>
+						<p>Por una web libre de las limitaciones del dispositivo, creemos que no debemos castigar a los usuarios al navegar en una pantalla pequeña o diferente resolución o en diferentes dispositivos. </p>
+						<p>Cada proyecto es diferente. Hora en que se inicia con el famoso dibujo a veces con la lluvia de ideas, el café o una buena cerveza, para hacer fluir las ideas.</p>
+						<div class="contenedor">
 
 							<div class="columns">
-							<div class="portrait">
-									<a href="#">
-										<img src="img/work-1.jpg" title="Hay Rosie Craft Ice Cream Co packaging design" alt="Hay Rosie Craft Ice Cream Packaging | Nudge">
-										<div id="hover">
-											<div class="link-text">
-												<h2>Hay Rosie Craft Ice Cream Co.</h2>
-												<h3 class="desc">Identity Design • Print • Website Design • Packaging</h3>
+								<div class="four columns" style="float:right;">
+									<div class="portrait">
+										<a href="#">
+											<img src="img/work-3-rwd.jpg" title="Brown's Court Bakery graphic design" alt="Brown's Court Bakery Logo Design | Nudge">
+											<div id="hover">
+												<div class="link-text">
+													<h2>MarviMKT | Vista Previa Movil</h2>
+													<h3 class="desc">Visual Identity • Print •&nbsp;<br>Responsive Website</h3>
+												</div>
 											</div>
-										</div>
-									</a>
+										</a>
+									</div>
 								</div>
+
+								<div class="eight columns" style="float:right;">
+									<div class="landscape">
+										<a href="#">
+											<img src="img/work-3.jpg" title="Circle 21 Candles visual identity design" alt="Circle 21 Candles Logo Design | Nudge">
+											<div id="hover">
+												<div class="link-text">
+													<h2>Circle 21 Candles</h2>
+													<h3 class="desc">Branding • Packaging • Print • Website • Ecommerce</h3>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="six columns">
+									<div class="portrait">
+										<a href="#">
+											<img src="img/work-ejem.jpg" title="Hay Rosie Craft Ice Cream Co packaging design" alt="Hay Rosie Craft Ice Cream Packaging | Nudge">
+											<div id="hover">
+												<div class="link-text">
+													<h2>Hay Rosie Craft Ice Cream Co.</h2>
+													<h3 class="desc">Identity Design • Print • Website Design • Packaging</h3>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="six columns" style="float:right;">
+									<div class="portrait">
+										<a href="#">
+											<img src="img/work-ejem.jpg" title="Industry Standard NY logo design" alt="Industry Standard NY Logo Design | Nudge">
+											<div id="hover">
+												<div class="link-text">
+													<h2>Industry Standard</h2>
+													<h3 class="desc">Visual Identity • Print •&nbsp;Responsive Website • <br>Ecommerce • Lookbook</h3>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
 							</div>
+						</div>
 
-						</article>
-						<article class="content__item">
-							<span class="category category--full">Nature vs. Nurture</span>
-							<h2 class="title title--full">My Father told me...</h2>
-							<div class="meta meta--full">
-								<img class="meta__avatar" src="img/authors/5.png" alt="author05" />
-								<span class="meta__author">Leila Nastafi</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
-								<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 23 comments</span>
-								<span class="meta__misc"><i class="fa fa-heart"></i> 253 favorites</span>
-								<nav class="article-nav">
-									<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
-									<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
-								</nav>
-							</div>
-							<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
-							<p>This becomes even plainer in the case of a guilty conscience, where we become aware of the inner condemnation of such acts which realized some of our definite wish impulses. Confirmation seems superfluous here; whoever has a conscience must feel in himself the justification of the condemnation, and the reproach for the accomplished action. But this same character is evinced by the attitude of savages towards taboo. Taboo is a command of conscience, the violation of which causes a terrible sense of guilt which is as self-evident as its origin is unknown[89].</p>
-							<p>It is therefore probable that conscience also originates on the basis of an ambivalent feeling from quite definite human relations which contain this ambivalence.</p>
-
-						</article>
-						<article class="content__item">
-							<span class="category category--full">Stories for humans</span>
-							<h2 class="title title--full">On Humans &amp; other Beings</h2>
-							<div class="meta meta--full">
-								<img class="meta__avatar" src="img/authors/1.png" alt="author01" />
-								<span class="meta__author">Matthew Walters</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
-								<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 12 comments</span>
-								<span class="meta__misc"><i class="fa fa-heart"></i> 45 favorites</span>
-								<nav class="article-nav">
-									<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
-									<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
-								</nav>
-							</div>
-							<p>I am fully aware of the shortcomings in these essays. I shall not touch upon those which are characteristic of first efforts at investigation. The others, however, demand a word of explanation.</p>
-							<p>The four essays which are here collected will be of interest to a wide circle of educated people, but they can only be thoroughly understood and judged by those who are really acquainted with psychoanalysis as such. It is hoped that they may serve as a bond between students of ethnology, philology, folklore and of the allied sciences, and psychoanalysts; they cannot, however, supply both groups the entire requisites for such co-operation. They will not furnish the former with sufficient insight into the new psychological technique, nor will the psychoanalysts acquire through them an adequate command over the material to be elaborated. Both groups will have to content themselves with whatever attention they can stimulate here and there and with the hope that frequent meetings between them will not remain unproductive for science.</p>
-
-						</article>
-						<article class="content__item">
-							<span class="category category--full">Love &amp; Hate</span>
-							<h2 class="title title--full">The Things we Lost in the Fire</h2>
-							<div class="meta meta--full">
-								<img class="meta__avatar" src="img/authors/2.png" alt="author02" />
-								<span class="meta__author">Christian Belverde</span>
-								<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
-								<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
-								<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 5 comments</span>
-								<span class="meta__misc"><i class="fa fa-heart"></i> 5 favorites</span>
-								<nav class="article-nav">
-									<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
-									<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
-								</nav>
-							</div>
-							<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
-							<p>The slip of the tongue shows that on account of unconscious inhibitions the individual concerned is unable to express his true thoughts; the dream is a distorted or plain expression of those wishes which are prohibited in the waking states, and the witticism, owing to its veiled or indirect way of expression, enables the individual to obtain pleasure from forbidden sources. But whereas dreams, witticisms, and faulty actions give evidences of inner conflicts which the individual overcomes, the neurotic or psychotic symptom is the result of a failure and represents a morbid adjustment.</p>
-
-						</article>
-
-					</div>
-					<button class="close-button"><i class="fa fa-close"></i><span>Close</span></button>
-				</section>
-			</div>
-		</div><!-- /container -->
-
-		<!-- archivos JS -->
-		<script src="js/modernizr.custom.js"></script>
-		<script src="js/classie.js"></script>
-		<script src="js/main.js"></script>
-		<!-- archivos JS -->
-
-	</body>
+					</article>
+					<article class="content__item">
+						<span class="category category--full">Nature vs. Nurture</span>
+						<h2 class="title title--full">My Father told me...</h2>
+						<div class="meta meta--full">
+							<img class="meta__avatar" src="img/authors/5.png" alt="author05" />
+							<span class="meta__author">Leila Nastafi</span>
+							<span class="meta__date"><i class="fa fa-calendar-o"></i> 6 Apr</span>
+							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 2 min read</span>
+							<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 23 comments</span>
+							<span class="meta__misc"><i class="fa fa-heart"></i> 253 favorites</span>
+							<nav class="article-nav">
+								<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
+								<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
+							</nav>
+						</div>
+						<p>Conscience is the inner perception of objections to definite wish impulses that exist in us; but the emphasis is put upon the fact that this rejection does not have to depend on anything else, that it is sure of itself. </p>
+						<p>This becomes even plainer in the case of a guilty conscience, where we become aware of the inner condemnation of such acts which realized some of our definite wish impulses. Confirmation seems superfluous here; whoever has a conscience must feel in himself the justification of the condemnation, and the reproach for the accomplished action. But this same character is evinced by the attitude of savages towards taboo. Taboo is a command of conscience, the violation of which causes a terrible sense of guilt which is as self-evident as its origin is unknown[89].</p>
+						<p>It is therefore probable that conscience also originates on the basis of an ambivalent feeling from quite definite human relations which contain this ambivalence.</p>
+					</article>
+					<article class="content__item">
+						<span class="category category--full">Stories for humans</span>
+						<h2 class="title title--full">On Humans &amp; other Beings</h2>
+						<div class="meta meta--full">
+							<img class="meta__avatar" src="img/authors/1.png" alt="author01" />
+							<span class="meta__author">Matthew Walters</span>
+							<span class="meta__date"><i class="fa fa-calendar-o"></i> 9 Apr</span>
+							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 3 min read</span>
+							<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 12 comments</span>
+							<span class="meta__misc"><i class="fa fa-heart"></i> 45 favorites</span>
+							<nav class="article-nav">
+								<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
+								<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
+							</nav>
+						</div>
+						<p>I am fully aware of the shortcomings in these essays. I shall not touch upon those which are characteristic of first efforts at investigation. The others, however, demand a word of explanation.</p>
+						<p>The four essays which are here collected will be of interest to a wide circle of educated people, but they can only be thoroughly understood and judged by those who are really acquainted with psychoanalysis as such. It is hoped that they may serve as a bond between students of ethnology, philology, folklore and of the allied sciences, and psychoanalysts; they cannot, however, supply both groups the entire requisites for such co-operation. They will not furnish the former with sufficient insight into the new psychological technique, nor will the psychoanalysts acquire through them an adequate command over the material to be elaborated. Both groups will have to content themselves with whatever attention they can stimulate here and there and with the hope that frequent meetings between them will not remain unproductive for science.</p>
+					</article>
+					<article class="content__item">
+						<span class="category category--full">Love &amp; Hate</span>
+						<h2 class="title title--full">The Things we Lost in the Fire</h2>
+						<div class="meta meta--full">
+							<img class="meta__avatar" src="img/authors/2.png" alt="author02" />
+							<span class="meta__author">Christian Belverde</span>
+							<span class="meta__date"><i class="fa fa-calendar-o"></i> 7 Apr</span>
+							<span class="meta__reading-time"><i class="fa fa-clock-o"></i> 5 min read</span>
+							<span class="meta__misc meta__misc--seperator"><i class="fa fa-comments-o"></i> 5 comments</span>
+							<span class="meta__misc"><i class="fa fa-heart"></i> 5 favorites</span>
+							<nav class="article-nav">
+								<button><i class="fa fa-angle-left"></i> <span>Previous</span></button>
+								<button><span>Next</span> <i class="fa fa-angle-right"></i></button>
+							</nav>
+						</div>
+						<p>Faulty psychic actions, dreams and wit are products of the unconscious mental activity, and like neurotic or psychotic manifestations represent efforts at adjustment to one’s environment. </p>
+						<p>The slip of the tongue shows that on account of unconscious inhibitions the individual concerned is unable to express his true thoughts; the dream is a distorted or plain expression of those wishes which are prohibited in the waking states, and the witticism, owing to its veiled or indirect way of expression, enables the individual to obtain pleasure from forbidden sources. But whereas dreams, witticisms, and faulty actions give evidences of inner conflicts which the individual overcomes, the neurotic or psychotic symptom is the result of a failure and represents a morbid adjustment.</p>
+					</article>
+				</div>
+				<button class="close-button"><i class="fa fa-close"></i><span>Close</span></button>
+			</section>
+		</div>
+	</div><!-- /container -->
+	<!-- archivos JS -->
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
+	<!-- archivos JS -->
+</body>
 </html>
