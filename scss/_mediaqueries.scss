@@ -4,7 +4,7 @@ $viewport_s: 	$item_width * 2 + $sidebar_width; /* 2 columns */
 $viewport_m: 	$item_width * 3 + $sidebar_width; /* 3 columns */
 $viewport_l: 	$item_width * 4 + $sidebar_width; /* 4 columns */
 $viewport_xl: 	$item_width * 5 + $sidebar_width; /* 5 columns */
-$viewport_xxl: 	$item_width * 6 + $sidebar_width; /* 6 columns */
+$viewport_xxl: $item_width * 6 + $sidebar_width; /* 6 columns */
 
 @media screen and (min-width: $viewport_xs) {
 	html,

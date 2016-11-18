@@ -23,15 +23,15 @@ body {
 	width: 100vw;
 }
 
-.content__item p {
-	font-size: 1.15em;
-}
+// .content__item p {
+// 	font-size: 1.15em;
+// }
 
-.content__item p:first-of-type {
-	margin-top: 3em;
-	font-size: 1.15em;
-	font-weight: bold;
-}
+// .content__item p:first-of-type {
+// 	margin-top: 3em;
+// 	font-size: 1.15em;
+// 	font-weight: bold;
+// }
 
 .fa-heart {
 	color: #c84252;
@@ -150,4 +150,117 @@ body {
 	.article-nav {
 		display: none;
 	}
+}
+
+// articulos principales del contenido
+.divider {
+    background: rgba(83, 200, 252, 0.9);
+    height: 4rem;
+    margin: 0 auto;
+    width: .0625rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3.4375rem;
+}
+
+.articles {
+    display: flex;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+}
+.articles h2 {
+    font-size: 1.875rem;
+    line-height: 1.33333;
+}
+
+.masonry .article {
+    display: table;
+    width: 100%;
+}
+
+.masonry a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.masonry .photo {
+    display: table-cell;
+    padding-bottom: 26%;
+    width: 50%;
+}
+
+.article .photo {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    margin-bottom: 2.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo {
+    background-image: url(../img/marvi-pro.jpg);
+}
+
+.link-overlay {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.link-overlay:after {
+    background-color: rgba(0,0,0,.3);
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.link-overlay:hover:after {
+    opacity: 1;
+}
+
+.masonry .copy {
+    box-sizing: border-box;
+    display: table-cell;
+    padding: 0 4.375rem;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.masonry .copy h2 {
+    margin: 0 0 1.875rem;
+}
+.masonry .copy h2, .masonry .copy p {
+    max-width: 30rem;
+}
+.home-b2c h2 {
+    color: #f85c4b;
+}
+.masonry .copy p {
+    margin-bottom: 1.875rem;
+}
+.masonry .copy h2, .masonry .copy p {
+    max-width: 30rem;
+}
+
+.mansonry a{
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.copy .arrow-cta {
+    color: rgba(83, 200, 252, 1);
 }

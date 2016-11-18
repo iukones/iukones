@@ -7,24 +7,24 @@
   src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
 }
 
-/* line 17, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 17, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 18, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 18, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .clearfix:before, .clearfix:after {
   display: table;
   content: '';
 }
 
-/* line 19, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 19, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 21, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 21, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 body {
   background: rgba(243, 239, 224, 0.9);
   color: #7b7b7b;
@@ -39,32 +39,32 @@ body {
 }
 
 /* helper class when showing content */
-/* line 34, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 34, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .noscroll {
   overflow: hidden;
 }
 
-/* line 38, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 38, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 a {
   outline: none;
   color: rgba(83, 200, 252, 0.9);
   text-decoration: none;
 }
 
-/* line 44, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 44, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 a:hover,
 a:focus {
   color: #333;
   outline: none;
 }
 
-/* line 50, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 50, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 button:focus {
   outline: none;
 }
 
 /* Sidebar */
-/* line 55, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 55, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar {
   text-align: center;
   background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.7);
@@ -79,7 +79,7 @@ button:focus {
   padding: 2em 1em;
 }
 
-/* line 69, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 69, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar h1 {
   margin: 0.75em 0 0;
   font-size: 2em;
@@ -87,26 +87,26 @@ button:focus {
   font-family: "Playfair Display", serif;
 }
 
-/* line 76, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 76, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar h1 span {
   display: block;
 }
 
-/* line 80, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 80, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar h1 img {
   margin: -3em 0 -2em;
   width: 200px;
   height: auto;
 }
 
-/* line 86, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 86, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar h2 {
   color: #fff;
   font-family: "Playfair Display", serif;
   font-style: italic;
 }
 
-/* line 93, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 93, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar p {
   text-align: -webkit-auto;
   margin: 0.25em 0 0.25em;
@@ -116,7 +116,7 @@ button:focus {
 }
 
 /* estilos de boton contacto en sidebar */
-/* line 102, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 102, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar .btn {
   border: none;
   box-shadow: none;
@@ -128,21 +128,21 @@ button:focus {
   background: #5f8ee4;
 }
 
-/* line 113, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 113, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar .btn-outline {
   color: #ffffff;
   background: transparent;
   box-shadow: inset 0 0 0 1px #53C8FC;
 }
 
-/* line 119, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 119, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar .btn.btn-outline:hover {
   color: #ffffff;
   background: #53C8FC;
 }
 
 /* Codrops links */
-/* line 124, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 124, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-links {
   position: relative;
   display: inline-block;
@@ -151,7 +151,7 @@ button:focus {
   min-height: 45px;
 }
 
-/* line 132, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 132, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-links::after {
   position: absolute;
   top: 0;
@@ -164,7 +164,7 @@ button:focus {
   transform: rotate3d(0, 0, 1, 22.5deg);
 }
 
-/* line 144, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 144, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-icon {
   display: inline-block;
   margin: 0.5em;
@@ -173,12 +173,12 @@ button:focus {
   text-decoration: none;
 }
 
-/* line 152, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 152, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-icon span {
   display: none;
 }
 
-/* line 156, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 156, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-icon:before {
   margin: 0 5px;
   text-transform: none;
@@ -190,24 +190,24 @@ button:focus {
   speak: none;
 }
 
-/* line 167, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 167, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-icon--drop:before {
   content: "\e001";
 }
 
-/* line 171, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 171, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-icon--prev:before {
   content: "\e004";
 }
 
 /* Demo links */
-/* line 176, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 176, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-demos {
   margin: 2em 0 0;
   font-size: 0.75em;
 }
 
-/* line 181, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 181, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-demos a {
   display: inline-block;
   margin: 0 0.5em;
@@ -215,63 +215,63 @@ button:focus {
   color: rgba(41, 169, 225, 0.9);
 }
 
-/* line 188, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 188, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-demos span {
   font-size: 0.4em;
   padding: 2px;
   color: #29a9e1;
 }
 
-/* line 195, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 195, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-demos a.current-demo {
   color: #333;
   font-weight: bold;
 }
 
-/* line 200, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 200, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .codrops-demos a.current-demo:focus {
   color: #aaa;
 }
 
-/* line 204, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 204, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .related {
   font-size: 0.85em;
   padding-bottom: 1em;
 }
 
-/* line 209, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 209, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .related h3 {
   margin: 3em 0 0.5em 0;
   font-size: 0.95em;
 }
 
-/* line 214, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 214, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .related a {
   display: block;
   color: inherit;
 }
 
-/* line 219, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 219, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .related a:hover,
 .related a:focus {
   color: #414741;
 }
 
 /* Main content */
-/* line 225, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 225, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .main {
   position: relative;
   z-index: 50;
 }
 
 /* Grid contenedor */
-/* line 231, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 231, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid {
   position: relative;
 }
 
 /* Overlay */
-/* line 236, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 236, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid::after {
   content: '';
   background: rgba(202, 202, 202, 0.4);
@@ -286,13 +286,13 @@ button:focus {
   transition: opacity 0.5s;
 }
 
-/* line 250, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 250, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .view-single .grid::after {
   opacity: 1;
 }
 
 /* Top bar above the grid */
-/* line 255, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 255, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .top-bar {
   background: rgba(255, 255, 255, 0.3);
   width: 100%;
@@ -306,14 +306,14 @@ button:focus {
   align-items: center;
 }
 
-/* line 268, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 268, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .top-bar__headline {
   margin: 0;
   font-size: 0.75em;
 }
 
 /* Menu button for toggling the sidebar (appears on small screen) */
-/* line 274, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 274, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .menu-toggle {
   position: fixed;
   z-index: 100;
@@ -329,7 +329,7 @@ button:focus {
   margin: -2px 15px 0 0;
 }
 
-/* line 289, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 289, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .menu-toggle span {
   position: absolute;
   top: 50%;
@@ -347,7 +347,7 @@ button:focus {
   user-select: none;
 }
 
-/* line 306, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 306, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .menu-toggle span:before,
 .menu-toggle span:after {
   position: absolute;
@@ -358,27 +358,27 @@ button:focus {
   content: '';
 }
 
-/* line 316, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 316, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .menu-toggle span:before {
   -webkit-transform: translateY(-7px);
   transform: translateY(-7px);
 }
 
-/* line 321, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 321, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .menu-toggle span:after {
   -webkit-transform: translateY(7px);
   transform: translateY(7px);
 }
 
 /* Filter/dropdown dummy on the right */
-/* line 327, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 327, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .filter {
   text-align: right;
   font-size: 0.75em;
   margin-left: auto;
 }
 
-/* line 333, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 333, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .dropdown {
   font-weight: bold;
   margin-left: 5px;
@@ -386,7 +386,7 @@ button:focus {
   color: rgba(83, 200, 252, 0.9);
 }
 
-/* line 340, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 340, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .dropdown::after {
   content: '\25BC';
   margin-left: 2px;
@@ -394,7 +394,7 @@ button:focus {
 }
 
 /* Grid item */
-/* line 347, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 347, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item {
   padding: 45px 55px 30px;
   position: relative;
@@ -416,7 +416,7 @@ button:focus {
 }
 
 /* Grid item "border" */
-/* line 369, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 369, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item::before {
   position: absolute;
   content: '';
@@ -427,13 +427,13 @@ button:focus {
   border-bottom: 1px solid rgba(74, 74, 74, 0.075);
 }
 
-/* line 379, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 379, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item * {
   z-index: 10;
 }
 
 /* grid item element and full content element styles */
-/* line 384, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 384, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title {
   margin: 0;
   font-size: 1.875em;
@@ -441,7 +441,7 @@ button:focus {
   text-align: center;
 }
 
-/* line 391, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 391, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title--preview {
   -webkit-flex: 1;
   flex: 1;
@@ -454,12 +454,12 @@ button:focus {
   width: 100%;
 }
 
-/* line 403, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 403, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title span {
   margin-right: 5px;
 }
 
-/* line 407, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 407, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .loader {
   height: 1px;
   width: 40%;
@@ -468,7 +468,7 @@ button:focus {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 415, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 415, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .loader::before {
   content: '';
   position: absolute;
@@ -483,7 +483,7 @@ button:focus {
   transform-origin: 0% 50%;
 }
 
-/* line 429, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 429, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--loading .loader::before {
   -webkit-transition: -webkit-transform 1s;
   transition: transform 1s;
@@ -493,7 +493,7 @@ button:focus {
   transform: scale3d(1, 1, 1);
 }
 
-/* line 438, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 438, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category {
   margin: 0;
   position: relative;
@@ -504,7 +504,7 @@ button:focus {
   display: block;
 }
 
-/* line 448, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 448, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title--preview,
 .loader,
 .category {
@@ -515,26 +515,26 @@ button:focus {
 }
 
 /* closing (delays) */
-/* line 458, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 458, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title--preview {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 463, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 463, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .loader {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 468, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 468, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item .category {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
 
 /* opening */
-/* line 474, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 474, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--animate .title--preview {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -543,7 +543,7 @@ button:focus {
   transform: translate3d(0, -20px, 0);
 }
 
-/* line 482, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 482, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--animate .loader {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
@@ -552,7 +552,7 @@ button:focus {
   transform: translate3d(0, -30px, 0);
 }
 
-/* line 490, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 490, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--animate .category {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
@@ -561,29 +561,29 @@ button:focus {
   transform: translate3d(0, -40px, 0);
 }
 
-/* line 498, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 498, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta {
   font-size: 0.765em;
   text-align: left;
 }
 
-/* line 503, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 503, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta .fa {
   margin-right: 4px;
 }
 
-/* line 507, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 507, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta:before, .meta:after {
   display: table;
   content: '';
 }
 
-/* line 508, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 508, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta:after {
   clear: both;
 }
 
-/* line 510, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 510, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__avatar {
   display: block;
   border-radius: 1%;
@@ -591,20 +591,20 @@ button:focus {
   max-width: 100%;
 }
 
-/* line 517, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 517, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--preview .meta__avatar {
   -webkit-filter: grayscale(50%);
   filter: grayscale(50%);
 }
 
-/* line 522, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 522, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item:hover .meta--preview .meta__avatar,
 .grid__item:focus .meta--preview .meta__avatar {
   -webkit-filter: none;
   filter: none;
 }
 
-/* line 528, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 528, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__date,
 .meta__reading-time {
   display: block;
@@ -612,13 +612,13 @@ button:focus {
   color: #aaa;
 }
 
-/* line 535, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 535, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__reading-time {
   text-align: right;
   float: right;
 }
 
-/* line 540, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 540, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__misc {
   display: block;
   clear: both;
@@ -626,14 +626,14 @@ button:focus {
   padding: 5px 0;
 }
 
-/* line 547, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 547, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__misc--seperator {
   padding: 20px 0 0;
   margin: 65px 0 0;
   border-top: 1px solid rgba(243, 239, 224, 0.9);
 }
 
-/* line 553, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 553, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .article-nav {
   display: -webkit-flex;
   display: flex;
@@ -641,19 +641,19 @@ button:focus {
   justify-content: space-between;
 }
 
-/* line 560, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 560, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .article-nav button {
   border: none;
   color: rgba(83, 200, 252, 0.9);
   background: none;
 }
 
-/* line 566, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 566, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .article-nav button:hover {
   color: #333;
 }
 
-/* line 571, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 571, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--preview .meta__avatar,
 .meta--preview .meta__date,
 .meta--preview .meta__reading-time {
@@ -663,25 +663,25 @@ button:focus {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-/* line 581, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 581, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--loading .meta__avatar {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 586, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 586, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--loading .meta__date {
   -webkit-transition-delay: 0.17s;
   transition-delay: 0.17s;
 }
 
-/* line 591, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 591, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--loading .meta__reading-time {
   -webkit-transition-delay: 0.24s;
   transition-delay: 0.24s;
 }
 
-/* line 597, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 597, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .grid__item--loading .meta__avatar,
 .grid__item--loading .meta__date,
 .grid__item--loading .meta__reading-time {
@@ -691,7 +691,7 @@ button:focus {
 }
 
 /* Grid footer */
-/* line 607, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 607, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .page-meta {
   width: 100%;
   background: url(../img/background_repeat.png) left top repeat rgba(204, 211, 216, 0.5);
@@ -705,7 +705,7 @@ button:focus {
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */
-/* line 623, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 623, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .placeholder {
   pointer-events: none;
   position: absolute;
@@ -719,7 +719,7 @@ button:focus {
   transform-origin: 0 0;
 }
 
-/* line 636, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 636, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .placeholder.placeholder--trans-in {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
@@ -727,14 +727,14 @@ button:focus {
   transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-/* line 643, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 643, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .placeholder.placeholder--trans-out {
   -webkit-transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
 }
 
 /* main content */
-/* line 649, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 649, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content {
   position: absolute;
   top: 0;
@@ -748,7 +748,7 @@ button:focus {
   overflow: hidden;
 }
 
-/* line 661, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 661, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content.content--show {
   height: 100vh;
   pointer-events: auto;
@@ -756,7 +756,7 @@ button:focus {
 }
 
 /* scroll helper wrap */
-/* line 668, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 668, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .scroll-wrap {
   position: absolute;
   width: 100%;
@@ -769,7 +769,7 @@ button:focus {
 }
 
 /* single content item */
-/* line 680, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 680, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item {
   position: absolute;
   top: 0;
@@ -782,19 +782,7 @@ button:focus {
   font-size: 0.85em;
 }
 
-/* line 690, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.content__item p {
-  max-width: 1200px;
-  margin: 1em auto;
-  text-align: justify;
-}
-
-/* line 695, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.content__item p:first-of-type {
-  font-size: 1.35em;
-}
-
-/* line 700, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 700, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item.content__item--show {
   height: auto;
   min-height: 100vh;
@@ -805,26 +793,26 @@ button:focus {
 }
 
 /* content elements */
-/* line 710, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 710, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full {
   font-size: 1.25em;
   margin-bottom: 20px;
   color: rgba(83, 200, 252, 0.9);
 }
 
-/* line 716, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 716, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title--full {
   font-size: 3.25em;
 }
 
-/* line 720, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 720, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full {
   font-size: 1em;
   margin: 0 auto 2em;
   max-width: 1200px;
 }
 
-/* line 724, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 724, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__author {
   display: block;
   text-align: center;
@@ -832,13 +820,13 @@ button:focus {
   margin-bottom: 20px;
 }
 
-/* line 730, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 730, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__author::before {
   content: 'by ';
   font-weight: normal;
 }
 
-/* line 734, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 734, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__category {
   font-style: italic;
   float: left;
@@ -846,17 +834,17 @@ button:focus {
   font-family: "Playfair Display", serif;
 }
 
-/* line 740, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 740, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__category::before {
   content: 'in ';
 }
 
-/* line 743, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 743, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__avatar {
   margin: 1em auto;
 }
 
-/* line 748, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 748, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full,
 .title--full,
 .meta--full .meta__avatar,
@@ -866,19 +854,19 @@ button:focus {
   opacity: 0;
 }
 
-/* line 757, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 757, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item p {
   opacity: 0;
 }
 
-/* line 761, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 761, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full,
 .title--full {
   -webkit-transform: translate3d(0, 40px, 0);
   transform: translate3d(0, 40px, 0);
 }
 
-/* line 768, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 768, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__avatar,
 .meta--full .meta__author,
 .meta--full .meta__date,
@@ -887,7 +875,7 @@ button:focus {
   transform: scale3d(0.5, 0.5, 1);
 }
 
-/* line 778, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 778, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .category--full,
 .content__item--show .title--full,
 .content__item--show .meta--full .meta__avatar,
@@ -903,38 +891,38 @@ button:focus {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-/* line 794, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 794, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .category--full,
 .content__item--show .title--full {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
 
-/* line 800, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 800, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .title--full {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-/* line 805, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 805, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__avatar {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-/* line 810, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 810, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__date {
   -webkit-transition-delay: 0.27s;
   transition-delay: 0.27s;
 }
 
-/* line 815, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 815, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__reading-time {
   -webkit-transition-delay: 0.34s;
   transition-delay: 0.34s;
 }
 
-/* line 820, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 820, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show.content__item p {
   opacity: 1;
   -webkit-transition: opacity 0.5s 0.25s;
@@ -942,7 +930,7 @@ button:focus {
 }
 
 /* close button (for content and sidebar) */
-/* line 827, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 827, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button {
   position: absolute;
   border: none;
@@ -967,756 +955,21 @@ button:focus {
   transition: opacity 0.3s;
 }
 
-/* line 851, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 851, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button span {
   display: none;
 }
 
-/* line 855, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 855, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button:hover {
   color: #c84252;
 }
 
 /* show class for content close button */
-/* line 860, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
+/* line 860, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button--show {
   opacity: 1;
   pointer-events: auto;
-}
-
-/* content work */
-/* Table of Contents
-==================================================
-    #Base 1200 Grid
-	#Base 960 Grid
-    #Tablet (Portrait)
-    #Mobile (Portrait)
-    #Mobile (Landscape)
-    #Clearing */
-/* #Base 1200 Grid
-================================================== */
-/* line 879, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor {
-  position: relative;
-  width: 1100px;
-  margin: 0 auto;
-  padding: 0;
-}
-
-/* line 880, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.column, .columns {
-  float: left;
-  display: inline;
-  margin-right: 10px;
-  margin-left: 20px;
-  line-height: 0;
-}
-
-/* line 881, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.row {
-  margin-bottom: 20px;
-}
-
-/* Nested Column Classes */
-/* line 884, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.column.alpha, .columns.alpha {
-  margin-left: 0;
-}
-
-/* line 885, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.column.omega, .columns.omega {
-  margin-right: 0;
-}
-
-/* line 887, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.column, .columns {
-  padding-bottom: 24px;
-}
-
-/* Base Grid */
-/* line 890, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .one.column {
-  width: 76px;
-}
-
-/* line 891, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .two.columns {
-  width: 176px;
-}
-
-/* line 892, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .three.columns {
-  width: 276px;
-}
-
-/* line 893, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .four.columns {
-  width: 320px;
-}
-
-/* line 894, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .five.columns {
-  width: 476px;
-}
-
-/* line 895, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .six.columns {
-  width: 496px;
-}
-
-/* line 896, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .seven.columns {
-  width: 676px;
-}
-
-/* line 897, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .eight.columns {
-  width: 616px;
-}
-
-/* line 898, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .nine.columns {
-  width: 876px;
-}
-
-/* line 899, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .ten.columns {
-  width: 976px;
-}
-
-/* line 900, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .eleven.columns {
-  width: 1076px;
-}
-
-/* line 901, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .twelve.columns {
-  width: 1176px;
-}
-
-/* line 903, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .one-third.column {
-  width: 376px;
-}
-
-/* line 904, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .two-thirds.column {
-  width: 776px;
-}
-
-/* Offsets */
-/* line 907, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-one {
-  padding-left: 100px;
-}
-
-/* line 908, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-two {
-  padding-left: 200px;
-}
-
-/* line 909, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-three {
-  padding-left: 300px;
-}
-
-/* line 910, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-four {
-  padding-left: 400px;
-}
-
-/* line 911, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-five {
-  padding-left: 500px;
-}
-
-/* line 912, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-six {
-  padding-left: 600px;
-}
-
-/* line 913, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-seven {
-  padding-left: 700px;
-}
-
-/* line 914, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-eight {
-  padding-left: 800px;
-}
-
-/* line 915, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-nine {
-  padding-left: 900px;
-}
-
-/* line 916, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-ten {
-  padding-left: 1000px;
-}
-
-/* line 917, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .offset-by-eleven {
-  padding-left: 1100px;
-}
-
-/* line 919, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor .landscape, .contenedor .portrait {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  line-height: 0;
-}
-
-/* #Base 960
-================================================== */
-/* Note: Design for a width of 960px */
-@media only screen and (min-width: 960px) and (max-width: 1250px) {
-  /* line 928, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor {
-    width: 960px;
-  }
-  /* line 929, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .column,
-  .contenedor .columns {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  /* line 931, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .column.alpha, .columns.alpha {
-    margin-left: 0;
-    margin-right: 12px;
-  }
-  /* line 932, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .column.omega, .columns.omega {
-    margin-right: 0;
-    margin-left: 12px;
-  }
-  /* line 934, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one.column {
-    width: 56px;
-  }
-  /* line 935, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .two.columns {
-    width: 136px;
-  }
-  /* line 936, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .three.columns {
-    width: 216px;
-  }
-  /* line 937, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .four.columns {
-    width: 296px;
-  }
-  /* line 938, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .five.columns {
-    width: 376px;
-  }
-  /* line 939, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .six.columns {
-    width: 456px;
-  }
-  /* line 940, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .seven.columns {
-    width: 536px;
-  }
-  /* line 941, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eight.columns {
-    width: 616px;
-  }
-  /* line 942, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .nine.columns {
-    width: 696px;
-  }
-  /* line 943, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .ten.columns {
-    width: 776px;
-  }
-  /* line 944, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eleven.columns {
-    width: 856px;
-  }
-  /* line 945, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .twelve.columns {
-    width: 936px;
-  }
-  /* line 947, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one-third.column {
-    width: 296px;
-  }
-  /* line 948, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .two-thirds.column {
-    width: 616px;
-  }
-  /* Offsets */
-  /* line 951, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-one {
-    padding-left: 80px;
-  }
-  /* line 952, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-two {
-    padding-left: 160px;
-  }
-  /* line 953, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-three {
-    padding-left: 240px;
-  }
-  /* line 954, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-four {
-    padding-left: 320px;
-  }
-  /* line 955, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-five {
-    padding-left: 400px;
-  }
-  /* line 956, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-six {
-    padding-left: 480px;
-  }
-  /* line 957, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-seven {
-    padding-left: 560px;
-  }
-  /* line 958, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-eight {
-    padding-left: 640px;
-  }
-  /* line 959, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-nine {
-    padding-left: 720px;
-  }
-  /* line 960, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-ten {
-    padding-left: 800px;
-  }
-  /* line 961, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-eleven {
-    padding-left: 880px;
-  }
-  /* line 963, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .five.columns .portrait,
-  .contenedor .seven.columns .landscape {
-    height: 355px;
-  }
-  /* line 966, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .six.columns .landscape {
-    height: 294px;
-  }
-  /* line 968, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eight.columns .landscape,
-  .contenedor .four.columns .portrait {
-    height: 395px;
-  }
-  /* line 971, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .four.columns .landscape {
-    height: 186px;
-  }
-}
-
-/* #Tablet (Portrait)
-================================================== */
-/* Note: Design for a width of 768px */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 981, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor {
-    width: 768px;
-  }
-  /* line 982, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .column,
-  .contenedor .columns {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  /* line 984, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .column.alpha, .columns.alpha {
-    margin-left: 0;
-    margin-right: 12px;
-  }
-  /* line 985, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .column.omega, .columns.omega {
-    margin-right: 0;
-    margin-left: 12px;
-  }
-  /* line 987, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one.column {
-    width: 40px;
-  }
-  /* line 988, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .two.columns {
-    width: 104px;
-  }
-  /* line 989, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .three.columns {
-    width: 168px;
-  }
-  /* line 990, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .four.columns {
-    width: 232px;
-  }
-  /* line 991, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .five.columns {
-    width: 296px;
-  }
-  /* line 992, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .six.columns {
-    width: 360px;
-  }
-  /* line 993, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .seven.columns {
-    width: 424px;
-  }
-  /* line 994, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eight.columns {
-    width: 488px;
-  }
-  /* line 995, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .nine.columns {
-    width: 552px;
-  }
-  /* line 996, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .ten.columns {
-    width: 616px;
-  }
-  /* line 997, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eleven.columns {
-    width: 680px;
-  }
-  /* line 998, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .twelve.columns {
-    width: 744px;
-  }
-  /* line 1000, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one-third.column {
-    width: 232px;
-  }
-  /* line 1001, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .two-thirds.column {
-    width: 488px;
-  }
-  /* Offsets */
-  /* line 1004, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-one {
-    padding-left: 64px;
-  }
-  /* line 1005, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-two {
-    padding-left: 128px;
-  }
-  /* line 1006, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-three {
-    padding-left: 192px;
-  }
-  /* line 1007, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-four {
-    padding-left: 256px;
-  }
-  /* line 1008, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-five {
-    padding-left: 320px;
-  }
-  /* line 1009, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-six {
-    padding-left: 384px;
-  }
-  /* line 1010, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-seven {
-    padding-left: 448px;
-  }
-  /* line 1011, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-eight {
-    padding-left: 512px;
-  }
-  /* line 1012, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-nine {
-    padding-left: 576px;
-  }
-  /* line 1013, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-ten {
-    padding-left: 640px;
-  }
-  /* line 1014, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-eleven {
-    padding-left: 704px;
-  }
-  /* line 1016, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .five.columns .portrait,
-  .contenedor .seven.columns .landscape {
-    height: 280px;
-  }
-  /* line 1019, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .six.columns .landscape {
-    height: 230px;
-  }
-  /* line 1021, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .eight.columns .landscape,
-  .contenedor .four.columns .portrait {
-    height: 308px;
-  }
-  /* line 1024, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .four.columns .landscape {
-    height: 142px;
-  }
-}
-
-/*  #Mobile (Portrait)
-================================================== */
-/* Note: Design for a width of 320px */
-@media only screen and (max-width: 767px) {
-  /* line 1034, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor {
-    width: 300px;
-  }
-  /* line 1035, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .columns, .column {
-    margin: 0;
-    padding-bottom: 12px;
-  }
-  /* line 1037, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one.column,
-  .contenedor .two.columns,
-  .contenedor .three.columns,
-  .contenedor .four.columns,
-  .contenedor .five.columns,
-  .contenedor .six.columns,
-  .contenedor .seven.columns,
-  .contenedor .eight.columns,
-  .contenedor .nine.columns,
-  .contenedor .ten.columns,
-  .contenedor .eleven.columns,
-  .contenedor .twelve.columns,
-  .contenedor .thirteen.columns,
-  .contenedor .fourteen.columns,
-  .contenedor .fifteen.columns,
-  .contenedor .sixteen.columns,
-  .contenedor .one-third.column,
-  .contenedor .two-thirds.column {
-    width: 300px;
-  }
-  /* Offsets */
-  /* line 1057, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .offset-by-one,
-  .contenedor .offset-by-two,
-  .contenedor .offset-by-three,
-  .contenedor .offset-by-four,
-  .contenedor .offset-by-five,
-  .contenedor .offset-by-six,
-  .contenedor .offset-by-seven,
-  .contenedor .offset-by-eight,
-  .contenedor .offset-by-nine,
-  .contenedor .offset-by-ten,
-  .contenedor .offset-by-eleven,
-  .contenedor .offset-by-twelve,
-  .contenedor .offset-by-thirteen,
-  .contenedor .offset-by-fourteen,
-  .contenedor .offset-by-fifteen {
-    padding-left: 0;
-  }
-  /* line 1073, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .work-grid {
-    height: 190px;
-  }
-}
-
-/* #Mobile (Landscape)
-================================================== */
-/* Note: Design for a width of 480px */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  /* line 1083, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor {
-    width: 420px;
-  }
-  /* line 1084, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .columns, .column {
-    margin: 0;
-    padding-bottom: 12px;
-  }
-  /* line 1086, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .one.column,
-  .contenedor .two.columns,
-  .contenedor .three.columns,
-  .contenedor .four.columns,
-  .contenedor .five.columns,
-  .contenedor .six.columns,
-  .contenedor .seven.columns,
-  .contenedor .eight.columns,
-  .contenedor .nine.columns,
-  .contenedor .ten.columns,
-  .contenedor .eleven.columns,
-  .contenedor .twelve.columns,
-  .contenedor .thirteen.columns,
-  .contenedor .fourteen.columns,
-  .contenedor .fifteen.columns,
-  .contenedor .sixteen.columns,
-  .contenedor .one-third.column,
-  .contenedor .two-thirds.column {
-    width: 420px;
-  }
-  /* line 1105, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .contenedor .work-grid {
-    height: 238px;
-    width: 376px;
-    margin: 0 auto;
-  }
-  /* line 1106, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-  .four.columns .portrait img {
-    width: 420px;
-    height: auto;
-  }
-}
-
-/* #Clearing
-================================================== */
-/* Self Clearing Goodness */
-/* line 1113, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.contenedor:after {
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-/* Use clearfix class on parent to clear nested columns,
-    or wrap each row of columns in a <div class="row"> */
-/* line 1117, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.clearfix:before,
-.clearfix:after,
-.row:before,
-.row:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-/* line 1127, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.row:after,
-.clearfix:after {
-  clear: both;
-}
-
-/* line 1130, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.row,
-.clearfix {
-  zoom: 1;
-}
-
-/* You can also use a <br class="clear" /> to clear columns */
-/* line 1135, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-
-/* Hovers */
-/* line 1146, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-#hover {
-  transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  opacity: 0;
-}
-
-/* line 1154, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-#hover {
-  background-color: #fff;
-  position: absolute;
-  text-align: center;
-}
-
-/* line 1159, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-#hover h3.desc {
-  margin-top: 0px;
-}
-
-/* line 1161, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.four.columns .portrait #hover {
-  height: 90.4%;
-  left: 6.38%;
-  top: 4.8%;
-  width: 87.24%;
-}
-
-/* line 1162, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.eight.columns .landscape #hover {
-  height: 90.4%;
-  left: 3.09%;
-  top: 4.8%;
-  width: 93.82%;
-}
-
-/* line 1163, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.twelve.columns .landscape #hover {
-  height: 93.14%;
-  left: 2.04%;
-  top: 3.43%;
-  width: 95.92%;
-}
-
-/* line 1165, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.six.columns .landscape #hover {
-  height: 87.24%;
-  left: 4.17%;
-  top: 6.38%;
-  width: 91.7%;
-}
-
-/* line 1166, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.six.columns .portrait #hover {
-  height: 93.8%;
-  left: 4.17%;
-  top: 3.1%;
-  width: 91.7%;
-}
-
-/* line 1168, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.four.columns .landscape #hover {
-  height: 79.83%;
-  left: 6.38%;
-  top: 10.08%;
-  width: 87.24%;
-}
-
-/* line 1170, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-#hover:hover {
-  opacity: 0.95;
-}
-
-/* line 1172, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.link-text {
-  position: absolute;
-  text-align: center;
-  top: 41%;
-  width: 100%;
-}
-
-/* line 1179, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-.link-text h2 {
-  color: #212121;
-  font-size: 16px;
-  /*font-weight: 500;*/
-  margin-bottom: 0;
-  line-height: 2.5em;
-}
-
-/* line 1180, C:/Users/Home/Documents/Proyects/iukones/scss/_base.scss */
-h3.desc {
-  color: #212121;
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: 0.03em;
-  line-height: 26px;
-  margin-top: 32px;
-  margin-bottom: 0px;
-  text-align: center;
-  text-transform: none;
 }
 
 /* Viewport sizes based on column number and sidebar */
@@ -1727,28 +980,28 @@ h3.desc {
 /* 5 columns */
 /* 6 columns */
 @media screen and (min-width: 600px) {
-  /* line 10, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 10, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   html,
   body,
   .container,
   .main {
     height: 100vh;
   }
-  /* line 17, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 17, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .main {
     height: 100%;
     margin-left: 300px;
   }
-  /* line 22, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 22, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content__item {
     font-size: 1em;
   }
-  /* line 26, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 26, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     padding: 45px 45px 30px;
   }
   /* Demo ad */
-  /* line 31, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 31, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap {
     right: auto;
     left: 30px;
@@ -1759,26 +1012,26 @@ h3.desc {
     width: 240px;
     background: rgba(243, 239, 224, 0.9);
   }
-  /* line 42, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 42, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap .carbon-text {
     color: #7b7b7b;
   }
-  /* line 46, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 46, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap a.carbon-poweredby {
     color: #7883C4;
   }
-  /* line 50, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 50, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap a:hover.carbon-poweredby {
     color: #333;
   }
-  /* line 54, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 54, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap #cda-remove {
     display: none;
   }
 }
 
 @media screen and (min-width: 900px) {
-  /* line 60, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 60, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1789,12 +1042,12 @@ h3.desc {
     flex-wrap: wrap;
   }
   /* 2 columns */
-  /* line 71, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 71, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     width: 50%;
     border: none;
   }
-  /* line 76, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 76, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item::before {
     top: 5px;
     right: 5px;
@@ -1804,12 +1057,12 @@ h3.desc {
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
   }
-  /* line 86, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 86, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item:hover::before,
   .grid__item:focus::before {
     border: 3px solid rgba(106, 160, 215, 0.5);
   }
-  /* line 91, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 91, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item--loading.grid__item::before {
     opacity: 0;
   }
@@ -1817,7 +1070,7 @@ h3.desc {
 
 @media screen and (min-width: 1200px) {
   /* 3 columns */
-  /* line 98, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 98, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     height: auto;
     width: 50%;
@@ -1826,7 +1079,7 @@ h3.desc {
 
 @media screen and (min-width: 1500px) {
   /* 4 columns */
-  /* line 107, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 107, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     width: 50%;
     /* width: 25%; */
@@ -1835,7 +1088,7 @@ h3.desc {
 
 @media screen and (min-width: 1800px) {
   /* 5 columns */
-  /* line 115, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 115, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     width: 100%;
     /*width: 20%;*/
@@ -1844,7 +1097,7 @@ h3.desc {
 
 @media screen and (min-width: 2100px) {
   /* 6 columns */
-  /* line 123, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 123, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item {
     width: 100%;
     /*width: 16.66%;*/
@@ -1853,50 +1106,50 @@ h3.desc {
 
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
 @media screen and (max-width: 599px) {
-  /* line 131, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 131, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     -webkit-transition: -webkit-transform 0.3s;
     transition: -webkit-transform 0.3s;
   }
-  /* line 137, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 137, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar.sidebar--open {
     background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.89);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     width: 100%;
   }
-  /* line 143, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 143, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar.sidebar--open ~ .main {
     pointer-events: none;
   }
-  /* line 146, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 146, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .top-bar {
     padding: 22px 15px 10px 60px;
   }
-  /* line 149, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 149, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .menu-toggle {
     display: inline-block;
   }
-  /* line 152, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 152, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar .close-button {
     opacity: 1;
     pointer-events: auto;
   }
-  /* line 156, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 156, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .title--full {
     font-size: 2em;
   }
-  /* line 159, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 159, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content__item {
     padding: 80px 20px 40px;
   }
-  /* line 162, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 162, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content .close-button {
     padding: 10px 20px;
   }
-  /* line 165, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 165, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content .close-button::before {
     content: '';
     position: absolute;
@@ -1912,62 +1165,50 @@ h3.desc {
 }
 
 @media screen and (max-height: 580px) {
-  /* line 180, C:/Users/Home/Documents/Proyects/iukones/scss/_mediaqueries.scss */
+  /* line 180, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   body #cdawrap {
     display: none;
   }
 }
 
 /* Redefine some styles for this layout */
-/* line 16, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 16, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 body {
   background: rgba(243, 239, 224, 0.9);
 }
 
-/* line 20, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 20, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content {
   left: auto;
   right: 0;
   width: 100vw;
 }
 
-/* line 26, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
-.content__item p {
-  font-size: 1.15em;
-}
-
-/* line 30, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
-.content__item p:first-of-type {
-  margin-top: 3em;
-  font-size: 1.15em;
-  font-weight: bold;
-}
-
-/* line 36, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 36, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .fa-heart {
   color: #c84252;
 }
 
 /* Redefine the delays for the content items when they appear; redefine the translation (now from the left) */
-/* line 41, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 41, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .title--preview {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 46, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 46, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .loader {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 51, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 51, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item .category {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
 
-/* line 56, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 56, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .title--preview {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
@@ -1975,7 +1216,7 @@ body {
   transform: translate3d(-20px, 0, 0);
 }
 
-/* line 63, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 63, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .loader {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
@@ -1983,7 +1224,7 @@ body {
   transform: translate3d(-30px, 0, 0);
 }
 
-/* line 70, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 70, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .grid__item--animate .category {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
@@ -1991,38 +1232,38 @@ body {
   transform: translate3d(-40px, 0, 0);
 }
 
-/* line 77, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 77, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .category--full,
 .title--full {
   -webkit-transform: translate3d(40px, 0, 0);
   transform: translate3d(40px, 0, 0);
 }
 
-/* line 83, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+/* line 83, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .content__item--show .title--full {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 89, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 89, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .sidebar,
   .grid {
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
   }
-  /* line 94, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 94, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .view-single .sidebar,
   .view-single .grid {
     -webkit-transform: translate3d(calc(280px - 100vw), 0, 0);
     transform: translate3d(calc(280px - 100vw), 0, 0);
   }
-  /* line 99, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 99, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .content__item {
     right: 0;
     padding-left: 340px;
   }
-  /* line 103, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 103, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta--full {
     position: fixed;
     width: 280px;
@@ -2033,7 +1274,7 @@ body {
     font-size: 0.85em;
     padding: 15px 30px;
   }
-  /* line 113, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 113, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav {
     position: absolute;
     bottom: 0;
@@ -2041,45 +1282,180 @@ body {
     right: 0;
     border-top: 1px solid rgba(243, 239, 224, 0.9);
   }
-  /* line 120, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 120, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button {
     width: 50%;
     padding: 25px;
   }
-  /* line 124, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 124, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:hover {
     color: #fff;
     background: rgba(83, 200, 252, 0.9);
   }
-  /* line 128, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 128, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:first-child {
     border-right: 1px solid rgba(243, 239, 224, 0.9);
   }
 }
 
 @media screen and (max-width: 899px) {
-  /* line 135, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 135, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta--full .meta__date,
   .meta--full .meta__reading-time {
     float: none;
     text-align: center;
   }
-  /* line 140, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 140, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta__misc--seperator {
     margin-top: 20px;
   }
-  /* line 143, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 143, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button span {
     display: none;
   }
 }
 
 @media screen and (max-width: 599px) {
-  /* line 149, C:/Users/Home/Documents/Proyects/iukones/scss/style.scss */
+  /* line 149, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .meta__misc,
   .article-nav {
     display: none;
   }
+}
+
+/* line 156, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.divider {
+  background: rgba(83, 200, 252, 0.9);
+  height: 4rem;
+  margin: 0 auto;
+  width: .0625rem;
+  margin-top: 2.5rem;
+  margin-bottom: 3.4375rem;
+}
+
+/* line 165, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.articles {
+  display: flex;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+}
+
+/* line 170, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.articles h2 {
+  font-size: 1.875rem;
+  line-height: 1.33333;
+}
+
+/* line 175, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .article {
+  display: table;
+  width: 100%;
+}
+
+/* line 180, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 186, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .photo {
+  display: table-cell;
+  padding-bottom: 26%;
+  width: 50%;
+}
+
+/* line 192, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.article .photo {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 202, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.photo {
+  background-image: url(../img/marvi-pro.jpg);
+}
+
+/* line 206, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.link-overlay {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* line 215, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.link-overlay:after {
+  background-color: rgba(0, 0, 0, 0.3);
+  content: ' ';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+/* line 230, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.link-overlay:hover:after {
+  opacity: 1;
+}
+
+/* line 234, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy {
+  box-sizing: border-box;
+  display: table-cell;
+  padding: 0 4.375rem;
+  vertical-align: middle;
+  width: 50%;
+}
+
+/* line 242, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy h2 {
+  margin: 0 0 1.875rem;
+}
+
+/* line 245, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy h2, .masonry .copy p {
+  max-width: 30rem;
+}
+
+/* line 248, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.home-b2c h2 {
+  color: #f85c4b;
+}
+
+/* line 251, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy p {
+  margin-bottom: 1.875rem;
+}
+
+/* line 254, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy h2, .masonry .copy p {
+  max-width: 30rem;
+}
+
+/* line 258, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.mansonry a {
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* line 264, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.copy .arrow-cta {
+  color: #53c8fc;
 }
 
 /*# sourceMappingURL=../css/style.map */
