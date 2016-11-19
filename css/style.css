@@ -1366,6 +1366,11 @@ body {
 }
 
 /* line 192, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.article {
+  position: relative;
+}
+
+/* line 196, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .article .photo {
   background-position: center center;
   background-repeat: no-repeat;
@@ -1376,12 +1381,12 @@ body {
   position: relative;
 }
 
-/* line 202, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 206, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .photo {
   background-image: url(../img/marvi-pro.jpg);
 }
 
-/* line 206, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 210, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .link-overlay {
   display: block;
   height: 100%;
@@ -1391,7 +1396,7 @@ body {
   width: 100%;
 }
 
-/* line 215, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 219, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .link-overlay:after {
   background-color: rgba(0, 0, 0, 0.3);
   content: ' ';
@@ -1407,12 +1412,12 @@ body {
   width: 100%;
 }
 
-/* line 230, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 234, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .link-overlay:hover:after {
   opacity: 1;
 }
 
-/* line 234, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 238, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .copy {
   box-sizing: border-box;
   display: table-cell;
@@ -1421,41 +1426,69 @@ body {
   width: 50%;
 }
 
-/* line 242, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 246, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .copy h2 {
   margin: 0 0 1.875rem;
 }
 
-/* line 245, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 249, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .copy h2, .masonry .copy p {
   max-width: 30rem;
 }
 
-/* line 248, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 252, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .home-b2c h2 {
   color: #f85c4b;
 }
 
-/* line 251, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 255, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .copy p {
   margin-bottom: 1.875rem;
 }
 
-/* line 254, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 258, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .copy h2, .masonry .copy p {
   max-width: 30rem;
 }
 
-/* line 258, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 262, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .mansonry a {
   color: #000;
   text-decoration: none;
   background-color: transparent;
 }
 
-/* line 264, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 268, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .copy .arrow-cta {
   color: #53c8fc;
+}
+
+/* line 276, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.home-b2b .photo {
+  background-image: url(../img/home-b2c.jpg);
+}
+
+/* line 280, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy.txt-right {
+  text-align: right;
+}
+
+/* line 284, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .copy.txt-right h2, .masonry .copy.txt-right p, .masonry .copy.txt-right .arrow-cta {
+  clear: right;
+  float: right;
+}
+
+/* line 289, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.home-b2b h2 {
+  color: #f8ad4b;
+}
+
+/* line 293, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.masonry .article:after {
+  clear: both;
+  content: '';
+  display: table;
 }
 
 /*# sourceMappingURL=../css/style.map */

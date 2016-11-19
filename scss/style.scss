@@ -189,6 +189,10 @@ body {
     width: 50%;
 }
 
+.article {
+    position: relative;
+}
+
 .article .photo {
     background-position: center center;
     background-repeat: no-repeat;
@@ -263,4 +267,31 @@ body {
 
 .copy .arrow-cta {
     color: rgba(83, 200, 252, 1);
+}
+
+.masonry .photo.mobile {
+    // display: none;
+}
+
+.home-b2b .photo {
+    background-image: url(../img/home-b2c.jpg);
+}
+
+.masonry .copy.txt-right {
+    text-align: right;
+}
+
+.masonry .copy.txt-right h2, .masonry .copy.txt-right p, .masonry .copy.txt-right .arrow-cta {
+    clear: right;
+    float: right;
+}
+
+.home-b2b h2 {
+    color: #f8ad4b;
+}
+
+.masonry .article:after {
+    clear: both;
+    content: '';
+    display: table;
 }
