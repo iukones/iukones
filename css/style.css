@@ -1335,7 +1335,6 @@ body {
 
 /* line 165, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .articles {
-  display: flex;
   margin-bottom: 2.5rem;
   overflow: hidden;
 }
