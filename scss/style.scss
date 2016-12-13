@@ -295,3 +295,240 @@ body {
     content: '';
     display: table;
 }
+
+// seccion nueva portfolio
+.work-callout_with-border {
+    border-style: solid;
+    border-color: #D5F2F7;
+    border-width: 1em 1em 0 1em;
+}
+
+.work-callout {
+    color: #1C4C55;
+}
+
+@media (min-width: 60em){
+    .work-callout_with-border {
+    border-width: 1.5em 1.5em 0 1.5em;
+}
+}
+
+@media (min-width: 60em){
+    .work-callout {
+    display: table;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: calc(100% - 4em);
+    max-width: 135em;
+    margin: 0 auto;
+    min-height: 26em;
+}
+}
+
+.work-callout--media {
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f3138;
+}
+.work-callout {
+    color: #1C4C55;
+}
+@media (min-width: 60em){
+    .work-callout--media {
+    display: block;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 60%;
+}
+}
+
+.work-callout--image-wrapper {
+    margin: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+@media (min-width: 60em){
+    .work-callout--0 {
+    background: url(../img/work-3-rwd.jpg) no-repeat center center;
+    background-size: cover;
+}
+}
+
+@media (min-width: 60em){
+    .work-callout--image-wrapper {
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    background-position: center;
+    background-size: cover;
+}
+}
+
+.work-callout--image-wrapper a {
+    display: block;
+    margin: 0;
+}
+
+.work-callout--image {
+    width: 100%;
+    max-width: auto;
+}
+@media (min-width: 60em){
+    .work-callout--image {
+    visibility: hidden;
+}
+}
+
+.work-callout--content {
+    position: relative;
+    padding: 4vw;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+@media (min-width: 60em){
+    .work-callout--content {
+    float: right;
+    width: 40%;
+    margin-top: 0;
+}
+}
+
+.work-callout--title {
+    margin: 0;
+    margin-top: 2em;
+    padding: 0;
+    font-size: 1em;
+    color: #50B7C8;
+}
+
+.work-callout--title h2{
+    line-height: 1.125;
+}
+@media (min-width: 60em){
+    .work-callout--title {
+    font-size: 1.5em;
+}
+}
+@media (min-width: 32em){
+    .work-callout--title {
+    font-size: 1.25em;
+    padding: 0;
+}
+}
+.work-callout--title a {
+    color: #50B7C8;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+.work-callout--body {
+    margin: 0;
+    margin-top: .15em;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+@media (min-width: 60em){
+    .work-callout--body {
+    font-size: 1.5em;
+    max-width: 22em;
+}
+}
+
+@media (min-width: 32em){
+    .work-callout--body {
+    font-size: 1.25em;
+    padding: 0;
+}
+}
+
+.work-callout--body p {
+    margin: .5em 0 0 0;
+    line-height: 1.25em;
+}
+.wysiwyg p {
+    font-size: 1.05em;
+    line-height: 1.8em;
+}
+.work-callout--button-wrapper {
+    padding-top: 1em;
+}
+.work-callout--button {
+    background-color: #fff;
+    color: #50B7C8;
+    vertical-align: middle;
+    margin-left: 0;
+    padding: .75em;
+    font-size: .75em;
+    font-weight: 600;
+}
+.button_inline {
+    display: inline-block;
+}
+.button {
+    border: none;
+    margin: 0;
+    cursor: pointer;
+}
+.button_standard {
+    -webkit-transition: background-color 200ms ease-in-out;
+    transition: background-color 200ms ease-in-out;
+    padding: 0.8em 1.4em;
+}
+@media (min-width: 60em){
+    .work-callout--button {
+    margin-top: 8vh;
+}
+}
+@media (min-width: 32em){
+    .work-callout--button {
+    font-size: 1em;
+}
+}
+@media (min-width: 60em){
+    .work-callout--content:after {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: -2.4375em;
+    margin-top: -.9375em;
+    border-color: transparent;
+    border-right-color: #fff;
+    border-width: .9375em 1.25em;
+    pointer-events: none;
+}
+}
+.button_has-external-icon:after, .foundry-article--content .the-link:after {
+    content: "\e603";
+    font-size: 1.1em;
+    position: relative;
+    top: 1px;
+}
+.button_has-icon:after, .foundry-article--content .the-link:after {
+    margin-left: 1em;
+    font-family: Icon;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
