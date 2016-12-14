@@ -297,20 +297,15 @@ body {
 }
 
 // seccion nueva portfolio
-.work-callout_with-border {
-    border-style: solid;
-    border-color: #D5F2F7;
-    border-width: 1em 1em 0 1em;
-}
-
-.work-callout {
-    color: #1C4C55;
-}
-
 @media (min-width: 60em){
     .work-callout_with-border {
     border-width: 1.5em 1.5em 0 1.5em;
 }
+}
+.work-callout_with-border {
+    border-style: solid;
+    border-color: #D5F2F7;
+    border-width: 1em 1em 0 1em;
 }
 
 @media (min-width: 60em){
@@ -330,6 +325,11 @@ body {
     min-height: 26em;
 }
 }
+.work-callout {
+    color: #1C4C55;
+}
+
+
 
 .work-callout--media {
     padding: 0;
@@ -360,8 +360,9 @@ body {
 }
 @media (min-width: 60em){
     .work-callout--0 {
-    background: url(../img/work-3-rwd.jpg) no-repeat center center;
+    background: url(../img/marvi-pro.jpg) no-repeat center center;
     background-size: cover;
+    width: 100%;
 }
 }
 
