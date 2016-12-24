@@ -177,10 +177,10 @@ body {
     width: 100%;
 }
 
-.masonry a {
-    color: #000;
-    text-decoration: none;
-}
+// .masonry a {
+//     color: #000;
+//     text-decoration: none;
+// }
 
 
 .masonry .photo {
@@ -481,6 +481,22 @@ body {
     font-size: .75em;
     font-weight: 600;
 }
+.work-callout--button:hover {
+    color: #EAFCFF;
+    background-color: #1C4C55;
+}
+@media (min-width: 32em){
+    .work-callout--button {
+    font-size: 1em;
+}
+}
+
+@media (min-width: 60em){
+    .work-callout--button {
+    margin-top: 8vh;
+}
+}
+
 .button_inline {
     display: inline-block;
 }

@@ -753,10 +753,11 @@ button:focus {
   height: 100vh;
   pointer-events: auto;
   visibility: visible;
+  color: #1C4C55;
 }
 
 /* scroll helper wrap */
-/* line 668, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 669, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .scroll-wrap {
   position: absolute;
   width: 100%;
@@ -769,7 +770,7 @@ button:focus {
 }
 
 /* single content item */
-/* line 680, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 681, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item {
   position: absolute;
   top: 0;
@@ -782,7 +783,7 @@ button:focus {
   font-size: 0.85em;
 }
 
-/* line 700, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 701, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item.content__item--show {
   height: auto;
   min-height: 100vh;
@@ -793,26 +794,26 @@ button:focus {
 }
 
 /* content elements */
-/* line 710, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 711, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full {
   font-size: 1.25em;
   margin-bottom: 20px;
   color: rgba(83, 200, 252, 0.9);
 }
 
-/* line 716, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 717, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title--full {
   font-size: 3.25em;
 }
 
-/* line 720, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 721, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full {
   font-size: 1em;
   margin: 0 auto 2em;
   max-width: 1200px;
 }
 
-/* line 724, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 725, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__author {
   display: block;
   text-align: center;
@@ -820,13 +821,13 @@ button:focus {
   margin-bottom: 20px;
 }
 
-/* line 730, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 731, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__author::before {
   content: 'by ';
   font-weight: normal;
 }
 
-/* line 734, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 735, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__category {
   font-style: italic;
   float: left;
@@ -834,17 +835,17 @@ button:focus {
   font-family: "Playfair Display", serif;
 }
 
-/* line 740, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 741, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__category::before {
   content: 'in ';
 }
 
-/* line 743, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 744, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__avatar {
   margin: 1em auto;
 }
 
-/* line 748, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 749, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full,
 .title--full,
 .meta--full .meta__avatar,
@@ -854,19 +855,19 @@ button:focus {
   opacity: 0;
 }
 
-/* line 757, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 758, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item p {
   opacity: 0;
 }
 
-/* line 761, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 762, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full,
 .title--full {
   -webkit-transform: translate3d(0, 40px, 0);
   transform: translate3d(0, 40px, 0);
 }
 
-/* line 768, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 769, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__avatar,
 .meta--full .meta__author,
 .meta--full .meta__date,
@@ -875,7 +876,7 @@ button:focus {
   transform: scale3d(0.5, 0.5, 1);
 }
 
-/* line 778, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 779, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .category--full,
 .content__item--show .title--full,
 .content__item--show .meta--full .meta__avatar,
@@ -891,38 +892,38 @@ button:focus {
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-/* line 794, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 795, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .category--full,
 .content__item--show .title--full {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
 
-/* line 800, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 801, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .title--full {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-/* line 805, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 806, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__avatar {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-/* line 810, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 811, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__date {
   -webkit-transition-delay: 0.27s;
   transition-delay: 0.27s;
 }
 
-/* line 815, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 816, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show .meta--full .meta__reading-time {
   -webkit-transition-delay: 0.34s;
   transition-delay: 0.34s;
 }
 
-/* line 820, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 821, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .content__item--show.content__item p {
   opacity: 1;
   -webkit-transition: opacity 0.5s 0.25s;
@@ -930,7 +931,7 @@ button:focus {
 }
 
 /* close button (for content and sidebar) */
-/* line 827, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 828, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button {
   position: absolute;
   border: none;
@@ -955,18 +956,18 @@ button:focus {
   transition: opacity 0.3s;
 }
 
-/* line 851, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 852, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button span {
   display: none;
 }
 
-/* line 855, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 856, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button:hover {
   color: #c84252;
 }
 
 /* show class for content close button */
-/* line 860, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
+/* line 861, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button--show {
   opacity: 1;
   pointer-events: auto;
@@ -1351,12 +1352,6 @@ body {
   width: 100%;
 }
 
-/* line 180, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
-.masonry a {
-  color: #000;
-  text-decoration: none;
-}
-
 /* line 186, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .masonry .photo {
   display: table-cell;
@@ -1715,18 +1710,38 @@ body {
 }
 
 /* line 484, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+.work-callout--button:hover {
+  color: #EAFCFF;
+  background-color: #1C4C55;
+}
+
+@media (min-width: 32em) {
+  /* line 489, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+  .work-callout--button {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 60em) {
+  /* line 495, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+  .work-callout--button {
+    margin-top: 8vh;
+  }
+}
+
+/* line 500, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .button_inline {
   display: inline-block;
 }
 
-/* line 487, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 503, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .button {
   border: none;
   margin: 0;
   cursor: pointer;
 }
 
-/* line 492, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 508, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .button_standard {
   -webkit-transition: background-color 200ms ease-in-out;
   transition: background-color 200ms ease-in-out;
@@ -1734,21 +1749,21 @@ body {
 }
 
 @media (min-width: 60em) {
-  /* line 498, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+  /* line 514, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .work-callout--button {
     margin-top: 8vh;
   }
 }
 
 @media (min-width: 32em) {
-  /* line 503, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+  /* line 519, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .work-callout--button {
     font-size: 1em;
   }
 }
 
 @media (min-width: 60em) {
-  /* line 508, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+  /* line 524, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .work-callout--content:after {
     border: solid transparent;
     content: " ";
@@ -1765,7 +1780,7 @@ body {
   }
 }
 
-/* line 523, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 539, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .button_has-external-icon:after, .foundry-article--content .the-link:after {
   content: "\e603";
   font-size: 1.1em;
@@ -1773,7 +1788,7 @@ body {
   top: 1px;
 }
 
-/* line 529, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
+/* line 545, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .button_has-icon:after, .foundry-article--content .the-link:after {
   margin-left: 1em;
   font-family: Icon;
