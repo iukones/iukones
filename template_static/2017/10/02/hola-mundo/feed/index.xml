@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comentarios en: ¡Hola mundo!</title>
-	<atom:link href="https://http://www.iukones.com/template/2017/10/02/hola-mundo/feed/" rel="self" type="application/rss+xml" />
-	<link>https://http://www.iukones.com/template/2017/10/02/hola-mundo/</link>
+	<atom:link href="https://www.iukones.com/template/2017/10/02/hola-mundo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.iukones.com/template/2017/10/02/hola-mundo/</link>
 	<description></description>
 	<lastBuildDate>Mon, 02 Oct 2017 21:36:14 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -16,10 +16,10 @@
 	<generator>https://wordpress.org/?v=4.8.2</generator>
 	<item>
 		<title>Por: Un comentarista de WordPress</title>
-		<link>https://http://www.iukones.com/template/2017/10/02/hola-mundo/#comment-1</link>
+		<link>https://www.iukones.com/template/2017/10/02/hola-mundo/#comment-1</link>
 		<dc:creator><![CDATA[Un comentarista de WordPress]]></dc:creator>
 		<pubDate>Mon, 02 Oct 2017 21:36:14 +0000</pubDate>
-		<guid isPermaLink="false">https://http://www.iukones.com/template/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://www.iukones.com/template/?p=1#comment-1</guid>
 		<description><![CDATA[Hola, esto es un comentario. Para empezar a moderar, editar y borrar comentarios, por favor, visita la pantalla de comentarios en el escritorio. Los avatares de los comentaristas provienen de &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
 		<content:encoded><![CDATA[<p>Hola, esto es un comentario. Para empezar a moderar, editar y borrar comentarios, por favor, visita la pantalla de comentarios en el escritorio. Los avatares de los comentaristas provienen de <a href="https://gravatar.com/">Gravatar</a>.</p>
 ]]></content:encoded>

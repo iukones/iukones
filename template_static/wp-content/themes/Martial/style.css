@@ -124,7 +124,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-image: url(https://http://www.iukones.com/template/wp-content/themes/Martial/images/hero-bg.jpg);
+    background-image: url(https://www.iukones.com/template/wp-content/themes/Martial/images/hero-bg.jpg);
     background-position:center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -543,7 +543,7 @@ header {
 }
 .profile_cont p {
 	display: inline-block;
-	width: 100%;   /*background:url(https://http://www.iukones.com/template/wp-content/themes/images/date_icon.png) no-repeat center left; padding:0 0 0 20px;*/
+	width: 100%;   /*background:url(https://www.iukones.com/template/wp-content/themes/images/date_icon.png) no-repeat center left; padding:0 0 0 20px;*/
 	margin: 1px 0 0 4px;
 }
 .profile_cont p small {
@@ -563,7 +563,7 @@ header {
 	font-weight: normal;
 	font-size: 0.875em;
 	line-height: 18px;
-	color: #b1b0b1; /*background:url(https://http://www.iukones.com/template/wp-content/themes/images/chat_icon.png) no-repeat center left; padding:0 0 0 20px;*/
+	color: #b1b0b1; /*background:url(https://www.iukones.com/template/wp-content/themes/images/chat_icon.png) no-repeat center left; padding:0 0 0 20px;*/
 	padding: 0 0 0 5px;
 }
 .profile_cont .fa-calendar-check-o {
@@ -600,7 +600,7 @@ header {
 }
 .searchform {
 	display: block;
-	margin: 0px; /*padding:0 0 0 30px; background:url(https://http://www.iukones.com/template/wp-content/themes/images/search_icon.png) no-repeat 10px center #ededed; */
+	margin: 0px; /*padding:0 0 0 30px; background:url(https://www.iukones.com/template/wp-content/themes/images/search_icon.png) no-repeat 10px center #ededed; */
 	width: 321px;
 	background: #ededed;
 }

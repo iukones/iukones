@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Israel Martínez | Front-end Developer</title>
-	<atom:link href="https://http://www.iukones.com/template/feed/" rel="self" type="application/rss+xml" />
-	<link>https://http://www.iukones.com/template</link>
+	<atom:link href="https://www.iukones.com/template/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.iukones.com/template</link>
 	<description></description>
 	<lastBuildDate>Mon, 02 Oct 2017 21:46:57 +0000</lastBuildDate>
 	<language>es-MX</language>
@@ -19,26 +19,26 @@
 	<generator>https://wordpress.org/?v=4.8.2</generator>
 
 <image>
-	<url>https://http://www.iukones.com/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png</url>
+	<url>https://www.iukones.com/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png</url>
 	<title>Israel Martínez | Front-end Developer</title>
-	<link>https://http://www.iukones.com/template</link>
+	<link>https://www.iukones.com/template</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>¡Hola mundo!</title>
-		<link>https://http://www.iukones.com/template/2017/10/02/hola-mundo/</link>
-		<comments>https://http://www.iukones.com/template/2017/10/02/hola-mundo/#comments</comments>
+		<link>https://www.iukones.com/template/2017/10/02/hola-mundo/</link>
+		<comments>https://www.iukones.com/template/2017/10/02/hola-mundo/#comments</comments>
 		<pubDate>Mon, 02 Oct 2017 21:36:14 +0000</pubDate>
 		<dc:creator><![CDATA[iukones]]></dc:creator>
 				<category><![CDATA[Sin categoría]]></category>
 
-		<guid isPermaLink="false">https://http://www.iukones.com/template/?p=1</guid>
+		<guid isPermaLink="false">https://www.iukones.com/template/?p=1</guid>
 		<description><![CDATA[Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a publicar!.<br />
 ]]></description>
 				<content:encoded><![CDATA[<p>Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a publicar!.</p>
 ]]></content:encoded>
-			<wfw:commentRss>https://http://www.iukones.com/template/2017/10/02/hola-mundo/feed/</wfw:commentRss>
+			<wfw:commentRss>https://www.iukones.com/template/2017/10/02/hola-mundo/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 	</channel>

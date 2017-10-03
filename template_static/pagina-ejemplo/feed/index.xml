@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comentarios en: Página de ejemplo</title>
-	<atom:link href="https://http://www.iukones.com/template/pagina-ejemplo/feed/" rel="self" type="application/rss+xml" />
-	<link>https://http://www.iukones.com/template</link>
+	<atom:link href="https://www.iukones.com/template/pagina-ejemplo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.iukones.com/template</link>
 	<description></description>
 	<lastBuildDate>Mon, 02 Oct 2017 21:36:14 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
