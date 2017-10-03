@@ -1,0 +1,20 @@
+<div class="post post-content">
+<div class="container">
+<h2 class="blogposttitle">{{ item.post_title }}</h2><div class="close-button" ng-click="close('content-page')"><a>X</a></div>
+    <img ng-if="item.featured_image" ng-src="{{ item.featured_image[0] }}" alt="Image" class="featured-image">
+    <div class="align-left inner-content textwidget">
+        <div class="postdetails">
+            <span class="meta-title">Page Details</span><br>
+            Posted By {{ item.post_author }}<br>
+            Posted on: {{ item.readable_post_date }}<br>
+            <span ng-if="item.categories">Posted in <span ng-repeat="category in item.categories">{{ category.name }} </span></span><br>
+            <span ng-if="item.tags">Tags: <span ng-repeat="tag in item.tags">{{ tag.name }} </span></span>
+        </div>
+        <div ng-bind-html="item.post_content" class="content-text"></div>
+        <ul class="flex-direction-nav content-nav">
+            <li ng-if="item.next_post" class="next"><a ui-sref="frontpage.page({slug: item.next_post.post_name})" class="flex-next">next post</a></li>
+            <li ng-if="item.prev_post" class="prev"><a ui-sref="frontpage.page({slug: item.prev_post.post_name})" class="flex-prev">previous post</a></li>
+        </ul>
+    </div>
+    </div>
+</div>

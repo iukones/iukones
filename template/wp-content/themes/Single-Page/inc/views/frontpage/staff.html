@@ -1,0 +1,11 @@
+<div class="staffitem" ng-repeat="staffItem in items">
+    <img ng-src="{{ staffItem.featured_image[0] }}" />
+    <h3>{{ staffItem.post_title }}</h3>
+    <p class="staffdept" ng-repeat="department in staffItem.departments">{{ department }}</p>
+    <div ng-bind-html="staffItem.post_content"></div>
+    <p>
+        <a ng-if="meta.url" ng-repeat="meta in staffItem.postMeta" href="{{ meta.url }}" title="{{  meta.type }}" class="socialicon bg-yellow">
+            <i class="fa fa-{{ meta.type }}"></i>
+        </a>
+    </p>
+</div><!-- End Staff staffItem -->
