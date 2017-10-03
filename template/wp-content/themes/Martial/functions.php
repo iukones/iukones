@@ -136,7 +136,7 @@ function martial_set_sample_content()
 			'title-' . $userId               => 'AUTHOR PROFILE',
 			'textbox-' . $userId             => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus erat eget rhoncus facilisis. Duis et lacus ut tellus fermentum ultricies quis sit amet mauris. Nullam molestie, mauris ac ultrices tincidunt, sapien turpis rhoncus tellus, sed sagittis dui felis molestie risus.',
 			'image_url-' . $userId           => get_template_directory_uri() . '/images/author_profile.png',
-			'social_twitter-' . $userId      => 'http://twitter.com',
+			'social_twitter-' . $userId      => 'https://twitter.com',
 			'social_facebook-' . $userId     => 'https://facebook.com',
 			'social_linkedin-' . $userId     => 'https://linkedin.com',
 			'social_pinterest-' . $userId    => 'https://pinterest.com',
@@ -173,20 +173,20 @@ function martial_set_sample_content()
 		set_theme_mod( 'martial_hero_title', 'Hi, I\'m the Martial Theme for Wordpress' );
 		set_theme_mod( 'martial_hero_text', '<p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Praesent vel interdum diam, in ultricies diam. Proin vehicula sagittis lorem, nec.</p>' );
 		set_theme_mod( 'martial_footer_logo_image', get_template_directory_uri() . '/images/footer_logo.png' );
-		set_theme_mod( 'martial_header_social_twitter', 'http://twitter.com' );
+		set_theme_mod( 'martial_header_social_twitter', 'https://twitter.com' );
 		set_theme_mod( 'martial_header_social_facebook', 'https://facebook.com' );
 		set_theme_mod( 'martial_header_social_pinterest', 'https://pinterest.com' );
 		set_theme_mod( 'martial_header_social_linkedin', 'https://linkedin.com' );
 		set_theme_mod( 'martial_header_social_gplus', 'https://plus.google.com' );
-		set_theme_mod( 'martial_header_social_behance', 'http://behance.net' );
-		set_theme_mod( 'martial_header_social_dribbble', 'http://dribbble.com' );
-		set_theme_mod( 'martial_header_social_flickr', 'http://flickr.com' );
-		set_theme_mod( 'martial_header_social_500px', 'http://500px.com' );
-		set_theme_mod( 'martial_header_social_reddit', 'http://reddit.com' );
-		set_theme_mod( 'martial_header_social_wordpress', 'http://wordpress.com' );
-		set_theme_mod( 'martial_header_social_youtube', 'http://youtube.com' );
-		set_theme_mod( 'martial_header_social_soundcloud', 'http://soundcloud.com' );
-		set_theme_mod( 'martial_header_social_medium', 'http://medium.com' );
+		set_theme_mod( 'martial_header_social_behance', 'https://behance.net' );
+		set_theme_mod( 'martial_header_social_dribbble', 'https://dribbble.com' );
+		set_theme_mod( 'martial_header_social_flickr', 'https://flickr.com' );
+		set_theme_mod( 'martial_header_social_500px', 'https://500px.com' );
+		set_theme_mod( 'martial_header_social_reddit', 'https://reddit.com' );
+		set_theme_mod( 'martial_header_social_wordpress', 'https://wordpress.com' );
+		set_theme_mod( 'martial_header_social_youtube', 'https://youtube.com' );
+		set_theme_mod( 'martial_header_social_soundcloud', 'https://soundcloud.com' );
+		set_theme_mod( 'martial_header_social_medium', 'https://medium.com' );
 		set_theme_mod( 'martial_hero_button1_text', __( 'About us', 'martial' ) );
 		set_theme_mod( 'martial_hero_button2_text', __( 'Contact us', 'martial' ) );
 		set_theme_mod( 'martial_hero_hide_on_inner_pages', 'yes' );
@@ -212,7 +212,7 @@ add_filter( 'widget_tag_cloud_args', 'martial_tag_cloud_widget' );
 /**
  * Register widget area.
  *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
+ * @link https://codex.wordpress.org/Function_Reference/register_sidebar
  */
 function martial_widgets_init()
 {

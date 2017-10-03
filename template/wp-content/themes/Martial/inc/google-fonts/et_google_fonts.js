@@ -110,7 +110,7 @@
 
       if ($('head').find('link#' + this.fontname_to_class(font_name)).length) return;
 
-      $('head').append('<link id="' + this.fontname_to_class(font_name) + '" href="http://fonts.googleapis.com/css?family=' + this.convert_to_google_font_name(font_name) + '" rel="stylesheet" type="text/css" />');
+      $('head').append('<link id="' + this.fontname_to_class(font_name) + '" href="https://fonts.googleapis.com/css?family=' + this.convert_to_google_font_name(font_name) + '" rel="stylesheet" type="text/css" />');
     },
 
     apply_font: function (font_name, font_option) {
