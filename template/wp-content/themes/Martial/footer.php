@@ -60,7 +60,7 @@
 			}
 			?>
 			<p><a rel="generator"
-				  href="<?php echo esc_url( __( 'https://wordpress.org/', 'martial' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'martial' ), 'WordPress' ); ?></a> <?php printf( __( 'Theme: %1$s by %2$s.', 'martial' ), 'Martial', '<a href="https://themefurnace.com" rel="designer">ThemeFurnace</a>' ); ?>
+				  href="<?php echo esc_url( __( 'https://iukones.com/', 'martial' ) ); ?>"><?php printf( __( 'powered by %s', 'iukones' ), 'iukones' ); ?></a> <?php printf( __( 'Theme: %1$s by %2$s.', 'martial' ), 'Martial', '<a href="https://themefurnace.com" rel="designer">ThemeFurnace</a>' ); ?>
 			</p>
 		</div>
 	</div>
