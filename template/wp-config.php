@@ -16,6 +16,8 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
+define('WP_CACHE', true); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'C:\Users\imartinez\Documents\Proyect\iukones\template\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'template');
 
 /** Tu nombre de usuario de MySQL */
