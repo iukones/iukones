@@ -10,7 +10,7 @@
 	<atom:link href="http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/feed/" rel="self" type="application/rss+xml" />
 	<link>http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/</link>
 	<description></description>
-	<lastBuildDate>Sat, 14 Oct 2017 00:13:55 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Oct 2017 22:41:54 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.8.2</generator>

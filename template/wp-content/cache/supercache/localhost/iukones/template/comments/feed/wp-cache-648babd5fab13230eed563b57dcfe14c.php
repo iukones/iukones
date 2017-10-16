@@ -10,7 +10,7 @@
 	<atom:link href="http://localhost/iukones/template/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>http://localhost/iukones/template</link>
 	<description></description>
-	<lastBuildDate>Sat, 14 Oct 2017 00:13:45 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 Oct 2017 22:41:40 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.8.2</generator>

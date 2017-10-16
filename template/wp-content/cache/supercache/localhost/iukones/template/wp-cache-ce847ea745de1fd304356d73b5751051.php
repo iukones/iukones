@@ -1,4 +1,4 @@
-<!doctype html>
+<?php die(); ?><!doctype html>
 <html lang="es-MX" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
@@ -11,6 +11,7 @@
 	<title>Inicio - Israel Martínez | Front-end Developer</title>
 
 <!-- This site is optimized with the Yoast SEO plugin v5.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- Sólo administrador aviso: Esta página no muestra una descripción de la meta, ya que no tiene uno, o bien escriba por esta página en concreto o entrar en el SEO -> menú Títulos y configurar una plantilla. -->
 <link rel="canonical" href="http://localhost/iukones/template/" />
 <meta property="og:locale" content="es_MX" />
 <meta property="og:type" content="website" />
@@ -49,6 +50,9 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
+<link rel='stylesheet' id='dashicons-css'  href='http://localhost/iukones/template/wp-includes/css/dashicons.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://localhost/iukones/template/wp-includes/css/admin-bar.min.css?ver=4.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='http://localhost/iukones/template/wp-content/plugins/wordpress-seo/css/dist/adminbar-561.min.css?ver=5.6.1' type='text/css' media='all' />
 <link rel='stylesheet' id='martial-style-css'  href='http://localhost/iukones/template/wp-content/themes/Martial/style.css?ver=4.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='martial-font-awesome-css'  href='http://localhost/iukones/template/wp-content/themes/Martial/inc/css/font-awesome.min.css?ver=4.8.2' type='text/css' media='all' />
 <link rel='stylesheet' id='martial-defaults-css'  href='http://localhost/iukones/template/wp-content/themes/Martial/inc/css/defaults.css?ver=4.8.2' type='text/css' media='all' />
@@ -65,7 +69,16 @@ img.emoji {
 <link rel='shortlink' href='http://localhost/iukones/template/' />
 <link rel="alternate" type="application/json+oembed" href="http://localhost/iukones/template/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" />
 <link rel="alternate" type="text/xml+oembed" href="http://localhost/iukones/template/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F&#038;format=xml" />
-<script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="693bd40054a3b900223f64008624a4004d523a00d3daee00990610008b551d00" async></script><style type="text/css">div:not(#wpadminbar) > *:not(.fa), .profile_cont *:not(.fa), .postmeta *:not(.fa) { font-family: "Montserrat" !important }</style><style>.banner-bg { background-image: url(http://localhost/iukones/template/wp-content/uploads/2017/10/slide.jpg)}.banner-bg { filter: blur(3px); -webkit-filter: blur(3px); }.banner-bg-overlay { background-color: #ffffff; opacity: 0.03}.content a:not(.read_more), #comments a, #respond a { color: #000; }.main_content h1, .main_content h2, .main_content h3, .main_content h4, .main_content h5, .block_cont_in h5, .main_content h1 a, .main_content h2 a, .main_content h3 a, .main_content h4 a, .main_content h5 a, .block_cont_in h5 a, .author h5, .sidebarwidget h5, .search_sec h5, .profile_cont h6 a { color: #262626;}body .main_content, #responder, #comments, .author p { color: #868686; }.footer_blocks ul li h4 { color: #fff;}#footer a, .footer_logo a { color: #a0a0a0;}#footer, .footer_logo p { color: #ababab;}#footer { background-color: #222528;}.search input.submit, #respond .submit, .tab_head li.active, .banner_left a.contact:not(:hover), .read_more, .pagination a:not(:hover), .pagination span { background-color: #0095cd; color: #fff;}.tab_head li:hover, .nav-links a:hover { background-color: #0095cd;}.postmeta li a:hover, .banner_left a:hover { color: #0095cd;}.block_cont_in ul li .fa, .profile_cont .fa { color: #0095cd;}.banner_left p a { border-color: #0095cd;}.pagination a:hover, #respond .submit:hover,  {background: #fff; color: #0095cd; border-color: #0095cd;}#comments, #responder, .comments-title, .sidebarwidget, .tab_sec, .search_sec, .block_cont, .reply, #reply-title, #comment { border-color: #e0e0e2;}#sidebar .author ul { background-color: #e0e0e2;}.postmeta ul li p, .postmeta ul li p a:not(:hover), .profile_cont p small, .profile_cont p a:not(:hover) { color: #b1b0b1;}.postmeta ul { background-color: #f6f6f6;}.block_cont, #sidebar > div, #comments, #responder { background-color: #fff;}.banner .banner_left ul li a:not(:hover) .fa, .banner .banner_left .text a:not(:hover) {color: #fff;}.banner .banner_left p { color: #d3d3d3;}.banner .banner_left h1 {color: #fdfdfe}.banner{background-color: #2d333b;}.banner .text .about:not(.contact) {background-color: #5dc093}.banner .text .about:not(.contact) {color: #ffffff !important}.banner .text .contact {background-color: #5dc093}.banner .text .contact {color: #ffffff !important}.wrapper header #cssmenu > ul > li > a:not(:hover), #cssmenu .menu > ul > li > a:not(:hover) {color: #bfbfbf !important;}.wrapper header .header-logo, #tagline {color: #f6f6f6}.wrapper header {background-color: #222528;}</style><link rel="icon" href="http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png" sizes="32x32" />
+<script data-cfasync="false" src="//load.sumome.com/" data-sumo-platform="wordpress" data-sumo-site-id="693bd40054a3b900223f64008624a4004d523a00d3daee00990610008b551d00" async></script><style type="text/css">div:not(#wpadminbar) > *:not(.fa), .profile_cont *:not(.fa), .postmeta *:not(.fa) { font-family: "Montserrat" !important }</style><style>.banner-bg { background-image: url(http://localhost/iukones/template/wp-content/uploads/2017/10/slide.jpg)}.banner-bg { filter: blur(3px); -webkit-filter: blur(3px); }.banner-bg-overlay { background-color: #ffffff; opacity: 0.03}.content a:not(.read_more), #comments a, #respond a { color: #000; }.main_content h1, .main_content h2, .main_content h3, .main_content h4, .main_content h5, .block_cont_in h5, .main_content h1 a, .main_content h2 a, .main_content h3 a, .main_content h4 a, .main_content h5 a, .block_cont_in h5 a, .author h5, .sidebarwidget h5, .search_sec h5, .profile_cont h6 a { color: #262626;}body .main_content, #responder, #comments, .author p { color: #868686; }.footer_blocks ul li h4 { color: #fff;}#footer a, .footer_logo a { color: #a0a0a0;}#footer, .footer_logo p { color: #ababab;}#footer { background-color: #222528;}.search input.submit, #respond .submit, .tab_head li.active, .banner_left a.contact:not(:hover), .read_more, .pagination a:not(:hover), .pagination span { background-color: #0095cd; color: #fff;}.tab_head li:hover, .nav-links a:hover { background-color: #0095cd;}.postmeta li a:hover, .banner_left a:hover { color: #0095cd;}.block_cont_in ul li .fa, .profile_cont .fa { color: #0095cd;}.banner_left p a { border-color: #0095cd;}.pagination a:hover, #respond .submit:hover,  {background: #fff; color: #0095cd; border-color: #0095cd;}#comments, #responder, .comments-title, .sidebarwidget, .tab_sec, .search_sec, .block_cont, .reply, #reply-title, #comment { border-color: #e0e0e2;}#sidebar .author ul { background-color: #e0e0e2;}.postmeta ul li p, .postmeta ul li p a:not(:hover), .profile_cont p small, .profile_cont p a:not(:hover) { color: #b1b0b1;}.postmeta ul { background-color: #f6f6f6;}.block_cont, #sidebar > div, #comments, #responder { background-color: #fff;}.banner .banner_left ul li a:not(:hover) .fa, .banner .banner_left .text a:not(:hover) {color: #fff;}.banner .banner_left p { color: #d3d3d3;}.banner .banner_left h1 {color: #fdfdfe}.banner{background-color: #2d333b;}.banner .text .about:not(.contact) {background-color: #5dc093}.banner .text .about:not(.contact) {color: #ffffff !important}.banner .text .contact {background-color: #5dc093}.banner .text .contact {color: #ffffff !important}.wrapper header #cssmenu > ul > li > a:not(:hover), #cssmenu .menu > ul > li > a:not(:hover) {color: #bfbfbf !important;}.wrapper header .header-logo, #tagline {color: #f6f6f6}.wrapper header {background-color: #222528;}</style><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+<link rel="icon" href="http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png" sizes="32x32" />
 <link rel="icon" href="http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon-precomposed" href="http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-180x180.png" />
 <meta name="msapplication-TileImage" content="http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-270x270.png" />
@@ -80,7 +93,7 @@ img.emoji {
 	</script>
 	<![endif]-->
 </head>
-<body class="home page-template-default page page-id-7">
+<body class="home page-template-default page page-id-7 logged-in admin-bar no-customize-support">
 <!-- wrapper starts -->
 <div class="wrapper">
 
@@ -148,7 +161,7 @@ img.emoji {
 <p>Hola, soy Israel. Un <strong>desarrollador de web front-end freelance</strong> radicado en la ciudad de México, trabajando con compañías de todo el mundo. Me asocio con equipos de diseño para ejecutar y construir interfaces de usuario y sistemas de diseño web hermosos y progresivos, con un enfoque fuerte en diseño, rendimiento y accesibilidad, utilizando las últimas técnicas de diseño de front-end.</p>
 <p>este sitio es un ejercicio para el curso de ecommaster, es un ejemplo muy básico de mi primer sitio con WordPress.</p>
 <p>te invito a saber un poco mas sobre mi&#8230;</p>
-        </div>
+<span class="edit-link"><a class="post-edit-link" href="http://localhost/iukones/template/wp-admin/post.php?post=7&#038;action=edit">Edit</a></span>        </div>
 	</div>
 	
 
@@ -247,12 +260,83 @@ img.emoji {
 </footer>
 <!-- footer ends -->
 
+<script type='text/javascript' src='http://localhost/iukones/template/wp-includes/js/admin-bar.min.js?ver=4.8.2'></script>
 <script type='text/javascript' src='http://localhost/iukones/template/wp-content/themes/Martial/inc/js/jquery.sticky-kit.min.js?ver=20151107'></script>
 <script type='text/javascript' src='http://localhost/iukones/template/wp-content/themes/Martial/inc/js/scripts.js?ver=20151107'></script>
 <script type='text/javascript' src='http://localhost/iukones/template/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
-</body>
-</html>
-<!-- Dynamic page generated in 0.581 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2017-10-16 16:41:16 -->
+	<!--[if lte IE 8]>
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
+		</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript">
+			(function() {
+				var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
 
-<!-- super cache -->
+						request = true;
+		
+				b[c] = b[c].replace( rcs, ' ' );
+				// The customizer requires postMessage and CORS (if the site is cross domain)
+				b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+			}());
+		</script>
+	<!--<![endif]-->
+			<div id="wpadminbar" class="nojq nojs">
+							<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">Abrir la barra de herramientas</a>
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra de herramientas" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/iukones/template/wp-admin/about.php"><span class="ab-icon"></span><span class="screen-reader-text">Acerca de WordPress</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/about.php">Acerca de WordPress</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item" href="https://wordpress.org">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item" href="https://codex.wordpress.org/">Documentación</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item" href="https://wordpress.org/support">Foros de soporte</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item" href="https://wordpress.org/support/forum/requests-and-feedback">Sugerencias</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/iukones/template/wp-admin/">Israel Martínez | Front-end Developer</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/">Escritorio</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/themes.php">Temas</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/widgets.php">Widgets</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/nav-menus.php">Menús</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/themes.php?page=custom-background">Fondo</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F">Personalizar</a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/edit-comments.php"><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text">0 comentarios están esperando moderación</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/iukones/template/wp-admin/post-new.php"><span class="ab-icon"></span><span class="ab-label">Nuevo</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/post-new.php">Entrada</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/media-new.php">Medio</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/post-new.php?post_type=page">Página</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/user-new.php">Usuario</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/post.php?post=7&#038;action=edit">Editar página</a>		</li>
+		<li id="wp-admin-bar-wpseo-menu" class="menupop"><a class="ab-item" aria-haspopup="true" href="http://localhost/iukones/template/wp-admin/admin.php?page=wpseo_dashboard"><div id="yoast-ab-icon" class="ab-item yoast-logo svg"><span class="screen-reader-text">SEO</span></div><div class="wpseo-score-icon adminbar-seo-score na"><span class="adminbar-seo-score-text screen-reader-text"></span></div></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-menu-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-kwresearch" class="menupop"><div class="ab-item ab-empty-item" tabindex="0" aria-haspopup="true">Análisis de palabras clave</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-kwresearch-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-adwordsexternal"><a class="ab-item" href="http://adwords.google.com/keywordplanner" target="_blank">AdWords Externo</a>		</li>
+		<li id="wp-admin-bar-wpseo-googleinsights"><a class="ab-item" href="https://www.google.com/trends/explore#q=" target="_blank">Google Trends</a>		</li>
+		<li id="wp-admin-bar-wpseo-wordtracker"><a class="ab-item" href="http://tools.seobook.com/keyword-tools/seobook/?keyword=" target="_blank">El libro de SEO</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-wpseo-analysis" class="menupop"><div class="ab-item ab-empty-item" tabindex="0" aria-haspopup="true">  Analizar esta página</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-analysis-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-inlinks-ose"><a class="ab-item" href="//moz.com/researchtools/ose/links?site=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Comprobar enlaces entrantes (OSE)</a>		</li>
+		<li id="wp-admin-bar-wpseo-kwdensity"><a class="ab-item" href="http://www.zippy.co.uk/keyworddensity/index.php?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F&#038;keyword=" target="_blank">Comprobar la densidad de palabras clave</a>		</li>
+		<li id="wp-admin-bar-wpseo-cache"><a class="ab-item" href="//webcache.googleusercontent.com/search?strip=1&#038;q=cache:http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Comprobar la caché de Google</a>		</li>
+		<li id="wp-admin-bar-wpseo-header"><a class="ab-item" href="//quixapp.com/headers/?r=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Revisar Cabeceras/Títulos</a>		</li>
+		<li id="wp-admin-bar-wpseo-structureddata"><a class="ab-item" href="https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Google Structured Data Test</a>		</li>
+		<li id="wp-admin-bar-wpseo-facebookdebug"><a class="ab-item" href="//developers.facebook.com/tools/debug/og/object?q=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Facebook Depurador</a>		</li>
+		<li id="wp-admin-bar-wpseo-pinterestvalidator"><a class="ab-item" href="https://developers.pinterest.com/tools/url-debugger/?link=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Validador de Pines Detallados de Pinterest</a>		</li>
+		<li id="wp-admin-bar-wpseo-htmlvalidation"><a class="ab-item" href="//validator.w3.org/check?uri=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Validador HTML</a>		</li>
+		<li id="wp-admin-bar-wpseo-cssvalidation"><a class="ab-item" href="//jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Validador CSS</a>		</li>
+		<li id="wp-admin-bar-wpseo-pagespeed"><a class="ab-item" href="//developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Prueba de Velocidad de Pagina por Google</a>		</li>
+		<li id="wp-admin-bar-wpseo-microsoftedge"><a class="ab-item" href="https://developer.microsoft.com/en-us/microsoft-edge/tools/staticscan/?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Microsoft Edge Site Scan</a>		</li>
+		<li id="wp-admin-bar-wpseo-google-mobile-friendly"><a class="ab-item" href="https://www.google.com/webmasters/tools/mobile-friendly/?url=http%3A%2F%2Flocalhost%2Fiukones%2Ftemplate%2F" target="_blank">Prueba de compatibilidad para móviles</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-wpseo-settings" class="menupop"><div class="ab-item ab-empty-item" tabindex="0" aria-haspopup="true">Los ajustes de SEO.</div><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wpseo-settings-default" class="ab-submenu">
+		<li id="wp-admin-bar-wpseo-general"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/admin.php?page=wpseo_dashboard">Dashboard</a>		</li>
+		<li id="wp-admin-bar-wpseo-search-console"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/admin.php?page=wpseo_search_console">Consola de Busqueda</a>		</li>
+		<li id="wp-admin-bar-wpseo-licenses"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/admin.php?page=wpseo_licenses">Premium</a>		</li></ul></div>		</li></ul></div>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://localhost/iukones/template/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Buscar</label><input type="submit" class="adminbar-button" value="Buscar"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost/iukones/template/wp-admin/profile.php">Hola, <span class="display-name">iukones</span><img alt='' src='http://0.gravatar.com/avatar/6ee69436d4289754a1cc9e479aa210bf?s=26&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ee69436d4289754a1cc9e479aa210bf?s=52&amp;d=mm&amp;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/iukones/template/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/6ee69436d4289754a1cc9e479aa210bf?s=64&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6ee69436d4289754a1cc9e479aa210bf?s=128&amp;d=mm&amp;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>iukones</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost/iukones/template/wp-admin/profile.php">Editar mi perfil</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/iukones/template/wp-login.php?action=logout&#038;_wpnonce=abc9c249b7">Cerrar sesión</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/iukones/template/wp-login.php?action=logout&#038;_wpnonce=abc9c249b7">Cerrar sesión</a>
+					</div>
+
+		</body>
+</html>
+<!-- Dynamic page generated in 0.921 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2017-10-16 16:44:28 -->
