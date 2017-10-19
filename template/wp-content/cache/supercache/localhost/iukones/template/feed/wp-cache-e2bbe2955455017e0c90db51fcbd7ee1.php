@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?php die(); ?><?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Israel Martínez | Front-end Developer</title>
-	<atom:link href="https://www.iukones.com/template_static/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.iukones.com/template_static</link>
+	<atom:link href="http://localhost/iukones/template/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost/iukones/template</link>
 	<description></description>
 	<lastBuildDate>Thu, 19 Oct 2017 00:04:55 +0000</lastBuildDate>
 	<language>es-MX</language>
@@ -19,24 +19,24 @@
 	<generator>https://wordpress.org/?v=4.8.2</generator>
 
 <image>
-	<url>https://www.iukones.com/template_static/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png</url>
+	<url>http://localhost/iukones/template/wp-content/uploads/2017/10/cropped-iuk-final-e1506982988204-32x32.png</url>
 	<title>Israel Martínez | Front-end Developer</title>
-	<link>https://www.iukones.com/template_static</link>
+	<link>http://localhost/iukones/template</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Como integrar WordPress con Github Pages.</title>
-		<link>https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/</link>
-		<comments>https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/#respond</comments>
+		<link>http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/</link>
+		<comments>http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/#respond</comments>
 		<pubDate>Fri, 13 Oct 2017 00:21:54 +0000</pubDate>
 		<dc:creator><![CDATA[iukones]]></dc:creator>
 				<category><![CDATA[blog]]></category>
 
-		<guid isPermaLink="false">https://www.iukones.com/template_static/?p=88</guid>
+		<guid isPermaLink="false">http://localhost/iukones/template/?p=88</guid>
 		<description><![CDATA[<p>WordPress con Github Pages, es mi primer post dentro de mi categoría de Blog, y que mejor tema para abordar que explicar los malabares que tuve que realizar para poder montar mi sitio de “WordPress” en “Github Pages”.<br />
 Se preguntaran ¿qué tiene de especial esto? </p>
-<p>The post <a rel="nofollow" href="https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/">Como integrar WordPress con Github Pages.</a> appeared first on <a rel="nofollow" href="https://www.iukones.com/template_static">Israel Martínez | Front-end Developer</a>.</p>
+<p>The post <a rel="nofollow" href="http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/">Como integrar WordPress con Github Pages.</a> appeared first on <a rel="nofollow" href="http://localhost/iukones/template">Israel Martínez | Front-end Developer</a>.</p>
 ]]></description>
 				<content:encoded><![CDATA[<p>WordPress con Github Pages, es mi primer post dentro de mi categoría de Blog, y que mejor tema para abordar que explicar los malabares que tuve que realizar para poder montar mi sitio de “WordPress” en “Github Pages”.</p>
 <p>Se preguntaran ¿qué tiene de especial esto? En realidad nada, fue más por la necesidad de tener que publicar un sitio web y no tener contratado un servicio de “hosting” para dicho sitio web, cabe recalcar que este sitio quedara en forma estática con lo cual explico un poco los “Pros” y “Contras” de ambos un poco más adelante.</p>
@@ -59,9 +59,9 @@ Se preguntaran ¿qué tiene de especial esto? </p>
 <blockquote><p>Por lo tanto, para resumir esta guía, crearemos un repositorio de páginas GitHub, generemos contenido estático desde nuestro &#8220;localhost&#8221; de &#8220;WordPress&#8221; y el complemento o &#8220;plugin&#8221; &#8220;Simply Static&#8221; y luego publicar los cambios en nuestro repositorio GitHub.</p></blockquote>
 <p>&nbsp;</p>
 <p>Esta fue una pequeña explicación de como realice el procedimiento de la publicación de esta web de prueba, mas adelante abordare el tema de manera mas especifica y técnica.</p>
-<p>The post <a rel="nofollow" href="https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/">Como integrar WordPress con Github Pages.</a> appeared first on <a rel="nofollow" href="https://www.iukones.com/template_static">Israel Martínez | Front-end Developer</a>.</p>
+<p>The post <a rel="nofollow" href="http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/">Como integrar WordPress con Github Pages.</a> appeared first on <a rel="nofollow" href="http://localhost/iukones/template">Israel Martínez | Front-end Developer</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/feed/</wfw:commentRss>
+			<wfw:commentRss>http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

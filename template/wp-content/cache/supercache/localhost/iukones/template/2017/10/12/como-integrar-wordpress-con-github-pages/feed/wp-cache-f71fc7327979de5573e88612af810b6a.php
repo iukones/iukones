@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?php die(); ?><?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
 	xmlns:atom="http://www.w3.org/2005/Atom"
@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comentarios en: Como integrar WordPress con Github Pages.</title>
-	<atom:link href="https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/feed/" rel="self" type="application/rss+xml" />
-	<link>https://www.iukones.com/template_static/2017/10/12/como-integrar-wordpress-con-github-pages/</link>
+	<atom:link href="http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/feed/" rel="self" type="application/rss+xml" />
+	<link>http://localhost/iukones/template/2017/10/12/como-integrar-wordpress-con-github-pages/</link>
 	<description></description>
 	<lastBuildDate>Thu, 19 Oct 2017 00:09:13 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
