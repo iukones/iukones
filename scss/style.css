@@ -325,7 +325,9 @@ button:focus {
   right: 55px;
   bottom: 0px;
   left: 55px;
-  border-bottom: 1px solid rgba(74, 74, 74, 0.075); }
+  border-bottom: 1px solid rgba(74, 74, 74, 0.075);
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19); 
+}
 
 .grid__item * {
   z-index: 10; }
