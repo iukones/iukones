@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
-@font-face {
+/* @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700); */
+/* @font-face {
   font-weight: normal;
   font-style: normal;
   font-family: 'codropsicons';
   src: url("../fonts/codropsicons/codropsicons.eot");
   src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
-}
+} */
 
 /* line 17, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 *, *:after, *:before {
@@ -27,7 +27,9 @@
 /* line 21, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 body {
   background: rgba(243, 239, 224, 0.9);
-  color: #7b7b7b;
+  /* color: #262626; */
+  /* color: #7b7b7b; */
+  color: #100;
   font-weight: 400;
   font-size: 16px/28px;
   font-family: "Martel Sans", Arial, sans-serif;
@@ -35,6 +37,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   overflow-y: scroll;
+  cursor: url(../img/cursor-auto.png), auto;
   /* force scroll to appear */
 }
 
@@ -49,25 +52,30 @@ a {
   outline: none;
   color: rgba(83, 200, 252, 0.9);
   text-decoration: none;
+  cursor: url(../img/cursor-rockon.png), auto;
 }
 
 /* line 44, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 a:hover,
 a:focus {
-  color: #333;
+  /* color: #333; */
+  /* color:  #262626; */
+  color: #1C4C55;
   outline: none;
+  cursor: url(../img/cursor-rockon.png), auto;
 }
 
 /* line 50, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 button:focus {
   outline: none;
+  cursor: url(../img/cursor-rockon.png), auto;
 }
 
 /* Sidebar */
 /* line 55, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar {
   text-align: center;
-  background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.7);
+  background: url(../img/background_repeat.png) left top repeat rgba(37,46,68,0.9); /*rgba(40, 71, 112, 0.7)*/
   z-index: 1000;
   position: fixed;
   width: 300px;
@@ -103,7 +111,7 @@ button:focus {
 .sidebar h2 {
   color: #fff;
   font-family: "Playfair Display", serif;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 /* line 93, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -126,6 +134,7 @@ button:focus {
   padding: .6em 2.2em;
   cursor: pointer;
   background: #5f8ee4;
+  cursor: url(../img/cursor-rockon.png), auto;
 }
 
 /* line 113, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -322,7 +331,7 @@ button:focus {
   height: 25px;
   top: 14px;
   left: 14px;
-  cursor: pointer;
+  cursor: url(../img/cursor-rockon.png), auto;
   background: none;
   border: none;
   display: none;
@@ -337,7 +346,8 @@ button:focus {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: rgba(83, 200, 252, 0.9);
+  /* background-color: rgba(83, 200, 252, 0.9); */
+  background-color: #c04444;
   font-size: 0px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -354,7 +364,8 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(83, 200, 252, 0.9);
+  /* background: rgba(83, 200, 252, 0.9); */
+  background: #c04444;
   content: '';
 }
 
@@ -425,6 +436,7 @@ button:focus {
   bottom: 0px;
   left: 55px;
   border-bottom: 1px solid rgba(74, 74, 74, 0.075);
+  /* box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19); */
 }
 
 /* line 379, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -586,6 +598,7 @@ button:focus {
 /* line 510, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta__avatar {
   display: block;
+  /* border: 3px solid; */
   border-radius: 1%;
   margin: 2em auto;
   max-width: 100%;
@@ -661,6 +674,8 @@ button:focus {
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  border: 3px solid #100;
+  box-shadow: 0 10px 0 -5px #53C8FC, 0 20px 0 -10px #a29e5e, 0 30px 0 -16px #dedcb9;
 }
 
 /* line 581, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -690,18 +705,20 @@ button:focus {
   opacity: 0;
 }
 
-/* Grid footer */
+/* Grid footer  */
 /* line 607, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .page-meta {
   width: 100%;
-  background: url(../img/background_repeat.png) left top repeat rgba(204, 211, 216, 0.5);
+  background: url(../img/background_repeat.png) left top repeat #cccccc; /*rgba(204, 211, 216, 0.5) */
   width: 100%;
   padding: 15px 15px 10px;
   text-align: center;
   font-size: 0.75em;
   font-weight: bold;
   cursor: default;
-  color: #333;
+  color: #262626;
+  cursor: url(../img/cursor-auto.png), auto;
+  /* color: #333; */
 }
 
 /* Placeholder element (dummy that gets animated when we click on an item) */
@@ -753,7 +770,7 @@ button:focus {
   height: 100vh;
   pointer-events: auto;
   visibility: visible;
-  color: #1C4C55;
+  /* color: #1C4C55; */
 }
 
 /* scroll helper wrap */
@@ -798,7 +815,8 @@ button:focus {
 .category--full {
   font-size: 1.25em;
   margin-bottom: 20px;
-  color: rgba(83, 200, 252, 0.9);
+  color: #a29e5e;
+  /* color: rgba(83, 200, 252, 0.9); */
 }
 
 /* line 717, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -823,7 +841,7 @@ button:focus {
 
 /* line 731, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .meta--full .meta__author::before {
-  content: 'by ';
+  content: '';
   font-weight: normal;
 }
 
@@ -909,6 +927,8 @@ button:focus {
 .content__item--show .meta--full .meta__avatar {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+  border: 3px solid;
+  border-radius: 50%;
 }
 
 /* line 811, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -928,7 +948,14 @@ button:focus {
   opacity: 1;
   -webkit-transition: opacity 0.5s 0.25s;
   transition: opacity 0.5s 0.25s;
+  color: #100;
 }
+.content__item--show.content__item .family {
+  display: block;
+  max-width: 100%;
+  height: auto;  
+}
+
 
 /* close button (for content and sidebar) */
 /* line 828, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -942,7 +969,7 @@ button:focus {
   right: 0;
   font-size: 24px;
   color: #F1511B;
-  cursor: pointer;
+  cursor: url(../img/cursor-rockon.png), auto;
   pointer-events: none;
   padding: 20px 40px;
   opacity: 0;
@@ -958,7 +985,7 @@ button:focus {
 
 /* line 852, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button span {
-  display: none;
+  /* display: none; */
 }
 
 /* line 856, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -980,7 +1007,7 @@ button:focus {
 /* 4 columns */
 /* 5 columns */
 /* 6 columns */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) { /*era 600px*/
   /* line 10, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   html,
   body,
@@ -1057,6 +1084,7 @@ button:focus {
     border: 1px solid rgba(74, 74, 74, 0.075);
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
   }
   /* line 86, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .grid__item:hover::before,
@@ -1106,7 +1134,7 @@ button:focus {
 }
 
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px) {
   /* line 131, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -1116,7 +1144,7 @@ button:focus {
   }
   /* line 137, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar.sidebar--open {
-    background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.89);
+    background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.97);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     width: 100%;
@@ -1148,7 +1176,8 @@ button:focus {
   }
   /* line 162, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content .close-button {
-    padding: 10px 20px;
+    padding: 19px 25px;
+    /* padding: 10px 20px; */
   }
   /* line 165, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .content .close-button::before {
@@ -1176,6 +1205,7 @@ button:focus {
 /* line 16, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 body {
   background: rgba(243, 239, 224, 0.9);
+
 }
 
 /* line 20, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
@@ -1246,7 +1276,7 @@ body {
   transition-delay: 0.15s;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   /* line 89, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .sidebar,
   .grid {
@@ -1326,12 +1356,12 @@ body {
 
 /* line 156, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .divider {
-  background: rgba(83, 200, 252, 0.9);
+  background: #a29e5e;
   height: 4rem;
   margin: 0 auto;
   width: .0625rem;
   margin-top: 2.5rem;
-  margin-bottom: 3.4375rem;
+  margin-bottom: 2.5rem;
 }
 
 /* line 165, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
@@ -1490,14 +1520,26 @@ body {
   .work-callout_with-border {
     border-width: 1.5em 1.5em 0 1.5em;
   }
+  .work-callout_with-border_2{
+    border-width: 1.5em 1.5em 1.5em 1.5em;
+  }
 }
 
 /* line 305, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .work-callout_with-border {
   border-style: solid;
-  border-color: #D5F2F7;
+  /* border-color: #100; */
+  border-color: rgba(243, 239, 224, 0.9);
+  /* border-color: #D5F2F7; */
   border-width: 1em 1em 0 1em;
 }
+.work-callout_with-border_2{
+  border-style: solid;
+  /* border-color: #100; */
+  border-color: rgba(243, 239, 224, 0.9);
+  border-width: 1em 1em 1em 1em;
+}
+
 
 @media (min-width: 60em) {
   /* line 312, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
@@ -1560,7 +1602,22 @@ body {
 @media (min-width: 60em) {
   /* line 362, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .work-callout--0 {
-    background: url(../img/marvi-pro.jpg) no-repeat center center;
+    background: url(../img/trabajo.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+  }
+  .work-callout--1 {
+    background: url(../img/marvi-pro.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+  }
+  .work-callout--2 {
+    background: url(../img/app-album.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+  }
+  .work-callout--3 {
+    background: url(../img/appRecibos2.jpg) no-repeat center;
     background-size: cover;
     width: 100%;
   }
@@ -1650,7 +1707,8 @@ body {
 
 /* line 437, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
 .work-callout--title a {
-  color: #50B7C8;
+  /* color: #50B7C8; */
+  color: #1C4C55;
   margin: 0;
   padding: 0;
   line-height: 1em;
@@ -1707,6 +1765,13 @@ body {
   padding: .75em;
   font-size: .75em;
   font-weight: 600;
+  box-shadow: inset 0 0 0 1px #50B7C8;
+}
+span.icon-share {
+  /* font-size: 1.1em; */
+  position: relative;
+  top: 1px;
+  margin-left: 0.7em;
 }
 
 /* line 484, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */

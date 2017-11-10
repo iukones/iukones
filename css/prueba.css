@@ -1,0 +1,1804 @@
+@charset "UTF-8";
+/* Theme Name: Brad Frost Web V8
+Author: Brad Frost
+*/
+/*------------------------------------*    #TABLE OF CONTENTS
+\*------------------------------------*/
+/**
+ * ABSTRACTS.................Variables and mixins
+ * BASE......................Base elements
+ * LAYOUT....................Layout Rules
+ * COMPONENTS................Components
+ * UTILITIES.................Global/Generic Classes
+ * VENDOR....................Styles out of my control
+ */
+/**
+ * Import Sass partials
+ *
+ * 1) The file structure is following the 7-1 structure found
+ * from Sass Guidelines: https://sass-guidelin.es/#the-7-1-pattern
+ */
+/*------------------------------------*    #ABSTRACTS
+\*------------------------------------*/
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Font Sizes
+ */
+/**
+ * Spacing
+ */
+/**
+ * Border thickness
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Animations
+ */
+/*------------------------------------*    #MIXINS
+\*------------------------------------*/
+/**
+ * Text Link Styles
+ */
+/*------------------------------------*    #BASE
+\*------------------------------------*/
+/*------------------------------------*    #RESET
+\*------------------------------------*/
+/**
+ * 1) Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+* {
+  box-sizing: border-box; }
+
+/**
+ * Zero out margin and padding on these elements
+ */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Remove list styles from ordered and unordered lists by default
+ */
+ol, ul {
+  list-style: none; }
+
+/**
+ * Collapse borders on table's base styles
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+ * Display block these elements
+ */
+header, footer, nav, section, article, hgroup, figure {
+  display: block; }
+
+/*------------------------------------*    #BODY
+\*------------------------------------*/
+/**
+ * 1) Main body container base styles
+ */
+body {
+  font-family: "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #100;
+  background: #f6f5de;
+  word-wrap: break-word;
+  word-break: break-word;
+  padding-top: 13rem; }
+  @media all and (min-height: 65rem) {
+    body {
+      padding-top: 16rem; } }
+
+/*------------------------------------*    #HEADINGS
+\*------------------------------------*/
+/**
+ * 1) Heading base styles
+ */
+/**
+ * Heading 1 base styles
+ */
+h1 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  text-transform: lowercase;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  z-index: 1; }
+  @media all and (min-width: 38em) {
+    h1 {
+      font-size: 3rem; } }
+  @media all and (min-width: 42em) {
+    h1 {
+      font-size: 4.5rem;
+      line-height: 1.1; } }
+
+/**
+ * Heading 2 base styles
+ */
+h2 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin: 0 0 0.3rem;
+  text-transform: lowercase; }
+
+/**
+ * Heading 3 base styles
+ */
+h3 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  margin: 0 0 0.3rem;
+  text-transform: lowercase; }
+
+/**
+ * Heading 4 base styles
+ */
+h4 {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-weight: 500;
+  color: #a29e5e;
+  font-size: 1.2rem;
+  line-height: 1.1;
+  margin: 0 0 0.3em;
+  text-transform: lowercase; }
+
+/*------------------------------------*    #LINKS
+\*------------------------------------*/
+/**
+ * 1) General link base styles
+ */
+a {
+  color: #a29e5e;
+  outline: 0;
+  text-decoration: none;
+  transition: all 0.15s ease; }
+  a:hover, a:focus {
+    color: #be6700; }
+
+/*------------------------------------*    #TEXT
+\*------------------------------------*/
+/**
+ * 1) Text element base styles
+ */
+/**
+ * Paragraph base styles
+ */
+p {
+  margin-bottom: 1rem; }
+
+/**
+ * Blockquote base styles
+ */
+blockquote {
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  padding: 0 0 0 1rem;
+  margin: 0 0 1rem 9px;
+  box-shadow: -3px 0px 0px 0px #dedcb9, -6px 0px 0px 0px #66ccff, -9px 0px 0px 0px #be6700;
+  /**
+	 * Last paragraph within block quote base styles
+	 */
+  /**
+     * Citation base styles
+     */
+  /**
+	 * Blockquote in a callout
+	 */ }
+  blockquote > :last-child {
+    margin: 0; }
+  blockquote cite {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 65%;
+    font-weight: normal;
+    font-style: italic;
+    color: #be6700;
+    /**
+    	 * Link within a citation base styles
+    	 */
+    /**
+    	 * Before pseudoelement on a citation
+    	 */ }
+    blockquote cite a {
+      color: #be6700; }
+    blockquote cite:before {
+      content: "\2014"; }
+  .c-callout blockquote {
+    box-shadow: none;
+    margin-left: 0;
+    padding-left: 0; }
+
+/**
+ * Horizontal rule base styles
+ */
+hr {
+  margin: 1.4em 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-bottom: 3px solid #dedcb9;
+  outline: none; }
+
+/**
+ * Preformatted text base styles
+ */
+code {
+  background: #dedcb9;
+  outline: 3px solid #dedcb9; }
+
+/**
+ * Preformatted text base styles
+ */
+pre {
+  background: #100;
+  color: #f6f5de;
+  display: block;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9; }
+  pre code {
+    background: none;
+    outline: none; }
+
+/**
+ * Small text base styles
+ */
+small {
+  color: #a29e5e; }
+
+/**
+ * Highlight Color
+ */
+::selection {
+  background: #100;
+  color: #f6f5de; }
+
+::-moz-selection {
+  background: #100;
+  color: #f6f5de; }
+
+/*------------------------------------*Â Â Â  #FORM
+\*------------------------------------*/
+/**
+ * 1) Form element base styles
+ */
+/**
+ * Legend base styles
+ */
+legend {
+  display: none; }
+
+/**
+ * Label base styles
+ */
+label {
+  display: block;
+  font: bold 1rem/1.5 "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  text-transform: lowercase; }
+
+/**
+ * Input and text area base styles
+ */
+input, textarea {
+  background: #100;
+  color: #f6f5de;
+  font: 1em/1 "proxima-nova", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  border: 3px solid #100;
+  padding: 1rem;
+  border-radius: 0;
+  transition: border-color 0.2s ease; }
+  input:focus, textarea:focus {
+    border-color: #be6700;
+    outline: 0; }
+
+/**
+ * Search input base styles
+ */
+input[type="search"] {
+  -webkit-appearance: none; }
+
+/**
+ * Search input search cancel and decoration button base styles
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Input placeholder text base styles
+ */
+::-webkit-input-placeholder {
+  color: #f6f5de; }
+
+::-moz-placeholder {
+  color: #f6f5de; }
+
+::-ms-input {
+  color: #f6f5de; }
+
+/*------------------------------------*    #MEDIA
+\*------------------------------------*/
+/**
+ * 1) Media elements' base styles
+ */
+/**
+ * Image, object, embed, iframe base styles
+ */
+img, object, embed, iframe {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/**
+ * Figure base styles
+ */
+figure {
+  display: block;
+  border: 3px solid #100;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9; }
+
+/**
+ * Figure caption base styles
+ */
+figcaption, .wp-caption-text {
+  font-size: 0.85rem;
+  line-height: 1.3; }
+
+/*------------------------------------*Â Â Â  #TABLE
+\*------------------------------------*/
+/**
+ * 1) Table base styles
+ */
+table {
+  width: 100%;
+  margin: 1rem 0 2rem; }
+
+/**
+ * Table header base styles
+ */
+thead {
+  color: #a29e5e; }
+
+/**
+ * Table row base styles
+ */
+tr {
+  border-bottom: 1px solid #dedcb9; }
+
+/**
+ * Table head cell
+ */
+th {
+  font-family: "Oswald", "Impact", sans-serif;
+  font-size: 0.85rem;
+  text-transform: lowercase;
+  padding-bottom: 0.5rem; }
+
+/**
+ * Table row within table body base styles on hover
+ */
+tbody tr {
+  transition: background 0.2s ease; }
+  tbody tr:hover {
+    background: rgba(205, 202, 162, 0.16); }
+
+/**
+ * Table cell base styles
+ */
+td {
+  padding: 1rem 0;
+  font-size: 0.85rem; }
+
+/**
+ * Table header table cell
+ */
+th {
+  text-align: left;
+  font-weight: normal;
+  /**
+	 * Link within a table header cell base styles
+	 */ }
+  th a {
+    display: block; }
+
+@media all and (max-width: 38em) {
+  /**
+	 * Table header styles on screens smaller than medium
+	 */
+  thead {
+    display: none; }
+  /**
+	 * Table header and regular table cell base styles on smaller screens
+	 */
+  th, td {
+    display: block;
+    padding: 0; }
+  /**
+	 * Table row base styles on smaller screens
+	 */
+  tr {
+    display: block;
+    padding: 1rem 0; } }
+
+/*------------------------------------*    #LAYOUT
+\*------------------------------------*/
+/*------------------------------------*    #LAYOUT
+\*------------------------------------*/
+/**
+ * Layout container
+ */
+.l-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 44rem;
+  position: relative;
+  z-index: 1; }
+
+/**
+ * Wide layout container variation
+ */
+.l-container--wide {
+  max-width: 79.2rem; }
+
+/**
+ * Narrow layout container variation
+ */
+.l-container--narrow {
+  padding: 0 1rem;
+  margin: 0 auto 1rem;
+  max-width: 37.4rem; }
+
+/*------------------------------------*    #GRID
+\*------------------------------------*/
+.l-grid {
+  display: grid;
+  grid-gap: 1.5rem; }
+
+.l-grid--small {
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+
+.l-grid--med {
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+
+.l-grid--loose {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); }
+
+/**
+ * Wowwee zowee layout
+ */
+.l-grid--wowee-zowee {
+  display: grid;
+  grid-gap: 1.5rem; }
+  @media all and (min-width: 38em) {
+    .l-grid--wowee-zowee {
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); }
+      .l-grid--wowee-zowee .l-grid__item:nth-child(1) {
+        grid-column: 1 / 3; } }
+  @media all and (min-width: 66em) {
+    .l-grid--wowee-zowee .l-grid__item:nth-child(2) {
+      grid-column: 3 / 5;
+      grid-row: 1 / 3; }
+    .l-grid--wowee-zowee .l-grid__item:nth-child(3) {
+      grid-column: 3 / 5;
+      grid-row: 3 / 4; }
+    .l-grid--wowee-zowee .l-grid__item:nth-child(6) {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4; }
+    .l-grid--wowee-zowee .l-grid__item:nth-child(10) {
+      grid-column: 3 / 5; } }
+
+/*------------------------------------*    #COMPONENTS
+\*------------------------------------*/
+/**
+ * Global
+ */
+/*------------------------------------*    #HEADER
+\*------------------------------------*/
+/**
+ * Global header
+ */
+.c-header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  padding: 1rem 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+/*------------------------------------*Â Â Â  #LOGO
+\*------------------------------------*/
+/**
+* 1) The logo is an <a> tag
+*/
+.c-logo {
+  display: inline-block;
+  text-align: right;
+  text-transform: lowercase;
+  line-height: 1;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease; }
+  .c-logo:hover, .c-logo:focus {
+    box-shadow: inset 0 -3px 0 #100; }
+
+/**
+* Logo kicker
+* 1) A small description above the logo name
+*/
+.c-logo__kicker {
+  color: #100;
+  display: block;
+  font-size: 0.6rem; }
+
+/**
+* Logo link
+*/
+.c-logo__link {
+  display: block;
+  font-size: 1.1rem;
+  box-shadow: inset 0 0 0 rgba(11, 0, 0, 0); }
+
+/*------------------------------------*Â Â Â  #PRIMARY NAVIGATION
+\*------------------------------------*/
+/**
+ * Primary navigation list
+ 1) List that contains the primary navigation for the site
+ */
+.c-primary-nav {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  text-transform: lowercase; }
+
+/**
+ * Primary navigation list
+ */
+.c-primary-nav__list {
+  list-style: none; }
+
+/**
+ * Primary navigation link
+ */
+.c-primary-nav__item {
+  margin-bottom: 0.1rem; }
+
+/**
+ * Primary navigation link
+ */
+.c-primary-nav__link {
+  cursor: pointer;
+  padding: 0.3rem 0 0.2rem;
+  box-shadow: inset 0 0 0 rgba(11, 0, 0, 0);
+  transition: all 0.2s ease; }
+  .c-primary-nav__link:hover, .c-primary-nav__link:focus {
+    box-shadow: inset 0 -3px 0 #100; }
+
+/*------------------------------------*Â Â Â  #FOOTER
+\*------------------------------------*/
+/**
+ * 1) Global footer
+ */
+.c-footer {
+  padding: 2rem 0;
+  z-index: 2; }
+
+/*------------------------------------*Â Â Â  #PAGE HEADER
+\*------------------------------------*/
+/**
+ * Page header consisting of heading and possibly a subheading and metadata
+ */
+.c-page-header {
+  padding: 0 0.25em 2rem;
+  text-align: center;
+  color: #100;
+  transition: color 0.2s ease; }
+
+/**
+ * Page title link
+ */
+.c-page-header__title-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #100; }
+  .c-page-header__title-link:hover, .c-page-header__title-link:focus {
+    color: #be6700; }
+
+/*------------------------------------*Â Â Â  #SECTION
+\*------------------------------------*/
+/**
+ * Main section of a site.
+ * 1) Often marked up as <section>
+ * 2) Used for comment seciton
+ */
+/**
+ * Centered Section
+ */
+.c-section--centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.c-section--boxed {
+  padding: 1.5rem;
+  background: rgba(205, 202, 162, 0.16);
+  border: 3px solid #100;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9; }
+
+/**
+ * Section title
+ */
+.c-section__title {
+  margin-bottom: 1rem; }
+
+/**
+ * Icons
+ */
+/*------------------------------------*Â Â Â  #ICONS
+\*------------------------------------*/
+/**
+* 1) Small images that indicate functionality or are illustrative
+*/
+/**
+ * Hyperlink icon container
+ */
+.c-icon-bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #be6700;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+  /**
+	 * Larger icon bubble
+	 */
+  /**
+	 * Hyperlink icon inside a stacked block
+	 * 1) Align to headline text
+	 */
+  /**
+	 * Hyperlink icon inside a stacked block
+	 * 1) Align to headline text
+	 */ }
+  .c-icon-bubble--large {
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex; }
+  .c-stacked-block .c-icon-bubble {
+    position: relative;
+    top: -2px;
+    /* 1 */ }
+  .c-stacked-block:hover .c-icon-bubble, .c-stacked-block:hover .c-icon-bubble, .c-page-header__title-link:hover .c-icon-bubble {
+    background-color: #100; }
+
+/**
+ * Hyperlink icon
+ */
+.c-icon-bubble__icon {
+  width: 0.5rem;
+  fill: #f6f5de; }
+  .c-icon-bubble--large .c-icon-bubble__icon {
+    width: 1.5rem; }
+
+/**
+ * Navigation
+ */
+/*------------------------------------*Â Â Â  #PAGINATION
+\*------------------------------------*/
+/**
+ * 1) Links used to navigate to the next or previous page
+ */
+.c-pagination {
+  display: flex;
+  margin-bottom: 1rem; }
+
+/**
+ * Pagination list item
+ */
+.c-pagination__item {
+  margin-right: 1rem; }
+  .c-pagination__item:last-child {
+    margin-right: 0; }
+
+/*------------------------------------*Â Â Â  #PANEL
+\*------------------------------------*/
+/**
+ * A panel is a
+ */
+.c-panel.is-closed {
+  height: 0;
+  overflow: hidden; }
+
+/**
+ * Blocks
+ */
+/*------------------------------------*Â Â Â  #ARTICLE FOOTER
+\*------------------------------------*/
+/**
+* 1) Contains the metadata of the article and a small ad
+*/
+.c-article-footer {
+  display: block;
+  font-size: 0.85rem;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  color: #a29e5e;
+  font-style: italic; }
+
+.c-article-footer__meta {
+  margin-bottom: 1rem; }
+
+.c-article-footer__info {
+  margin: 0; }
+
+/*------------------------------------*Â Â Â  #BLOCK
+\*------------------------------------*/
+/**
+ * 1) Basic block consisting of a title, some text, and optional image.
+ *    Can be one block-level link, or contain multiple links
+ */
+.c-block {
+  display: block; }
+
+/**
+ *  Link block
+ * 1) Basic block consisting of a title, some text, and optional image.
+ *    Can be one block-level link, or contain multiple links
+ */
+.c-block--link {
+  color: inherit;
+  outline: 1rem solid rgba(205, 202, 162, 0);
+  transition: all 0.2s ease;
+  /**
+     * Block link in footer
+     * 1) Shifts it up
+     */ }
+  .c-footer .c-block--link {
+    position: relative;
+    top: -1.5rem; }
+  .c-block--link:hover, .c-block--link:focus {
+    outline: 1rem solid rgba(205, 202, 162, 0.16);
+    background: rgba(205, 202, 162, 0.16);
+    color: inherit;
+    transform: scale(1.02); }
+
+/**
+ * Bordered block
+ * 1) A stylistic modifier that adds a border around the block
+ */
+.c-block--boxed {
+  background: rgba(205, 202, 162, 0.16);
+  padding: 1.5rem;
+  box-shadow: 0 10px 0 -5px #dedcb9; }
+  .c-block--boxed:hover, .c-block--boxed:focus {
+    outline: 1rem solid rgba(205, 202, 162, 0); }
+
+/**
+ * Block that contains atomic design book images
+ */
+@media all and (min-width: 38em) and (max-width: 66em) {
+  .c-block--book {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; } }
+
+/**
+ * Block that contains atomic design book description
+ */
+@media all and (min-width: 38em) and (max-width: 66em) {
+  .c-block--book-description {
+    max-width: 19rem; } }
+
+/**
+ * Block title
+ */
+.c-block__title {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: #100;
+  transition: color 0.2s ease; }
+  .c-block--link:hover .c-block__title, .c-block--link:focus .c-block__title {
+    color: #be6700; }
+
+.c-block__title-link {
+  color: #100;
+  transition: color 0.2s ease; }
+  .c-block__title-link:hover, .c-block__title-link:focus {
+    color: #be6700; }
+
+/**
+ * Block link
+ */
+.c-block__link {
+  display: block;
+  height: 100%;
+  width: 100%; }
+  .c-block--book .c-block__link {
+    width: auto; }
+
+/**
+ * Block image container
+ */
+.c-block__img-container {
+  position: relative;
+  transition: all 0.2s ease; }
+  @media all and (min-width: 38em) and (max-width: 66em) {
+    .c-block__img-container {
+      margin-bottom: 2rem; } }
+  .c-block__img-container:hover, .c-block__img-container:focus {
+    transform: scale(1.02); }
+
+/**
+ * Block image
+ */
+.c-block__img {
+  display: block;
+  margin-bottom: 0.6rem;
+  border: 3px solid #be6700;
+  box-shadow: 0 10px 0 -5px #dedcb9; }
+
+/**
+ * Block image fan
+ * 1) Block images that fan out
+ */
+.c-block__img--fan {
+  border: none;
+  box-shadow: none;
+  position: absolute;
+  width: 15rem;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: bottom left;
+  transition: transform 0.5s ease; }
+  .c-block__img--fan:first-of-type {
+    position: relative;
+    z-index: 3; }
+    .c-block__img-container.is-active .c-block__img--fan:first-of-type {
+      transform: rotate(3deg) translate(-8.5rem, 0); }
+    .c-block__img-container:hover .c-block__img--fan:first-of-type {
+      transform: rotate(3.5deg) translate(-8.5rem, 0); }
+  .c-block__img-container.is-active .c-block__img--fan:nth-of-type(2) {
+    right: 0;
+    transform: rotate(-8deg) translate(-9rem, 0.5rem); }
+  .c-block__img-container:hover .c-block__img--fan:nth-of-type(2) {
+    transform: rotate(-9.5deg) translate(-9rem, 0.5rem); }
+  .c-block__img-container.is-active .c-block__img--fan:nth-of-type(3) {
+    right: 0;
+    transform: rotate(-3deg) translate(-8.4rem, 0.3rem); }
+  .c-block__img-container:hover .c-block__img--fan:nth-of-type(3) {
+    transform: rotate(-4.5deg) translate(-8.4rem, 0.3rem); }
+  @media all and (min-width: 66em) {
+    .c-block__img--fan {
+      width: 20rem; } }
+
+/**
+ * Media block description
+ */
+.c-block__desc {
+  margin: 0;
+  line-height: 1.35; }
+
+/*------------------------------------*Â Â Â  #STACKED BLOCK
+\*------------------------------------*/
+/**
+ * 1) Block containing an text and an optional image stacked on top of each other
+ * 2) This is an <a> tag
+ */
+.c-stacked-block {
+  display: block;
+  outline: 1rem solid rgba(205, 202, 162, 0);
+  transition: all 0.2s ease; }
+  .c-stacked-block:hover, .c-stacked-block:focus {
+    outline: 1rem solid rgba(205, 202, 162, 0.16);
+    background: rgba(205, 202, 162, 0.16);
+    color: inherit;
+    transform: scale(1.02); }
+
+/**
+ * Stacked Block Title
+ */
+.c-stacked-block__title {
+  font-size: 1.6rem;
+  display: inline;
+  color: #100;
+  transition: all 0.2s ease; }
+  .c-stacked-block:hover .c-stacked-block__title, .c-stacked-block:focus .c-stacked-block__title {
+    color: #be6700; }
+
+/**
+ * Stacked Block Meta
+ */
+.c-stacked-block__meta {
+  display: block;
+  margin-bottom: 0.2rem; }
+
+/**
+ * Stacked Block Meta
+ */
+.c-stacked-block__desc {
+  color: #100; }
+
+/**
+ * Stacked Block Image
+ */
+.c-stacked-block__img {
+  display: block;
+  margin: 0.5rem 0;
+  border: 3px solid #100; }
+
+/**
+ * Stacked Block icon
+ */
+.c-stacked-block__icon-container {
+  display: inline;
+  background: #be6700;
+  border-radius: 50%;
+  padding: 0.4rem 0.45rem 0.2rem; }
+
+/**
+ * Stacked Block icon
+ */
+.c-stacked-block__icon {
+  fill: #f6f5de; }
+
+/*------------------------------------*Â Â Â  #STACKED BLOCK
+\*------------------------------------*/
+/**
+ * 1) Block containing an text and an optional image feature on top of each other
+ */
+.c-feature-block {
+  display: block; }
+
+/**
+ * Large Feature block
+ * 1) Appears as a wide image but a capped body
+ */
+/**
+ * 1) Feature block whose entire block is clickable
+ */
+.c-feature-block--link {
+  color: inherit;
+  transition: all 0.2s ease; }
+  .c-feature-block--link:hover, .c-feature-block--link:focus {
+    color: inherit;
+    transform: scale(1.02); }
+
+/**
+ * Feature Block Image
+ */
+.c-feature-block__img {
+  display: block;
+  width: 100%;
+  border: 3px solid #100;
+  box-shadow: 0 10px 0 -5px #dedcb9; }
+
+/**
+ * Feature Block Body
+ */
+.c-feature-block__body {
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+  background: #efeed4;
+  border: 3px solid #100;
+  border-top: 0;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9;
+  /**
+	 * Large Feature block
+	 * 1) Appears as a wide image but a capped body
+	 */ }
+  .c-feature-block--large .c-feature-block__body {
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto; }
+  @media all and (min-width: 38em) {
+    .c-feature-block__body {
+      border-top: 3px solid #100;
+      margin: -5.5rem 1.5rem 0 1.5rem; } }
+
+/**
+ * Feature Block Title
+ */
+.c-feature-block__title {
+  color: inherit;
+  transition: all 0.2s ease; }
+  .c-feature-block__link:hover .c-feature-block__title, .c-feature-block__link:focus .c-feature-block__title {
+    color: #be6700; }
+  .c-feature-block--link:hover .c-feature-block__title, .c-feature-block--link:focus .c-feature-block__title {
+    color: #be6700; }
+
+/**
+ * Feature Block Title Link
+ */
+.c-feature-block__title-link {
+  color: inherit; }
+  .c-feature-block__title-link:hover, .c-feature-block__title-link:focus {
+    color: #be6700; }
+
+/**
+ * Feature Block Meta
+ */
+.c-feature-block__meta {
+  display: block;
+  margin-bottom: 0.2rem; }
+
+/**
+ * Feature Block Description
+ */
+.c-feature-block__desc :last-child {
+  margin-bottom: 0; }
+
+/**
+ * Feature Block icon
+ */
+.c-feature-block__icon-container {
+  display: inline;
+  background: #be6700;
+  border-radius: 50%;
+  padding: 0.4rem 0.45rem 0.2rem; }
+
+/**
+ * Feature Block icon
+ */
+.c-feature-block__icon {
+  fill: #f6f5de; }
+
+/*------------------------------------*Â Â Â  #MEDIA BLOCK
+\*------------------------------------*/
+/**
+ * 1) Block consisting of an image and some text on the side
+ */
+.c-media-block {
+  display: flex;
+  align-items: center; }
+
+/**
+ * Media block link
+ */
+.c-feature-block .c-media-block--link {
+  color: inherit; }
+  .c-feature-block .c-media-block--link:hover, .c-feature-block .c-media-block--link:focus {
+    color: #be6700; }
+
+/**
+ * Biggins
+ * 1) Specific variation that lives in the footer
+ */
+.c-media-block--biggins {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 44rem;
+  margin: 0 auto 1.5rem; }
+
+/**
+ * Media block image container
+ */
+.c-media-block__media {
+  display: block;
+  border: 3px solid #100;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.5rem;
+  max-width: 2.5rem; }
+  .c-media-block--biggins .c-media-block__media {
+    max-width: none;
+    margin-right: 1rem; }
+    @media all and (min-width: 38em) {
+      .c-media-block--biggins .c-media-block__media {
+        width: 24rem; } }
+
+/**
+ * Media block image
+ */
+.c-media-block__img {
+  display: block; }
+
+/**
+ * Media block title
+ */
+.c-media-block__title {
+  font-size: 0.95rem; }
+  .c-media-block--biggins .c-media-block__title {
+    font-size: 1.6rem; }
+    @media all and (min-width: 38em) {
+      .c-media-block--biggins .c-media-block__title {
+        font-size: 2.2rem; } }
+
+/**
+ * Media block description
+ */
+.c-media-block__desc {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  margin-bottom: 0; }
+  .c-media-block--biggins .c-media-block__desc {
+    font-size: 1.1rem; }
+    @media all and (min-width: 38em) {
+      .c-media-block--biggins .c-media-block__desc {
+        font-size: 1.6rem; } }
+
+/*------------------------------------*Â Â Â  #BLOCK LINK
+\*------------------------------------*/
+/**
+* 1) Link consisting of a title and description, stacked on top of each other like a block
+*/
+.c-block-link {
+  display: block;
+  margin: -1rem;
+  padding: 1rem;
+  color: #100;
+  cursor: pointer;
+  overflow: hidden; }
+  .c-block-link:hover, .c-block-link:focus {
+    background: rgba(205, 202, 162, 0.16);
+    color: #100; }
+
+/**
+* Block link title
+*/
+.c-block-link__title {
+  margin-top: 0; }
+
+/**
+* Block link description
+*/
+.c-block-link__desc {
+  margin-bottom: 0; }
+
+/*------------------------------------*Â Â Â  #CALLOUT
+\*------------------------------------*/
+/**
+ * 1) A callout is a well container pattern containing a text passage
+ */
+.c-callout {
+  background: #efeed4;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-weight: bold;
+  padding: 1.5rem;
+  border: 3px solid #100;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .c-callout :last-child {
+    margin-bottom: 0; }
+
+/**
+ * 1) A callout is a well container pattern containing a text passage
+ */
+.c-callout--bold {
+  background: #100;
+  color: #f6f5de; }
+
+.c-callout--small {
+  font-size: 1.1rem;
+  font-weight: normal; }
+
+/*------------------------------------*Â Â Â  #COMMENT
+\*------------------------------------*/
+.c-comment {
+  position: relative; }
+  @media all and (min-width: 24em) {
+    .c-comment {
+      display: flex; } }
+
+.c-comment__img {
+  width: 5rem;
+  margin: 0 1rem 0.5rem 0;
+  min-width: 5rem; }
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background: #66ccff;
+  border: 3px solid #100;
+  border-radius: 50%; }
+
+.c-comment__body {
+  flex: 1; }
+
+.c-comment__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 0.3rem; }
+
+.c-comment__title {
+  margin-bottom: 0; }
+
+.c-comment__time {
+  font-size: 0.85rem; }
+
+/*------------------------------------*Â Â Â  #Figure
+\*------------------------------------*/
+/**
+ * Figure is a block of media and
+ */
+.c-figure__media {
+  display: block;
+  width: 100%; }
+
+.c-figure__caption, .wp-caption-text {
+  background: #100;
+  color: #f6f5de;
+  padding: 0.5rem;
+  margin: 0; }
+
+/**
+ * Lists
+ */
+/*------------------------------------*Â Â Â  #COMMENT LIST
+\*------------------------------------*/
+/**
+ * 1) List of comments
+ */
+.c-comment-list {
+  margin-bottom: 2rem; }
+
+/*------------------------------------*Â Â Â  #LINK LIST
+\*------------------------------------*/
+/**
+* 1) A list of links
+*/
+.c-link-list__title {
+  margin-bottom: 1rem;
+  /**
+	* Within a compact link list
+	*/
+  /**
+	* Within a featured block
+	*/ }
+  .c-link-list--compact .c-link-list__title {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem; }
+  .c-feature-block .c-link-list__title {
+    margin-top: 1.5rem; }
+
+/**
+* 1) A list of links
+*/
+.c-link-list__list {
+  margin-bottom: 1rem;
+  /**
+	* Within a lined list
+	*/
+  /**
+	* Within a feature block
+	*/ }
+  .c-link-list--lined .c-link-list__list {
+    border-top: 1px solid #dedcb9; }
+  .c-feature-block .c-link-list__list {
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); }
+
+/**
+* Link list item
+*/
+.c-link-list__item {
+  padding: 0.5rem 0;
+  /**
+	* Within a compact list
+	*/
+  /**
+	* Within a lined list
+	*/ }
+  .c-link-list--compact .c-link-list__item {
+    padding: 0.25rem 0; }
+  .c-link-list--lined .c-link-list__item {
+    border-bottom: 1px solid #dedcb9; }
+
+/**
+* Small link list variation
+* 1) Smaller font size than the default
+*/
+.c-link-list--small {
+  font-size: 0.85rem; }
+
+/**
+* Link list link
+*/
+.c-link-list__link {
+  color: #100;
+  border-bottom: 1px solid #be6700;
+  outline: 1rem solid rgba(205, 202, 162, 0); }
+  .c-link-list__link:hover, .c-link-list__link:focus {
+    background: rgba(205, 202, 162, 0.16);
+    outline: 3px solid rgba(205, 202, 162, 0.16);
+    border-width: 3px; }
+
+/**
+* Link list meta data
+*/
+.c-link-list__meta {
+  display: block; }
+
+/*------------------------------------*Â Â Â  #INLINE LIST
+\*------------------------------------*/
+/**
+* 1) A list of links displayed in an inline fashion
+*/
+.c-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  table .c-inline-list {
+    margin-bottom: 0; }
+
+/**
+* Inline list item
+*/
+.c-inline-list__item {
+  margin: 0 0.5rem 0.5rem; }
+  table .c-inline-list__item {
+    margin-bottom: 0; }
+
+/*------------------------------------*Â Â Â  #IMAGE LIST
+\*------------------------------------*/
+/**
+ * 1) List of images
+ * TODO: Revisit
+ */
+/**
+  * Image list item
+  */
+.c-img-list__item {
+  margin-bottom: 2rem; }
+
+/*------------------------------------*Â Â Â  # BLOCK LIST
+\*------------------------------------*/
+/**
+ 1) List of stacked block elements
+ */
+.c-block-list__item {
+  margin: 0 0 2rem; }
+  .c-block-list--loose .c-block-list__item {
+    margin: 0 0 4rem; }
+
+/*------------------------------------*Â Â Â  #BULLETED LIST
+\*------------------------------------*/
+/**
+* Bulleted list
+*/
+.c-bullet-list {
+  list-style: square;
+  margin-left: 1.1em; }
+
+/*------------------------------------*Â Â Â  #MEDIA BLOCK LIST
+\*------------------------------------*/
+/**
+* A grid of media blocks
+*/
+.c-feature-block .c-media-block-list {
+  margin-top: 1rem; }
+
+/**
+ * Text
+ */
+/*------------------------------------*Â Â Â  #TEXT PASSAGE
+\*------------------------------------*/
+/**
+ * 1) Passage of text (i.e. an article or blog post)
+ * 2) Contains arbitrary HTML content that is spat out by the CMS
+ */
+.c-text {
+  font-size: 120%;
+  margin-bottom: 2rem;
+  /**
+	 * Paragraph within a text passage
+	 */
+  /**
+	 * Ordered list within text passages
+	 */
+  /**
+	 * Unordered list within text passages
+	 */
+  /**
+	 * List item within text passage
+	 */
+  /**
+	 * Link within text passage
+	 */
+  /**
+	 * Image, figure, caption, and iframe within text passage
+	 */
+  /**
+	 * Wordpress images
+     * 1) "size-large" is applied to images by Wordpress
+     * 2) Adjusts the width of the image to protrude out from
+     *    the text column
+	 */
+  /**
+	 * Button within text passage
+     * 1) Ensures buttons keep the appropriate text color, even
+     *    if an <a> tag
+	 */ }
+  .c-text > :last-child {
+    margin-bottom: 0; }
+  .c-text p {
+    word-wrap: break-word; }
+  .c-text ol {
+    list-style: decimal outside;
+    margin: 0 0 2rem 1.1rem; }
+  .c-text ul {
+    list-style: square outside;
+    margin: 0  0 2rem 0.85rem; }
+    .c-text ul li {
+      list-style-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iOHB4IiBoZWlnaHQ9IjhweCIgdmlld0JveD0iMCAwIDggOCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNDMuMiAoMzkwNjkpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPk92YWw8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsIiBmaWxsPSIjQkU2NzAwIiBjeD0iNCIgY3k9IjQiIHI9IjQiPjwvY2lyY2xlPgogICAgPC9nPgo8L3N2Zz4=); }
+  .c-text li {
+    margin-bottom: 1rem; }
+  .c-text a {
+    color: #100;
+    border-bottom: 1px solid #be6700;
+    outline: 1rem solid rgba(205, 202, 162, 0); }
+    .c-text a:hover, .c-text a:focus {
+      background: rgba(205, 202, 162, 0.16);
+      outline: 3px solid rgba(205, 202, 162, 0.16);
+      border-width: 3px; }
+  .c-text h2 {
+    margin: 2rem 0 1rem; }
+  .c-text h3 {
+    margin: 2rem 0 1rem; }
+  .c-text h4 {
+    margin: 2rem 0 1rem; }
+  .c-text img, .c-text figure, .c-text .wp-caption, .c-text iframe, .c-text .iframe {
+    border: 3px solid #100;
+    box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9;
+    margin-bottom: 2rem; }
+  @media all and (min-width: 42em) {
+    .c-text .size-large {
+      width: 100vw;
+      max-width: none;
+      margin-left: calc((100vw - 41.85rem) / -2); } }
+  @media all and (min-width: 64em) {
+    .c-text .size-large {
+      width: 1024px;
+      max-width: 1024px;
+      margin-left: -11.5rem; } }
+  .c-text .c-btn {
+    color: #f6f5de; }
+
+/**
+ * Small text passage
+ */
+.c-text--med {
+  font-size: 1.1rem; }
+
+/**
+ * Small text passage
+ */
+.c-text--small {
+  font-size: 0.95rem; }
+
+/**
+ * Buttons
+ */
+/*------------------------------------*Â Â Â  #BUTTONS
+\*------------------------------------*/
+/**
+ * 1) Button that can consist of <button> or <a> tag
+ */
+.c-btn {
+  display: inline-block;
+  font-family: "Oswald", "Impact", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background: #be6700;
+  border: 0;
+  color: #f6f5de;
+  cursor: pointer;
+  box-shadow: 0 10px 0 -5px #dedcb9;
+  width: auto;
+  word-break: normal;
+  text-transform: lowercase;
+  -webkit-appearance: none;
+  transition: all 0.2s ease;
+  /**
+	 * Button within inline form
+	 */ }
+  .c-inline-form .c-btn {
+    margin: 0;
+    box-shadow: none; }
+  .c-btn:hover, .c-btn:focus {
+    color: #fff;
+    transform: scale(1.02); }
+  .c-btn:focus {
+    outline: 3px solid #100; }
+
+/**
+ * Small button variation
+ */
+.c-btn--small {
+  font-size: 85%;
+  padding: 0.5em; }
+
+/**
+ * Small button variation
+ */
+.c-btn--block {
+  display: block;
+  width: 100%; }
+
+/**
+ * Small button variation
+ */
+.c-btn--subtle {
+  background: #dedcb9;
+  box-shadow: 0 10px 0 -5px rgba(205, 202, 162, 0.16); }
+  .c-btn--subtle:hover, .c-btn--subtle:focus {
+    background: #be6700;
+    box-shadow: 0 10px 0 -5px #dedcb9; }
+
+/*------------------------------------*Â Â Â  #TEXT BUTTON
+\*------------------------------------*/
+/**
+* 1) A link or button that appears as only text with little styling
+*/
+.c-text-btn {
+  /**
+	* Text button within text passage;
+	*/ }
+  .c-text .c-text-btn {
+    display: block;
+    border-bottom: none;
+    color: #a29e5e;
+    margin-bottom: 1rem; }
+
+/*------------------------------------*Â Â Â  #BUTTON Group
+\*------------------------------------*/
+/**
+ * Group of buttons
+ */
+.c-btn-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0; }
+
+/**
+ * Forms
+ */
+/*------------------------------------*    #INLINE FORM
+\*------------------------------------*/
+/**
+ * Form element that lays in line with the rest of the content
+ */
+.c-inline-form {
+  display: flex;
+  position: relative;
+  box-shadow: 0 10px 0 -5px #be6700, 0 20px 0 -10px #66ccff, 0 30px 0 -16px #dedcb9;
+  margin-bottom: 2rem; }
+
+/**
+ * Inline form text input
+ */
+.c-inline-form__input {
+  flex: 1;
+  margin: 0; }
+
+/**
+ * Style
+ */
+/*------------------------------------*    #BUBBLES
+\*------------------------------------*/
+/**
+* 1) SVG container that houses the circles that change color
+*/
+.c-bubbles {
+  width: 100%;
+  /**
+    * Actual circles within #bubbles
+    */ }
+  .c-bubbles circle {
+    fill: #f6f5de;
+    stroke: #100;
+    stroke-miterlimit: 10;
+    stroke-width: 3px; }
+
+#bubbles-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 0; }
+  @media all and (max-width: 57em) {
+    #bubbles-header {
+      left: -5rem; } }
+
+#bubbles-footer {
+  display: block;
+  height: 100px;
+  width: 100%; }
+
+/**
+ * Links
+ */
+/*------------------------------------*Â Â Â  #READ MORE
+\*------------------------------------*/
+/**
+* 1) Read more link generated by wordpress
+*/
+.c-read-more {
+  margin-left: 0.5rem;
+  text-transform: lowercase; }
+
+/*------------------------------------*    #UTILITIES
+\*------------------------------------*/
+/*------------------------------------*Â Â Â  #UTILITIES
+\*------------------------------------*/
+.xl {
+  font-weight: bold;
+  line-height: 1.3; }
+  @media all and (min-width: 30em) {
+    .xl {
+      font-size: 1.2em; } }
+
+/**
+ * Completely remove from the flow but leave available to screen readers.
+ */
+.u-is-vishidden {
+  position: absolute !important;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px); }
+
+.u-margin-bottom-none {
+  margin-bottom: 0 !important; }
+
+.u-margin-bottom {
+  margin-bottom: 1rem !important; }
+
+.u-margin-bottom-double {
+  margin-bottom: 2rem !important; }
+
+/*------------------------------------*    #VENDOR
+\*------------------------------------*/
+/*------------------------------------*    #WORDPRESS-SPECIFIC CLASSES
+\*------------------------------------*/
+/**
+ * Wordpress smiley
+ */
+.wp-smiley {
+  display: inline !important;
+  padding: 0;
+  border: 0; }
+
+/**
+ * Wordpress caption
+ */
+.wp-caption {
+  display: block;
+  width: auto !important; }
+  .wp-caption img {
+    display: block;
+    box-shadow: none;
+    margin-bottom: 0; }
+
+.wp-caption-text a {
+  color: #f6f5de; }
+
+/**
+ * Link
+ */
+.url {
+  /**
+	 * Link within comment list title
+	 */
+  /**
+	 * Link within comment list item by post author
+	 */ }
+  .c-comment__title .url {
+    color: #100; }
+  .url:hover, .url:focus {
+    color: #be6700; }
+  .c-comment-list__item.bypostauthor .url {
+    color: #be6700; }
+
+/*------------------------------------*Â Â Â  #FITVIDS
+\*------------------------------------*/
+/**
+ * See https://gist.github.com/davatron5000/e9ef20f1d2ba4d9099711064c644d155 for reference
+ * CSS taken from http://fitvids.com
+ */
+.fitVids-wrapper {
+  position: relative;
+  width: 100%; }
+  .fitVids-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/*------------------------------------*Â Â Â  #AD UNIT
+\*------------------------------------*/
+/**
+ * Unit used for advertising
+ */
+#carbonads {
+  padding: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  top: -1.5rem;
+  background: rgba(205, 202, 162, 0.16);
+  box-shadow: 0 10px 0 -5px #dedcb9;
+  transition: all 0.2s ease;
+  /**
+	 * Image within advertisement unit
+	 */
+  /**
+	 * Link within advertisement unit
+	 */
+  /**
+     * Powered by text within advertisement unit
+     */ }
+  #carbonads img {
+    background: none;
+    margin: 0 0.5rem 0 0;
+    border: 0; }
+  #carbonads a {
+    display: block;
+    border: 0;
+    color: #100;
+    font-style: italic;
+    line-height: 1.3;
+    transition: color 0.2s ease; }
+  #carbonads .carbon-poweredby {
+    font-size: 60%;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 164px;
+    color: #a29e5e; }
+  #carbonads:hover, #carbonads:focus {
+    transform: scale(1.02); }
+    #carbonads:hover a, #carbonads:focus a {
+      color: #be6700; }
+  @media all and (min-width: L 38em) {
+    #carbonads {
+      margin-left: auto; } }
+
+/**
+ * Carbon text within the advertisement unit
+ */
+.carbon-text {
+  font-size: 68%;
+  display: block;
+  margin-bottom: 0.5em; }
+
+.carbon-wrap {
+  display: flex;
+  align-items: center; }
