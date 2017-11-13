@@ -810,6 +810,199 @@ button:focus {
   transition: opacity 0.6s;
 }
 
+/* estilos seccion sobre mi */
+.content__item--show .sobre--me {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.content__item--show .wrapper {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -5%;
+}
+.wrapper .foto {
+  min-width: 260px;
+  margin-top: 10%;
+  position: relative;
+}
+.foto .imagen {
+  width: 50%;
+  height: 0;
+  padding-bottom: 55%;
+  position: relative;
+  display: block;
+}
+.foto .imagen img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+.sobre--me .foto .iconos{
+  width: 100%;
+  text-align: center;
+}
+.sobre--me .foto .icon:first-child,
+.sobre--me .foto .icon:last-child {
+  margin: 0;
+  top: -29px;
+}
+.sobre--me .foto .icon{
+  top: 10px;
+  display: inline-block;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  position: relative;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+.icon:before {
+  width: 100%;
+  height: 100%;
+  background: url(../img/hexagon.svg) no-repeat center center;
+  content: '';
+  display: block;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.icon:hover {
+  -webkit-animation: ripple 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  animation: ripple 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon:after {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  background: no-repeat center center;
+  content: '';
+  display: block;
+}
+.icon.linkedin:after {
+  background-image: url(../img/linkedin.svg);
+}
+.icon.github:after {
+  background-image: url(../img/github.svg);
+}
+.icon.twitter:after {
+  background-image: url(../img/twitter.svg);
+}
+.icon.linkedin .hexagon {
+  -webkit-animation-delay: 2.7962s;
+  animation-delay: 2.7962s;
+}
+.icon .shape {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon .shape .hexagon {
+  fill: #a29e5e;
+}
+svg {
+  display: block;
+}
+
+.sobre--me .intro {
+  padding-top: 10%;
+  overflow: visible;
+}
+.sobre--me .greeting {
+  font-size: 6rem;
+  line-height: 1;
+  font-family: "Lato",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  color: rgba(37,46,68,0.8);
+  display: inline-block;
+}
+.sobre--me .binding {
+  font-size: 1.618rem;
+  font-style: italic;
+  color: #757575;
+}
+.sobre--me section {
+  padding-bottom: 5%;
+  /* overflow: hidden; */
+}
+
+.sobre--me section:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.clear {
+  clear: both;
+}
+.sobre--me .col {
+  /* width: 46%; */
+  width: 100%;
+  margin-right: 8%;
+  float: left;
+}
+.sobre--me .col .first {
+  margin-bottom: 35px;
+}
+.sobre--me .icon-container {
+  display: table;
+  padding-top: 5%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+.sobre--me .icon-container .icon {
+  margin-right: 10px;
+}
+.sobre--me .icon.large{
+  width: 90px;
+  height: 90px;
+}
+.sobre--me .icon.large:after {
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+}
+.icon.development:after {
+  background-image: url(../img/development.svg);
+}
+.sobre--me .icon-container h3{
+  display: table-cell;
+  vertical-align: middle;
+}
+.sobre--me .col ul {
+  margin-top: 0;
+}
+.sobre--me .col li {
+  margin-bottom: 0.5rem;
+}
+.sobre--me .half {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+.sobre--me .col:last-child {
+  margin-right: 0;
+}
+
+/* .icon.linkedin:after {
+  background-image: url(/img/icons/linkedin.svg);
+} */
+
+/* estilos seccion sobre mi */
+
 /* content elements */
 /* line 711, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .category--full {
@@ -953,7 +1146,8 @@ button:focus {
 .content__item--show.content__item .family {
   display: block;
   max-width: 100%;
-  height: auto;  
+  height: auto;
+  left: 50%;
 }
 
 
@@ -1144,7 +1338,7 @@ button:focus {
   }
   /* line 137, C:/Users/imartinez/Documents/Proyect/iukones/scss/_mediaqueries.scss */
   .sidebar.sidebar--open {
-    background: url(../img/background_repeat.png) left top repeat rgba(40, 71, 112, 0.97);
+    background: url(../img/background_repeat.png) left top repeat rgba(37,46,68,0.95);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     width: 100%;
@@ -1321,7 +1515,8 @@ body {
   /* line 124, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:hover {
     color: #fff;
-    background: rgba(83, 200, 252, 0.9);
+    /* background: rgba(83, 200, 252, 0.9); */
+    background: rgba(37,46,68,0.8);
   }
   /* line 128, C:/Users/imartinez/Documents/Proyect/iukones/scss/style.scss */
   .article-nav button:first-child {
