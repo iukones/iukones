@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego Piedra, Papel, Tijeras, Lagarto, Spock</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet'>
+</head>
+<body>
+    <header >
+        <h1 class="jiterry">☠️ Bienvenido al castillo <span class="drag"> 🧛 </span> Dracula...</h1>
+        <p class="jiterry">Donde temblarás de miedo.</p>
+    </header>
+
+    <section class="contenedor">
+        <div class="boton jiterry">
+            <button onclick="playclip()" class="md-trigger" data-modal="modal-4"><strong>¿Vamos a Jugar?</strong></button>
+        </div>
+
+        <div class="md-modal md-effect-4" id="modal-4">
+            <div class="md-content">
+                <h3><strong>Aqui llovera sangre...</strong></h3>
+                <div>
+                    <p><strong>Selecciona tipo de Juego </strong></p>
+                    <ul>
+                        <li><strong>Jugar VS maquina:</strong> <button class="btn2"><a href="index1.html">Jugar</a></button></li>
+                        <li><strong>Jugar Face to Face:</strong> <button class="btn2"><a href="#">Jugar</a></button></li>
+                    </ul>
+                    <button onclick="pauseclip()" class="md-close btn jiterry">salir del juego</button>
+                </div>
+            </div>
+        </div>
+        <div class="md-overlay"></div><!-- the overlay element -->
+
+    </section>
+    <audio id="myAudio">
+        <source src="assets/sound/risa_macabra.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="assets/js/scripts.js"></script>
+    <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/modalEffects.js"></script>
+
+
+
+</body>
+</html>

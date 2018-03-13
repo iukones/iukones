@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="es"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego Piedra, Papel, Tijeras, Lagarto, Spock</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet'>
+</head>
+<body>
+    <header >
+       <nav>
+           <ul>
+               <li><a href="index.html"><button class="btn2">regresar</button></a></li>
+           </ul>
+       </nav>
+
+    </header>
+        <section class="main">
+            <h1><span class="drag">Juego vs maquina,</span> selecciona un personaje...</h1>
+            <div class="entry short threes" id="leia-organa"><div class="jiterry"><input onclick="jugarHvsM(1);" type="button" value="leia"></div></div>
+            <div class="entry threes" id="frankenstein"><div class="jiterry"><input onclick="jugarHvsM(0);" type="button" value="frankenstein"></div></div>
+            <div class="entry threes" id="zombie"><div class="jiterry"><input onclick="jugarHvsM(3);" type="button" value="zombie"></div></div>
+            <div class="entry threes" id="vampire"><div class="jiterry"> <input onclick="jugarHvsM(4);" type="button" value="vampiro"></div></div>
+            <div class="entry short threes" id="padme-amidala"><div class="jiterry"><input onclick="jugarHvsM(2);" type="button" value="padme"></div></div>
+        </section>
+
+
+
+    <script src="assets/js/scripts.js"></script>
+    <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+
+</body>
+</html>
