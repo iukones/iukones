@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* Theme Name: Brad Frost Web V8
+Author: Brad Frost
+*/
+/*------------------------------------*    #TABLE OF CONTENTS
+\*------------------------------------*/
+/**
+ * ABSTRACTS.................Variables and mixins
+ * BASE......................Base elements
+ * LAYOUT....................Layout Rules
+ * COMPONENTS................Components
+ * UTILITIES.................Global/Generic Classes
+ * VENDOR....................Styles out of my control
+ */
+/**
+ * Import Sass partials
+ *
+ * 1) The file structure is following the 7-1 structure found
+ * from Sass Guidelines: https://sass-guidelin.es/#the-7-1-pattern
+ */
+/*------------------------------------*    #ABSTRACTS
+\*------------------------------------*/
+/*------------------------------------*    #VARIABLES
+\*------------------------------------*/
+/**
+ * Colors
+ */
+/**
+ * Fonts
+ */
+/**
+ * Font Sizes
+ */
+/**
+ * Spacing
+ */
+/**
+ * Border thickness
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Animations
+ */
+/*------------------------------------*    #MIXINS
+\*------------------------------------*/
+/**
+ * Text Link Styles
+ */
+/*------------------------------------*    #BASE
+\*------------------------------------*/
+/*------------------------------------*    #RESET
+\*------------------------------------*/
+/**
+ * 1) Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+* {
+  box-sizing: border-box;
+  /* border: 1px solid red !important; */
+}
+
+/**
+ * Zero out margin and padding on these elements
+ */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Remove list styles from ordered and unordered lists by default
+ */
+ol, ul {
+  list-style: none; }
+
+/**
+ * Collapse borders on table's base styles
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+ * Display block these elements
+ */
+header, footer, nav, section, article, hgroup, figure {
+  display: block; }
+
+/*------------------------------------*    #BODY
+\*------------------------------------*/
+/**
+ * 1) Main body container base styles
+ */
+
+
+body {
+  background: url(../img/back-bosque.jpg) no-repeat;
+  background-size: cover;
+  /* background: #ffc600; */
+  font-family: "Permanent Marker", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #333;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #fff;
+  border: #fff dashed 2px;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: 100;
+  /* text-transform: uppercase; */
+  margin: 5px 0;
+}
+
+h1 {
+  font-size: 2.6em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p {
+  font-size: 1.6em;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  /* float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 35px;
+  height: 30px;
+  padding-top: 10px;
+  background: #fff;
+  color: #c1d72e;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff; */
+  cursor: pointer;
+  float: left;
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: .1rem;
+  /* margin: 0 10px 10px 0; */
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 4rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+.push {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.score {
+  background:rgba(255, 198, 0, 0.5);
+  padding:0 3rem;
+  line-height:1;
+  /* border-radius:1rem; */
+}
+
+#alphabet li:hover {
+  /* transform: scale(1.1); */
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: none !important;
+}
+/* .active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+} */
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #c1d72e;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #c1d72e;
+}
+
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}

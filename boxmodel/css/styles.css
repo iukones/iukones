@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: brown;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+article{
+    width: 30%;
+    display: inline-block;
+    margin: 0 20px;
+}
+article img {
+    width: 100%;
+}
+article .article-picture{
+    height: 280px;
+    overflow: hidden;
+}
+footer{
+    background-color: grey;
+    padding: 50px;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+    font-size: 25px;
+}
+footer .picture{
+    width: 80px;
+}
+
+footer .picture img{
+    width: 100%;
+
+}
+footer .footer-div{
+    display: inline-block;
+
+}
+
+footer .contact-info{
+    width: 80%;
+}
+
+.header-div {
+    display: inline-block;
+}
+
+.header-div img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.header-div a {
+    color: black;
+    font-size: 25px;
+    margin: 20px 50px;
+    text-decoration: none;
+    margin: 0 50px;
+}

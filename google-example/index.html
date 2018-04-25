@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" pan-favicon="" href="//www.google.com/favicon.ico">
+    <title>Imitando google search</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+            <a href="https://www.google.com.mx/imghp?hl=es-419&tab=wi">imágenes</a>
+        </nav>
+        <img class="img" src="assets/img/iconos.png" alt="">
+    </header>
+
+    <section>
+        <div class="content">
+
+            <div class="img">
+                <img alt="Google"  src="assets/img/2016-doodle-fruit-games-day-7-5190998188621824-hp2x.gif">
+            </div>
+
+            <form action=""class="form">
+                <div class="input-text">
+                    <input type="text" id="googlebox" autofocus/>
+                    <a href="http://" alt="Busqueda por voz" aria-label="Busqueda por voz"><span></span></a>
+                </div>
+
+                <div class="input-button">
+                    <input type="button" value="Buscar con Google" onclick="buscar(this.form)"/>
+                    <input type="submit" value="Me siento con suerte"/>
+                </div>
+            </form>
+
+            <div class="off-text">
+                <p>Ofrecido por Google en: <a href="http://">English</a></p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="_footer-bottom">
+
+        <div class="_footer-bar">
+
+            <span id="fsl"><a href="http://">México</a></span>
+
+        </div>
+
+        <div class="_footer-bar">
+
+            <span id="fsr">
+
+                <a href="/intl/en/policies/?fg=1">Privacidad</a>
+
+                <span>
+
+                    <a class="_Se" href="https://www.google.com.pk/preferences?hl=en">Condiciones</a>
+
+                </span>
+
+                <a class="_Se" href="https://www.google.com.pk/setprefdomain?prefdom=US&amp;prev=https://www.google.com/?gws_rd%3Dcr%26ei%3DKLSKU-D5OoWwO8nYgZAM&amp;sig=0_f9EvFx2clvudBfdBuSib1spSh2c%3D&amp;fg=1">Preferencias</a>
+
+            </span>
+
+            <span id="fsl">
+
+                <a href="/intl/en/ads/?fg=1">Publicidad</a>
+                <a class="_Se" href="/services/?fg=1">Negocios</a>
+                <a class="_Se" href="/intl/en/about.html?fg=1">Acerca de</a>
+
+            </span>
+
+        </div>
+
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

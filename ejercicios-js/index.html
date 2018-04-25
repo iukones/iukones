@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Ejercicios JS</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="iukones" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+	</head>
+	<body>
+
+		<!-- Header y Navegacion -->
+		<div id="header">
+				<h1>Ejercicios de JavaScript</h1>
+				<ul id="navigation">
+					<li><a  href="#ejercicio1">Cambiemos tu password</a></li>
+					<li><a  href="#ejercicio2">¿Que nivel tienes?</a></li>
+					<li><a  href="#ejercicio3">Frase palindromo</a></li>
+					<li><a  href="#ejercicio4">Piramide</a></li>
+					<li><a  href="#ejercicio5">Inputs</a></li>
+				</ul>
+
+			</div>
+
+		<!-- ejercicio1 -->
+		<div id="ejercicio1" class="panel">
+			<div class="content">
+				<h2>Cambio de Password...</h2>
+				<p>presiona el boton para introducir tu contraseña</p>
+				<form id="form" action="">
+						<p>
+							<label for="pass-input">Introduce tu contraseña</label>
+							<input id="pass-input" type="text"name="passInput"/>
+						</p>
+						<p class="new-pass">tu nueva contraseña es: </p>
+						<input type="button" value="genera contraseña" onclick="cambiarPassword(this.form)">
+					</form>
+				<!-- <button onclick="cambiarPassword()">Ingresa contraseña</button> -->
+			</div>
+		</div>
+		<!-- /ejercicio1 -->
+
+		<!-- ejercicio2 -->
+		<div id="ejercicio2" class="panel">
+			<div class="content">
+				<h2>¿Que título eres segun tu nivel?</h2>
+				<p class="level-rank">veamos que nivel tienes...</p>
+				<ul id="works">
+					<li><a href="http://dribbble.com/shots/394177-Sheriff-Woody"><img class="character-image" src="assets/images/portfolio_01.jpeg" width="250" target></a></li>
+
+				</ul>
+				<form id="form" action="">
+					<p>
+						<label for="rank-input">¿Que nivel tienes?</label>
+						<input id="rank-input" type="number"name="rankInput"/>
+					</p>
+					<input type="button" value="Ver nivel" onclick="levelTitle(this.form)">
+				</form>
+				<!-- <button onclick="levelTitle()">mi ranking es: </button> -->
+
+			</div>
+		</div>
+		<!-- /ejercicio2 -->
+
+		<!-- ejercicio3 -->
+		<div id="ejercicio3" class="panel">
+			<div class="content">
+				<h2>¿Será tu frase un palindromo?</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<p>Lorem, ipsum dolor</p>
+				<p>Lorem ipsum dolor sit, </p>
+				<p>dignissimos ad ipsa reiciendis exercitationem dicta accusamus minus, magnam unde neque sapiente odio non.</p>
+			</div>
+		</div>
+		<!-- /ejercicio3 -->
+
+		<!-- ejercicio4 -->
+		<div id="ejercicio4" class="panel">
+			<div class="content">
+				<h2>¿De cuantos pisos será tu pirámide?</h2>
+				<p>Vamos intenta construir tu propia piramide</p>
+				<form id="form" class="form" action="">
+					<p>
+						<label for="floors-input">¿De cuantos pisos será tu pirámide?</label>
+						<input id="floors-input" type="number"name="floorsInput"/>
+					</p>
+
+					<input type="button" value="Construye tu pirámide" onclick="pyramid(this.form)">
+
+					<!-- <button onclick="pyramid(this.form)" class="pyramid">Construye tu pirámide</button> -->
+				</form>
+				<div class="pyramid-div"><pre></pre></div>
+			</div>
+		</div>
+		<!-- /ejercicio4 -->
+
+		<!-- /ejercicio5 -->
+		<div id="ejercicio5" class="panel">
+			<div class="content">
+				<h2>Bienvenidos al INPUT</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex culpa quasi magnam ut sequi. Rem, reprehenderit provident officia molestias culpa quae animi maxime ex mollitia fugit deserunt, quod minima velit.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				<form id="form">
+					<p><label>Tu nombre</label><input type="text" /></p>
+					<p><label>Email</label><input type="email" /></p>
+					<p><label>Mensaje</label><textarea></textarea></p>
+				</form>
+			</div>
+		</div>
+		<!-- /ejercicio5 -->
+
+		<script src="assets/js/scripts.js"></script>
+
+	</body>
+</html>

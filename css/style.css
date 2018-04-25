@@ -1,4 +1,4 @@
-/* @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700); */
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
 
 
 /* line 17, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -86,7 +86,7 @@ button:focus {
   margin: 0.75em 0 0;
   font-size: 2em;
   line-height: 1;
-  font-family: "Playfair Display", serif;
+  font-family: "Martel Sans", serif;
 }
 
 /* line 76, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
@@ -104,7 +104,7 @@ button:focus {
 /* line 86, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .sidebar h2 {
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "Martel Sans", serif;
   /* font-style: italic; */
 }
 
@@ -352,8 +352,8 @@ button:focus {
 /* line 384, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .title {
   margin: 0;
-  font-size: 1.875em;
-  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  font-family: "Martel Sans", serif;
   text-align: center;
 }
 
@@ -413,9 +413,9 @@ button:focus {
 .category {
   margin: 0;
   position: relative;
-  font-size: 0.95em;
+  font-size: 0.85em;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: "Martel Sans", serif;
   text-align: center;
   display: block;
 }
@@ -1083,10 +1083,6 @@ svg {
   transition: opacity 0.3s;
 }
 
-/* line 852, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
-.close-button span {
-  /* display: none; */
-}
 
 /* line 856, C:/Users/imartinez/Documents/Proyect/iukones/scss/_base.scss */
 .close-button:hover {

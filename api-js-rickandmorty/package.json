@@ -1,0 +1,23 @@
+{
+  "name": "proyect-api",
+  "version": "1.0.0",
+  "description": "ejercicio API Rick and Morty",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iukones/proyect-api-js-rickandmorty.git"
+  },
+  "author": "iukones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iukones/proyect-api-js-rickandmorty/issues"
+  },
+  "homepage": "https://github.com/iukones/proyect-api-js-rickandmorty#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
