@@ -922,8 +922,7 @@ svg {
   border: 3px solid #100;
   border-radius: 3px;
   box-shadow: 10px 10px 0 -5px #a29e5e, 20px 20px 0 -10px #53C8FC, 30px 30px 0 -16px #a29e5e;
-  /* box-shadow: 1rem 1rem #a29e5e; */
-  /* box-shadow: 0 10px 0 -5px #53C8FC, 0 20px 0 -10px #a29e5e, 0 30px 0 -16px #dedcb9; */
+  
 }
 .img_left {
   width: 100%;
@@ -933,9 +932,7 @@ svg {
   border: 3px solid #100;
   border-radius: 3px;
   box-shadow: -10px 10px 0 -5px #a29e5e, -20px 20px 0 -10px #53C8FC, -30px 30px 0 -16px #a29e5e;
-  /* box-shadow: 10px 10px 0 -5px #a29e5e, 20px 20px 0 -10px #53C8FC, 30px 30px 0 -16px #a29e5e; */
-  /* box-shadow: 1rem 1rem #a29e5e; */
-  /* box-shadow: 0 10px 0 -5px #53C8FC, 0 20px 0 -10px #a29e5e, 0 30px 0 -16px #dedcb9; */
+  
 }
 .proyect_example .title_right{
   /* font-weight: normal; */
@@ -964,7 +961,7 @@ svg {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   background: rgba(255, 237, 0, 0.7);
-  margin: -150px;
+  /* margin: -150px; */
   color: #262626;
 }
 
@@ -1371,6 +1368,9 @@ svg {
     grid-column: 2 / 4;
     grid-row: 2;
     padding-left: 37px;
+  }
+  .proyect_example h2 a{    
+    margin: -150px;    
   }  
   .img_right {
     width: 100%;
@@ -1416,7 +1416,9 @@ svg {
     grid-row: 2;
     padding-left: 25px;
   }
-  
+  .proyect_example h2 a{    
+    margin: -150px;    
+  }   
   .img_right{
     width: 100%;
     grid-column: 1 / 4;
