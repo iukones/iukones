@@ -360,9 +360,19 @@
 		</div>
 	</div><!-- /container -->
 	<!-- archivos JS -->
+	<script>
+		// Check that service workers are registered
+		if ('serviceWorker' in navigator) {
+		  // Use the window load event to keep the page load performant
+		  window.addEventListener('load', () => {
+			navigator.serviceWorker.register('sw.js');
+		  });
+		}
+		</script>
 	<script src="js/modernizr.custom.js"></script>
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
+	<script src="sw.js"></script>
 	<!-- archivos JS -->
 </body>
 </html>
