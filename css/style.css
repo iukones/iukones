@@ -967,6 +967,31 @@ svg {
 
 /* seccion ejerccios centraal academy */
 
+/* seccion contacto */
+.ul-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 1.5rem;  
+  list-style: none; 
+  
+}
+.ul-grid .redes{
+  font-size: 1.3em;
+  color: #a29e5e;
+}
+.content__item--show.content__item .text-socialmedia{
+  text-align: left;
+}
+.content__item--show.content__item .link-redes{
+  color: #1C4C55;
+}
+.content__item--show.content__item .link-redes:hover{
+  color: rgba(83, 200, 252, 0.7);
+}
+
+
+/* finaliza seccion contacto */
+
 /* .icon.linkedin:after {
   background-image: url(/img/icons/linkedin.svg);
 } */
