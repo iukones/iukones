@@ -1,6 +1,6 @@
 {
- "name": "iukones-web",
- "short_name": "iukones-web",
+ "name": "iukones Web",
+ "short_name": "iukones Web",
  "start_url": "./",
  "display": "standalone",
  "theme_color": "#f3efe0",
