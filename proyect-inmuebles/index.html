@@ -1,109 +1,225 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Casas en venta</title>
-    <link rel="stylesheet" href="css/style2.css" />
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Invipro, Inversion en propiedades.</title>
+	<!-- Don't forget to add your metadata here -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel='stylesheet' href='css/style.css'/>
 </head>
 <body>
-    <header role="banner">
-        <h1>
-            <a class="ct-logo" href="#">Inmuebles</a>
-        </h1>
-        <nav role="navigation">
-            <ul>
-                <!-- <li><a href="#">Inicio</a></li> -->
-                <li><a class="main-nav__item" href="#">Nosotros</a></li>
-                <li><a class="btn btn-primary" href="#points">Inmuebles</a></li>
-                <li><a class="main-nav__item" href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+	<!-- Hero(extended) navbar -->
+	<div class="navbar navbar--extended">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">INVPRO Inversión en propiedades.</a>
+				<nav class="navbar__menu">
+					<ul>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="#">Inmuebles</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Hero unit -->
+	<div class="hero">
+		<div class="hero__overlay hero__overlay--gradient"></div>
+		<div class="hero__mask"></div>
+		<div class="hero__inner">
+			<div class="container">
+				<div class="hero__content">
+					<div class="hero__content__inner" id='navConverter'>
+						<h1 class="hero__title">Tus sueños empiezan a realizarse al conocernos...</h1>
+						<p class="hero__text">Invierte en línea en oportunidades de bienes raíces con deuda senior y gana distribuciones mensuales. [texto de ejmplo]</p>
+						<a href="#" class="button button__accent">Nuestas ofertas</a>
+						<a href="#" class="button hero__button">Di hola...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hero__sub">
+		<span id="scrollToNext" class="scroll">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class='hero__sub__down' fill="currentColor" width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
+		</span>
+	</div>
+	<!-- Steps -->
+	<div class="steps landing__section">
+		<div class="container">
+			<h2>¿Quién somos?</h2>
+			<p>Invipro es una plataforma que brinda a los inversores acreditados acceso a ofertas de inversión inmobiliaria.</p>
+		</div>
+		<div class="container">
+			<div class="steps__inner">
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_data_xmfy.svg" class="step__image">
+					</div>
+					<h4>Experiencia</h4>
+					<p class="step__text">Contamos con experiencia para formar un lazo de lealtad y seguir siendo la mejor opción del mercado en México basados en profesionalismo, honestidad e integridad.</p>
+				</div>
+				<div class="step">
+					<div class="step__media">
+						<img src="./images/undraw_agreement_aajr.svg" class="step__image">
+					</div>
+					<h4>Confianza</h4>
+					<p class="step__text">Somos una de las mejores empresas en el ámbito de venta de Remates Bancarios y Judiciales, proporcionandole a nuestros clientes gran satisfacción. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Expanded sections -->
+	<div class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/undraw_house_searching.svg" class="expanded__image">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">La Misión dentro de Invipro.</h2>
+					<p class="expanded__text">Servicio de asesoría inmobiliaria con el principal objetivo de cuidar e incrementar el patrimonio de nuestros clientes, con un servicio personalizado y particular en la compra de inmuebles de Remate Bancario y Jurídicos, con base en nuestra gran experiencia y capacitación constante en este sector.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="expanded landing__section">
+		<div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/undraw_live_collaboration_2r4y.svg" class="expanded__image">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">Nuestra Visión dentro de Invipro.</h2>
+					<p class="expanded__text">Ser la mejor opción para los clientes con las mejores opciones del mercado para la compra de inmuebles, dando completamente nuestra experiencia en el acompañamiento y asesoramiento de todo el proceso, mejorando su estilo de vida.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="expanded landing__section">
+		<div class="container">
+			<div class="steps__inner owl-carousel owl-theme">
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 1</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat iste non aut nulla temporibus veritatis porro tempore natus maiores ea, quis ipsa quasi minima! Recusandae repellendus rerum voluptates quia!</p>
+				</div>
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 2</h4>
+					<p class="step__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam aliquid error non neque dolorem, impedit nobis, excepturi assumenda cum obcaecati, sint deleniti earum unde necessitatibus esse temporibus corrupti omnis? Quaerat.</p>
+				</div>
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 3</h4>
+					<p class="step__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, aperiam officia cumque accusantium itaque nemo maiores. Qui reiciendis, pariatur expedita sequi ad reprehenderit sapiente commodi. Optio vel dicta unde dolores?</p>
+				</div>
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 4</h4>
+					<p class="step__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, doloremque commodi earum error dolores, expedita iste praesentium autem recusandae repudiandae ratione labore harum ipsa, tempora eaque aliquam? Dolore, excepturi! Officiis?</p>
+				</div>
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 5</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam similique ratione molestiae tenetur rerum voluptate? Soluta odit ipsam, vel fugit velit dicta magnam cumque aperiam debitis iusto totam quam nobis.</p>
+				</div>
+				<div class="step item">
+					<div class="step__media">
+						<img src="./images/depas-y-casas.jpg" class="step__image">
+					</div>
+					<h4>Item 6</h4>
+					<p class="step__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quasi nostrum perferendis reprehenderit, soluta, pariatur dolores laudantium aliquam eveniet a quisquam nihil modi, magnam dolore. Soluta sequi nemo saepe praesentium. </p>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="container">
+			<div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/Juan-1529.jpg" class="expanded__image">
+				</div>
+				<div class="expanded__content">
+					<h2 class="expanded__title">Aqui una descripcion breve</h2>
+					<p class="expanded__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt cum recusandae nihil ipsam perspiciatis? Vero, quod non optio in sunt sed! Culpa quaerat earum iure natus maiores quos, placeat provident.</p>
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<!-- Call To Action -->
+	<div class="cta cta--reverse">
+		<div class="container">
+			<div class="cta__inner">
+				<h2 class="cta__title">Contactenos de inmediato</h2>
+				<p class="cta__sub cta__sub--center">estamos para antender cualquier duda o asesoria no dude en ponerse en contacto con nosotros.</p>
+				<a href="mailto:hola@hola.com" class="button button__accent">Escribenos</a>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer footer--dark">
+		<div class="container">
+			<div class="footer__inner">
+				<a href="index.html" class="footer__textLogo">Invipro</a>
+				<div class="footer__data">
+					<!-- <div class="footer__data__item">
+						<div class="footer__row">
+							Created by <a href="#" target="_blank" class="footer__link">texto</a>
+						</div>
+						<div class="footer__row">
+						Code/design by <a href="#" target="_blank" class="footer__link">texto 2</a>
+						</div>
+					</div> -->
+					<div class="footer__data__item">
+					<div class="footer__row">
+						<a href="#" target="_blank" class="footer__link">GitHub</a>
+					</div>
+					<div class="footer__row">
+						<a href="#" target="_blank" class="footer__link">Twitter</a>
+					</div>
+					<div class="footer__row">
+						<a href="#" target="_blank" class="footer__link">Facebook</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <main class="main-content" role="main">
-        <section class="hero">
-            <h1>Tus sueños empiezan a realizarse al conocernos...</h1>
-            <p class="title-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, alias veritatis officia dolores itaque quaerat dolorum dicta.</p>
-            <a class="hero-btn" href="#">Diga hola</a>
-            <!-- <img src="img/tom-thain-145829-unsplash.jpg" alt="ejemplo imagen principal"> -->
-            <div class="container">
-                <div class="main-title">
-                    <h2>Sobre Nosotros</h2>
-                    <span class="sepa">
-                        <!-- <img src="img/home.svg" alt=""> -->
-                    </span>
-                    <p class="title-line">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores hic expedita totam officia quae! Aperiam maxime doloribus doloremque cumque accusantium? Qui similique dolores consequuntur quam eos, illo quasi consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quia, obcaecati temporibus qui, quisquam iusto voluptatibus quasi libero deleniti corporis fugiat. Eos reiciendis assumenda iusto, aspernatur quibusdam quae dolor quis.
-                    </p>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="talking-points" id="points">
-            <div>
-                <h2>$618,765.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Paseo De Los Ahuehuetes 1495, Bosques De Las Lomas</p>
-            </div>
-            <div>
-                <h2>$3,466,000.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Av De Las Fuentes 79, Tecamachalco</p>
-            </div>
-            <div>
-                <h2>$2,194,500.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Gabriel Mancera 1542, Del Valle</p>
-            </div>
-
-        </section>
-        <section class="talking-points">
-            <div>
-                <h2>$618,765.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Paseo De Los Ahuehuetes 1495, Bosques De Las Lomas</p>
-            </div>
-            <div>
-                <h2>$3,466,000.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Av De Las Fuentes 79, Tecamachalco</p>
-            </div>
-            <div>
-                <h2>$2,194,500.00</h2>
-                <img src="img/depas-y-casas.jpg" alt="">
-                <p>Gabriel Mancera 1542, Del Valle</p>
-            </div>
-
-        </section>
-
-    </main>
-
-    <!-- <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorum distinctio reprehenderit. Iusto aperiam impedit nemo natus.</p>
-        <p role="contentinfo">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta reprehenderit doloribus officia praesentium fuga? Vitae harum quasi iste, iure dignissimos porro sunt est dolorum adipisci magni. Nulla vel illo officiis.
-        </p>
-
-    </footer> -->
-    <footer>
-        <div class="content">
-        <div class="logo"></div>
-        <div class="foot-text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore corporis consectetur aspernatur? </p>
-        </div>
-        <nav>
-          <ul>
-            <li>hola</li>
-            <li>hola</li>
-            <li>hola</li>
-          </ul>
-        </nav>
-        </div>
-      </footer>
-
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src='js/app.min.js'></script>
+	<script>
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+	</script>
 
 </body>
 </html>
