@@ -733,7 +733,7 @@ select {
 .navbar {
   /* nuevas reglas */
   background-color: rgba(51, 60, 68, 0.3);
-  height: 16%;
+  height: 15%;
   /* nuevas reglas */
   position: fixed;
   z-index: 100;
@@ -757,12 +757,12 @@ select {
 
 .navbar__logo {
   /* nuevas reglas */
-  width: 145px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
   margin-top: 63px;
   text-indent: -9000px;
   /* nuevas reglas */
-  background: url(../images/Invpro1.png);
+  background: url(../images/Invpro1-90.png);
   font-size: 1.325rem;
   transition: 0;
   color: #fff;
@@ -872,12 +872,14 @@ select {
 #toggle svg {
   height: 1.2em;
   width: 1.2em;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin-top: 25px;
+ }
 
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/default_bg.jpeg");
+  background-image: url("../images/default_bg.jpg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
@@ -926,7 +928,9 @@ select {
   .hero__content__inner {
     width: 100%;
     max-width: 600px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 20px;
+   }
 
 /*--- CONTENT STYLING ---*/
 .hero__title {
