@@ -1000,17 +1000,81 @@ select {
   overflow: auto; }
   .step:first-child {
     border-top: none; }
-  @media (min-width: 992px) {
-    .step {
-      border-top: none;
-      width: auto; } }
-
+    @media (min-width: 992px) {
+      .step {
+        border-top: none;
+        width: auto; } }
 .step__media {
   margin: 16pt 0; }
   @media (min-width: 992px) {
     .step__media {
       margin: 32pt 0; } }
-
+.step__text {
+  /* max-width: 36ch; */
+  max-width: 34ch;
+  /* text-align: left; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+.estate {
+  padding: 16pt 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding: 20px 20px;
+  overflow: auto; }
+.estate:hover .home-listing-item{
+  box-shadow: 0 20px 45px 0 rgba(92, 106, 128, 0.18);
+}
+.estate:first-child {
+    border-top: none; }
+    @media (min-width: 992px) {
+      .estate {
+        border-top: none;
+        width: auto; } }
+.estate__media{
+  margin: 16pt 0; }
+  @media (min-width: 992px) {
+    .estate__media {
+      margin: 32pt 0; } }
+.estate__image {
+  height: 230px;
+  background: #C8CDD3;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  /* max-height: 100px;
+  max-width: 222px;
+  margin-top: 8pt;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none; */
+}
+  @media (min-width: 600px) {
+    .estate__image {
+      max-width: 100%;
+      /* max-width: none; */
+     } }
+.estate__text {
+  /* max-width: 36ch; */
+  max-width: 34ch;
+  /* text-align: left; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+.home-listing-item {
+  border-radius: 7px;
+   box-shadow: 0 10px 30px 0 rgba(190, 195, 204, 0.15);
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
 .step__image {
   max-height: 100px;
   max-width: 222px;
@@ -1023,15 +1087,6 @@ select {
   @media (min-width: 600px) {
     .step__image {
       max-width: none; } }
-
-.step__text {
-  /* max-width: 36ch; */
-  max-width: 34ch;
-  /* text-align: left; */
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
 .expanded {
   padding: 72pt 0; }
 
