@@ -732,7 +732,7 @@ select {
 
 .navbar {
   /* nuevas reglas */
-  background-color: rgba(51, 60, 68, 0.3);
+  background-color: rgba(51, 60, 68, 0.7);
   height: 15%;
   /* nuevas reglas */
   position: fixed;
@@ -1020,6 +1020,7 @@ select {
   padding: 16pt 0;
   text-align: center;
   width: 100%;
+  /* width: 370px; */
   border-top: 1px solid #eee;
   padding: 20px 20px;
   overflow: auto; }
@@ -1036,7 +1037,7 @@ select {
   margin: 16pt 0; }
   @media (min-width: 992px) {
     .estate__media {
-      margin: 32pt 0; } }
+      margin: -13pt 0; } }
 .estate__image {
   height: 230px;
   background: #C8CDD3;
@@ -1062,18 +1063,46 @@ select {
       max-width: 100%;
       /* max-width: none; */
      } }
-.estate__text {
-  /* max-width: 36ch; */
+/* .estate__text {
+  max-width: 36ch;
   max-width: 34ch;
-  /* text-align: left; */
+  text-align: left;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto; } */
 .home-listing-item {
   border-radius: 7px;
    box-shadow: 0 10px 30px 0 rgba(190, 195, 204, 0.15);
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+  background: #fff
+}
+.home-listing-item .estate__media .home-listing-label {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0093d0;
+  border-radius: 40px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  position: relative;
+  bottom: 25px;
+  /* left: 25px; */
+}
+.home-listing-item .home-listing-info {
+  /* padding: 25px; */
+  padding: 1px 5px 11px 5px;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-bottom: 20px
 }
 .step__image {
   max-height: 100px;
