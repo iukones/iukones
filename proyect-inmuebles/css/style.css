@@ -792,9 +792,7 @@ select {
     /* nuevas reglas */
     color: #fff; }
     @media (min-width: 992px) {
-      .navbar__menu a {
-        /* opacity: 0.75; */
-       }
+
         .navbar__menu a:hover {
           opacity: 1; }
         .navbar__menu a:after {
@@ -911,7 +909,6 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  /* background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080"><defs><linearGradient id="06714b97-aec8-4b7e-bf3d-1e20f95f612e" y1="809.5" x2="958" y2="809.5" gradientTransform="matrix(1, 0, 0, -1, 0, 1082)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.05"/></linearGradient></defs><title>hero</title><rect id="0567095b-2cf7-4407-b8ab-ec2abe52d830" data-name="&lt;Path&gt;" y="545" width="1920" height="535" fill="#fff" opacity="0.05" style="isolation:isolate"/><polygon id="82ca9a61-a0a1-49cc-9805-a3533c693bad" data-name="&lt;Path&gt;" points="958 545 0 545 0 0 770.96 0 958 545" fill="url(#06714b97-aec8-4b7e-bf3d-1e20f95f612e)"/></svg>'); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1050,27 +1047,11 @@ select {
   background-size: cover;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  /* max-height: 100px;
-  max-width: 222px;
-  margin-top: 8pt;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none; */
 }
   @media (min-width: 600px) {
     .estate__image {
       max-width: 100%;
-      /* max-width: none; */
      } }
-/* .estate__text {
-  max-width: 36ch;
-  max-width: 34ch;
-  text-align: left;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; } */
 .home-listing-item {
   border-radius: 7px;
    box-shadow: 0 10px 30px 0 rgba(190, 195, 204, 0.15);
@@ -1093,10 +1074,8 @@ select {
   padding: 10px 20px;
   position: relative;
   bottom: 25px;
-  /* left: 25px; */
 }
 .home-listing-item .home-listing-info {
-  /* padding: 25px; */
   padding: 1px 5px 11px 5px;
   background: #fff;
   position: relative;
@@ -1245,7 +1224,7 @@ select {
       flex-direction: row; } }
 
 .footer__textLogo {
-  background: url(../images/Invpro1-90.png) no-repeat;
+  background: url(../images/Invpro1.png) no-repeat;
   text-indent: -9000px;
   flex-shrink: 0;
   padding-right: 16pt;
@@ -1253,15 +1232,16 @@ select {
   cursor: pointer;
   color: #6C63FF;
   font-size: 1.225rem;
-  min-width: 9%;
-  height: 95px;
+  min-width: 13%;
+  height: 140px;
   margin-bottom: 1.5rem; }
   @media (min-width: 600px) {
     .footer__textLogo {
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      min-width: 23%; } }
   @media (min-width: 992px) {
     .footer__textLogo {
-      min-width: 9%;
+      min-width: 13%;
       font-size: 1.325rem; } }
 
 .footer__data {
